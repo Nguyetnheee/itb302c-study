@@ -52,16 +52,14 @@ export default function App() {
     
     // Check if the preloaded set is already in the list. If not, or if the question count is different, add/update it!
     const preloadedIndex = loadedSets.findIndex(s => s.id === 'preloaded-itb302c-coursera');
-    const expectedCount = PRELOADED_STUDY_SET?.questions?.filter(q => q.questionText.length > 25 && !q.questionText.includes('http')).length || 0;
+    const expectedCount = PRELOADED_STUDY_SET?.questions?.length || 0;
     const needsUpdate = preloadedIndex === -1 || loadedSets[preloadedIndex].questions.length !== expectedCount;
 
     if (needsUpdate && PRELOADED_STUDY_SET && PRELOADED_STUDY_SET.questions) {
-      // Filter out dummy items (e.g. page headers / URLs)
       const cleanedSet = {
         ...PRELOADED_STUDY_SET,
         title: 'ITB302c - Coursera (Full Set)',
-        questions: PRELOADED_STUDY_SET.questions.filter(q => q.questionText.length > 25 && !q.questionText.includes('http'))
-          .map((q, idx) => ({ ...q, questionNumber: idx + 1 }))
+        questions: PRELOADED_STUDY_SET.questions.map((q, idx) => ({ ...q, questionNumber: idx + 1 }))
       };
       saveStudySet(cleanedSet);
       loadedSets = getStudySets(); // reload sets
