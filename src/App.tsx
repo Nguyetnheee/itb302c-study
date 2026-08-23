@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   BookOpen, Upload, Settings as SettingsIcon, Award, Flame, 
-  HelpCircle, Clock, CheckCircle, BarChart2, Plus, Sparkles, Moon, Sun
+  HelpCircle, Clock, CheckCircle, BarChart2, Plus, Sparkles, Moon, Sun, Play, ArrowRight
 } from 'lucide-react';
 
 import Dashboard from './components/Dashboard';
@@ -38,6 +38,7 @@ export default function App() {
   
   // Post-session statistics overlay
   const [showSummary, setShowSummary] = useState(false);
+  const [showBatchModal, setShowBatchModal] = useState(false);
   const [lastSessionStats, setLastSessionStats] = useState<{
     studiedCount: number;
     correctCount: number;
@@ -133,18 +134,19 @@ export default function App() {
 
   // Complete study session callback
   const handleSessionComplete = (sessionAttempts: Attempt[], updatedProgress: { [qId: string]: QuestionProgress }) => {
-    if (!activeSetId) return;
+    const currentSetId = activeSetId || (studySets[0] ? studySets[0].id : PRELOADED_STUDY_SET.id);
 
-    // Mark batch completed
-    markBatchCompleted(activeSetId, activeBatchIndex);
+    // Mark current batch completed & auto-unlock next batch
+    markBatchCompleted(currentSetId, activeBatchIndex);
+    markBatchStarted(currentSetId, activeBatchIndex + 1);
 
     // 1. Record attempts log
     sessionAttempts.forEach((attempt) => {
-      saveAttempt(activeSetId, attempt);
+      saveAttempt(currentSetId, attempt);
     });
 
     // 2. Save progress updates
-    saveQuestionProgressMap(activeSetId, updatedProgress);
+    saveQuestionProgressMap(currentSetId, updatedProgress);
 
     // 3. Record study streak increment
     const updatedStreak = recordStudyActivity(sessionAttempts.length);
@@ -159,8 +161,7 @@ export default function App() {
     let reviewCount = 0;
     let weakCount = 0;
 
-    // Compare original progress vs updated progress
-    const originalProgress = progressMaps[activeSetId] || {};
+    const originalProgress = progressMaps[currentSetId] || {};
     Object.keys(updatedProgress).forEach((qId) => {
       const orig = originalProgress[qId];
       const curr = updatedProgress[qId];
@@ -187,7 +188,7 @@ export default function App() {
     });
 
     handleRefreshData();
-    setShowSummary(true);
+    setShowBatchModal(true);
     setView('dashboard');
   };
 
@@ -232,7 +233,7 @@ export default function App() {
     reader.readAsText(file);
   };
 
-  const activeSet = studySets.find(s => s.id === activeSetId);
+  const activeSet = studySets.find(s => s.id === activeSetId) || studySets[0] || PRELOADED_STUDY_SET;
 
   return (
     <div className="app-container">
@@ -397,6 +398,110 @@ export default function App() {
             onExportData={handleExportData}
             onImportData={handleImportData}
           />
+        )}
+
+        {/* BATCH COMPLETION POPUP MODAL */}
+        {showBatchModal && (
+          <div className="modal-backdrop flex-center" style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.65)',
+            backdropFilter: 'blur(4px)',
+            zIndex: 1000,
+            padding: '1rem'
+          }}>
+            <div className="card animate-scale-up" style={{
+              maxWidth: '480px',
+              width: '100%',
+              padding: '2rem',
+              borderRadius: 'var(--radius-xl)',
+              boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.3)',
+              textAlign: 'center',
+              background: 'var(--bg-card)',
+              border: '2px solid var(--color-success)'
+            }}>
+              <div style={{
+                width: '64px',
+                height: '64px',
+                borderRadius: '50%',
+                background: 'rgba(16, 185, 129, 0.15)',
+                color: 'var(--color-success)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto 1.25rem'
+              }}>
+                <Award size={36} />
+              </div>
+
+              <span className="badge badge-mastered" style={{ padding: '0.25rem 0.75rem', fontSize: '0.75rem' }}>
+                Hoàn Thành Batch {activeBatchIndex + 1} 🎉
+              </span>
+
+              <h2 style={{ fontFamily: 'var(--font-header)', fontSize: '1.5rem', fontWeight: 800, marginTop: '0.75rem', color: 'var(--text-primary)' }}>
+                Xuất sắc! Bạn đã thuộc hết Batch {activeBatchIndex + 1}
+              </h2>
+
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginTop: '0.5rem' }}>
+                Tất cả câu hỏi trong Batch {activeBatchIndex + 1} đều đã được trả lời chính xác và tự tin!
+              </p>
+
+              {/* Stats Summary */}
+              {lastSessionStats && (
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem', margin: '1.25rem 0' }}>
+                  <div className="card" style={{ padding: '0.75rem', background: 'var(--bg-secondary)' }}>
+                    <span style={{ fontSize: '1.3rem', fontWeight: 800, color: 'var(--color-success)' }}>{lastSessionStats.accuracy}%</span>
+                    <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Độ chính xác</div>
+                  </div>
+                  <div className="card" style={{ padding: '0.75rem', background: 'var(--bg-secondary)' }}>
+                    <span style={{ fontSize: '1.3rem', fontWeight: 800 }}>{lastSessionStats.studiedCount}</span>
+                    <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Lượt trả lời</div>
+                  </div>
+                </div>
+              )}
+
+              {/* Action Buttons */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '1.25rem' }}>
+                {activeBatchIndex + 1 < Math.ceil(activeSet.questions.length / settings.questionsPerBatch) ? (
+                  <button 
+                    className="btn btn-primary"
+                    onClick={() => {
+                      setShowBatchModal(false);
+                      handleStartSession(activeSet.id, 'learn', activeBatchIndex + 1);
+                    }}
+                    style={{ width: '100%', padding: '0.85rem', fontSize: '0.95rem', fontWeight: '700', gap: '0.5rem', justifyContent: 'center' }}
+                  >
+                    <Play size={18} /> Học tiếp Batch {activeBatchIndex + 2} <ArrowRight size={16} />
+                  </button>
+                ) : (
+                  <button 
+                    className="btn btn-primary"
+                    onClick={() => {
+                      setShowBatchModal(false);
+                      setView('dashboard');
+                    }}
+                    style={{ width: '100%', padding: '0.85rem', fontSize: '0.95rem', fontWeight: '700', justifyContent: 'center' }}
+                  >
+                    🏆 Hoàn thành tất cả các Batch!
+                  </button>
+                )}
+
+                <button 
+                  className="btn btn-secondary"
+                  onClick={() => {
+                    setShowBatchModal(false);
+                    setView('dashboard');
+                  }}
+                  style={{ width: '100%', padding: '0.75rem', fontSize: '0.85rem', justifyContent: 'center' }}
+                >
+                  📋 Về Danh sách Batch
+                </button>
+              </div>
+            </div>
+          </div>
         )}
 
       </main>
