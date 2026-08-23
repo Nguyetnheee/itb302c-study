@@ -216,12 +216,11 @@ export default function StudySession({
     const updated = updateQuestionProgress(currentProg, feedback.isCorrect, level, responseTime);
     setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
-    // Rule: If NOT 'confident', question MUST reappear in subsequent rounds!
-    if (level !== 'confident') {
-      reviewRequiredIdsRef.current.add(activeQuestion.id);
-    } else {
-      // If correct and confident, permanently remove from review list for this session!
+    // Rule: In Round 1, only 'confident' passes. In Round 2+, any correct answer permanently passes and is removed!
+    if (round >= 2 || level === 'confident') {
       reviewRequiredIdsRef.current.delete(activeQuestion.id);
+    } else {
+      reviewRequiredIdsRef.current.add(activeQuestion.id);
     }
 
     // Auto-advance to next question!
