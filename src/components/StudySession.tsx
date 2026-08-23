@@ -81,7 +81,7 @@ export default function StudySession({
   // Cumulative Session Logging
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [sessionProgressMap, setSessionProgressMap] = useState<{ [qId: string]: QuestionProgress }>({ ...progressMap });
-  const [reviewRequiredIds, setReviewRequiredIds] = useState<string[]>([]); // Holds question IDs that were wrong OR not 'confident'
+  const reviewRequiredIdsRef = useRef<Set<string>>(new Set()); // Synchronous ref to prevent closure race conditions
 
   const activeQuestion = roundQuestions[currentIdx];
 
@@ -93,7 +93,12 @@ export default function StudySession({
       if (round === 1) {
         setRoundQuestions(sessionQuestions);
       } else {
-        const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
+        const needsReviewIds = Array.from(reviewRequiredIdsRef.current);
+        const needsReview = sessionQuestions.filter(q => needsReviewIds.includes(q.id));
+        if (needsReview.length === 0) {
+          onSessionComplete(attempts, sessionProgressMap);
+          return;
+        }
         setRoundQuestions(needsReview.sort(() => Math.random() - 0.5));
       }
     } else {
@@ -170,10 +175,7 @@ export default function StudySession({
       setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
       if (!result.isCorrect) {
-        setReviewRequiredIds(prev => {
-          if (!prev.includes(activeQuestion.id)) return [...prev, activeQuestion.id];
-          return prev;
-        });
+        reviewRequiredIdsRef.current.add(activeQuestion.id);
       }
 
       setConfidence('guessed');
@@ -212,13 +214,10 @@ export default function StudySession({
 
     // Rule: If NOT 'confident', question MUST reappear in subsequent rounds!
     if (level !== 'confident') {
-      setReviewRequiredIds(prev => {
-        if (!prev.includes(activeQuestion.id)) return [...prev, activeQuestion.id];
-        return prev;
-      });
+      reviewRequiredIdsRef.current.add(activeQuestion.id);
     } else {
       // If correct and confident, permanently remove from review list for this session!
-      setReviewRequiredIds(prev => prev.filter(id => id !== activeQuestion.id));
+      reviewRequiredIdsRef.current.delete(activeQuestion.id);
     }
 
     // Auto-advance to next question!
@@ -236,8 +235,8 @@ export default function StudySession({
 
   const handleRoundOrSessionComplete = () => {
     if (isMultiRound) {
-      // Check if there are any remaining questions that were wrong or not confident
-      const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
+      const needsReviewIds = Array.from(reviewRequiredIdsRef.current);
+      const needsReview = sessionQuestions.filter(q => needsReviewIds.includes(q.id));
       if (needsReview.length > 0) {
         // Continue to the next round (Round 2, Round 3, Round 4...)
         setRound(prev => prev + 1);
