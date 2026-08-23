@@ -92,7 +92,7 @@ export default function StudySession({
     if (isMultiRound) {
       if (round === 1) {
         setRoundQuestions(sessionQuestions);
-      } else if (round === 2) {
+      } else {
         const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
         setRoundQuestions(needsReview.sort(() => Math.random() - 0.5));
       }
@@ -135,7 +135,7 @@ export default function StudySession({
     const isTestMode = !isMultiRound;
 
     if (isTestMode || !result.isCorrect) {
-      // If test mode OR incorrect answer, automatically log attempt and queue for Round 2
+      // If test mode OR incorrect answer, automatically log attempt and queue for Round 2+
       const attempt: Attempt = {
         id: Math.random().toString(36).substring(2, 9),
         userId: 'local-user',
@@ -210,14 +210,14 @@ export default function StudySession({
     const updated = updateQuestionProgress(currentProg, feedback.isCorrect, level, responseTime);
     setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
-    // Rule: If NOT 'confident', question MUST reappear in Round 2!
+    // Rule: If NOT 'confident', question MUST reappear in subsequent rounds!
     if (level !== 'confident') {
       setReviewRequiredIds(prev => {
         if (!prev.includes(activeQuestion.id)) return [...prev, activeQuestion.id];
         return prev;
       });
     } else {
-      // If correct and confident, remove from review list
+      // If correct and confident, permanently remove from review list for this session!
       setReviewRequiredIds(prev => prev.filter(id => id !== activeQuestion.id));
     }
 
@@ -236,17 +236,13 @@ export default function StudySession({
 
   const handleRoundOrSessionComplete = () => {
     if (isMultiRound) {
-      if (round === 1) {
-        // Evaluate questions that were wrong or not confident
-        const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
-        if (needsReview.length > 0) {
-          setRound(2);
-        } else {
-          // All questions answered correctly & confident in Round 1!
-          onSessionComplete(attempts, sessionProgressMap);
-        }
+      // Check if there are any remaining questions that were wrong or not confident
+      const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
+      if (needsReview.length > 0) {
+        // Continue to the next round (Round 2, Round 3, Round 4...)
+        setRound(prev => prev + 1);
       } else {
-        // Round 2 complete! Finalize study session.
+        // ALL questions answered correctly & confident! Complete the session.
         onSessionComplete(attempts, sessionProgressMap);
       }
     } else {
