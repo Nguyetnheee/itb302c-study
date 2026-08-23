@@ -61,8 +61,7 @@ export default function StudySession({
 
   const [sessionQuestions] = useState<Question[]>(getSessionQuestions);
   
-  // Round management (1: Learn, 2: Active Recall, 3: Remediation/Weak, 4: Mastery Test)
-  // For quick reviews or test reviews, we can skip rounds and go directly to test format.
+  // Round management (Max 2 rounds: Round 1 = Learn & Rate Confidence, Round 2 = Review Unsure / Incorrect)
   const isMultiRound = sessionType === 'learn';
   const [round, setRound] = useState(1);
   const [roundQuestions, setRoundQuestions] = useState<Question[]>([]);
@@ -82,7 +81,7 @@ export default function StudySession({
   // Cumulative Session Logging
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [sessionProgressMap, setSessionProgressMap] = useState<{ [qId: string]: QuestionProgress }>({ ...progressMap });
-  const [incorrectList, setIncorrectList] = useState<string[]>([]); // holds questionIds failed in current round
+  const [reviewRequiredIds, setReviewRequiredIds] = useState<string[]>([]); // Holds question IDs that were wrong OR not 'confident'
 
   const activeQuestion = roundQuestions[currentIdx];
 
@@ -92,26 +91,12 @@ export default function StudySession({
     
     if (isMultiRound) {
       if (round === 1) {
-        // Learn: introduce items
         setRoundQuestions(sessionQuestions);
       } else if (round === 2) {
-        // Active Recall: shuffle all
-        setRoundQuestions([...sessionQuestions].sort(() => Math.random() - 0.5));
-      } else if (round === 3) {
-        // Weak review: questions answered wrong in round 2
-        const weakQs = sessionQuestions.filter(q => incorrectList.includes(q.id));
-        if (weakQs.length === 0) {
-          // No weak questions! Advance to Mastery Test
-          setRound(4);
-        } else {
-          setRoundQuestions(weakQs.sort(() => Math.random() - 0.5));
-        }
-      } else if (round === 4) {
-        // Mastery Test: full randomized block testing
-        setRoundQuestions([...sessionQuestions].sort(() => Math.random() - 0.5));
+        const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
+        setRoundQuestions(needsReview.sort(() => Math.random() - 0.5));
       }
     } else {
-      // Non-multi round (test, quick, mistakes): show once
       setRoundQuestions(sessionQuestions);
     }
     
@@ -147,9 +132,7 @@ export default function StudySession({
     const result = gradeAnswer(activeQuestion, answers);
     setFeedback(result);
 
-    // In Mastery Test (Round 4) or Test Mode, we do NOT show answers or ask for confidence immediately.
-    // We submit directly to progress update with 'confident' default.
-    const isTestMode = !isMultiRound || round === 4;
+    const isTestMode = !isMultiRound;
 
     if (isTestMode) {
       // Standardize attempt
@@ -167,7 +150,6 @@ export default function StudySession({
 
       setAttempts(prev => [...prev, attempt]);
       
-      // Update progress mapper
       const currentProg = sessionProgressMap[activeQuestion.id] || {
         userId: 'local-user',
         questionId: activeQuestion.id,
@@ -188,12 +170,11 @@ export default function StudySession({
       setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
       if (!result.isCorrect) {
-        setIncorrectList(prev => [...prev, activeQuestion.id]);
+        setReviewRequiredIds(prev => [...prev, activeQuestion.id]);
       }
 
       setSubmitted(true);
     } else {
-      // In Learn / Active Recall rounds, wait for user confidence input before committing progress
       setSubmitted(true);
     }
   };
@@ -224,17 +205,15 @@ export default function StudySession({
     const updated = updateQuestionProgress(currentProg, feedback.isCorrect, level, responseTime);
     setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
-    // Track round failures for remediation trigger
-    if (!feedback.isCorrect) {
-      setIncorrectList(prev => {
+    // Rule: If NOT correct OR NOT 'confident', question MUST reappear in Round 2!
+    if (!feedback.isCorrect || level !== 'confident') {
+      setReviewRequiredIds(prev => {
         if (!prev.includes(activeQuestion.id)) return [...prev, activeQuestion.id];
         return prev;
       });
     } else {
-      // Remove from failed list if correct in remediation
-      if (round === 3) {
-        setIncorrectList(prev => prev.filter(id => id !== activeQuestion.id));
-      }
+      // If correct and confident, remove from review list if present
+      setReviewRequiredIds(prev => prev.filter(id => id !== activeQuestion.id));
     }
   };
 
@@ -243,7 +222,6 @@ export default function StudySession({
       setCurrentIdx(prev => prev + 1);
       resetQuestionState();
     } else {
-      // End of round / session
       handleRoundOrSessionComplete();
     }
   };
@@ -251,32 +229,19 @@ export default function StudySession({
   const handleRoundOrSessionComplete = () => {
     if (isMultiRound) {
       if (round === 1) {
-        // Advance to Recall
-        setRound(2);
-        setIncorrectList([]);
-      } else if (round === 2) {
-        // If they had mistakes, go to weak remediation. Else, skip to Mastery Test.
-        if (incorrectList.length > 0) {
-          setRound(3);
+        // Evaluate questions that were wrong or not confident
+        const needsReview = sessionQuestions.filter(q => reviewRequiredIds.includes(q.id));
+        if (needsReview.length > 0) {
+          setRound(2);
         } else {
-          setRound(4);
+          // All questions answered correctly & confident in Round 1!
+          onSessionComplete(attempts, sessionProgressMap);
         }
-      } else if (round === 3) {
-        // If remediation has some questions left, repeat remediation, else advance to Mastery Test
-        if (incorrectList.length > 0) {
-          // Repeat remediation round with remaining failed ones
-          setRoundQuestions(sessionQuestions.filter(q => incorrectList.includes(q.id)).sort(() => Math.random() - 0.5));
-          setCurrentIdx(0);
-          resetQuestionState();
-        } else {
-          setRound(4);
-        }
-      } else if (round === 4) {
-        // Mastery test completed! Finalize study session.
+      } else {
+        // Round 2 complete! Finalize study session.
         onSessionComplete(attempts, sessionProgressMap);
       }
     } else {
-      // Direct session complete
       onSessionComplete(attempts, sessionProgressMap);
     }
   };
@@ -358,10 +323,9 @@ export default function StudySession({
       return 'Quick recall';
     }
     switch (round) {
-      case 1: return 'Round 1 — Learn Mode';
-      case 2: return 'Round 2 — Active Recall (Shuffle)';
-      case 3: return 'Round 3 — Weak Remediations';
-      default: return 'Round 4 — Mastery Test';
+      case 1: return 'Vòng 1 — Học & Đánh giá tự tin';
+      case 2: return `Vòng 2 — Ôn lại câu chưa tự tin / làm sai (${roundQuestions.length} câu)`;
+      default: return 'Vòng 1 — Học';
     }
   };
 
