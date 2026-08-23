@@ -80,6 +80,7 @@ export default function StudySession({
 
   // Cumulative Session Logging
   const [attempts, setAttempts] = useState<Attempt[]>([]);
+  const attemptsRef = useRef<Attempt[]>([]); // Synchronous ref to prevent closure bugs in stats
   const [sessionProgressMap, setSessionProgressMap] = useState<{ [qId: string]: QuestionProgress }>({ ...progressMap });
   const reviewRequiredIdsRef = useRef<Set<string>>(new Set()); // Synchronous ref to prevent closure race conditions
 
@@ -96,7 +97,7 @@ export default function StudySession({
         const needsReviewIds = Array.from(reviewRequiredIdsRef.current);
         const needsReview = sessionQuestions.filter(q => needsReviewIds.includes(q.id));
         if (needsReview.length === 0) {
-          onSessionComplete(attempts, sessionProgressMap);
+          onSessionComplete(attemptsRef.current, sessionProgressMap);
           return;
         }
         setRoundQuestions(needsReview.sort(() => Math.random() - 0.5));
@@ -153,6 +154,7 @@ export default function StudySession({
         createdAt: new Date().toISOString()
       };
 
+      attemptsRef.current.push(attempt);
       setAttempts(prev => [...prev, attempt]);
       
       const currentProg = sessionProgressMap[activeQuestion.id] || {
@@ -205,6 +207,7 @@ export default function StudySession({
       createdAt: new Date().toISOString()
     };
 
+    attemptsRef.current.push(attempt);
     setAttempts(prev => [...prev, attempt]);
 
     // Update progress mapper
@@ -242,10 +245,10 @@ export default function StudySession({
         setRound(prev => prev + 1);
       } else {
         // ALL questions answered correctly & confident! Complete the session.
-        onSessionComplete(attempts, sessionProgressMap);
+        onSessionComplete(attemptsRef.current, sessionProgressMap);
       }
     } else {
-      onSessionComplete(attempts, sessionProgressMap);
+      onSessionComplete(attemptsRef.current, sessionProgressMap);
     }
   };
 
