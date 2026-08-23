@@ -169,7 +169,26 @@ export function updateQuestionProgress(
   responseTime: number // in ms
 ): QuestionProgress {
   const now = new Date();
-  const progress = { ...currentProgress };
+  const defaultProgress: QuestionProgress = {
+    userId: 'local-user',
+    questionId: currentProgress?.questionId || '',
+    state: 'NEW',
+    masteryScore: 0,
+    correctCount: 0,
+    incorrectCount: 0,
+    correctStreak: 0,
+    averageResponseTime: 0,
+    reviewInterval: 0,
+    easeFactor: 2.5,
+    incorrectCountStreak: 0,
+    responseTimeHistory: [],
+    confidenceHistory: []
+  };
+
+  const progress: QuestionProgress = {
+    ...defaultProgress,
+    ...(currentProgress || {})
+  };
 
   // Append history
   progress.responseTimeHistory = [...(progress.responseTimeHistory || []), responseTime].slice(-10);

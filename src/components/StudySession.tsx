@@ -121,6 +121,24 @@ export default function StudySession({
     setConfidence(null);
   };
 
+  const getInitialProgress = (qId: string): QuestionProgress => {
+    return sessionProgressMap[qId] || {
+      userId: 'local-user',
+      questionId: qId,
+      state: 'NEW',
+      masteryScore: 0,
+      correctCount: 0,
+      incorrectCount: 0,
+      correctStreak: 0,
+      averageResponseTime: 0,
+      reviewInterval: 0,
+      easeFactor: 2.5,
+      incorrectCountStreak: 0,
+      responseTimeHistory: [],
+      confidenceHistory: []
+    };
+  };
+
   // Grading execution
   const handleSubmitAnswer = () => {
     if (submitted || !activeQuestion) return;
@@ -155,22 +173,7 @@ export default function StudySession({
       attemptsRef.current.push(attempt);
       setAttempts(prev => [...prev, attempt]);
       
-      const currentProg = sessionProgressMap[activeQuestion.id] || {
-        userId: 'local-user',
-        questionId: activeQuestion.id,
-        state: 'NEW',
-        masteryScore: 0,
-        correctCount: 0,
-        incorrectCount: 0,
-        correctStreak: 0,
-        averageResponseTime: 0,
-        reviewInterval: 0,
-        easeFactor: 2.5,
-        incorrectCountStreak: 0,
-        responseTimeHistory: [],
-        confidenceHistory: []
-      };
-
+      const currentProg = getInitialProgress(activeQuestion.id);
       const updated = updateQuestionProgress(currentProg, result.isCorrect, 'guessed', elapsed);
       setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
@@ -208,8 +211,8 @@ export default function StudySession({
     attemptsRef.current.push(attempt);
     setAttempts(prev => [...prev, attempt]);
 
-    // Update progress mapper
-    const currentProg = sessionProgressMap[activeQuestion.id];
+    // Update progress mapper with safe initial progress
+    const currentProg = getInitialProgress(activeQuestion.id);
     const updated = updateQuestionProgress(currentProg, feedback.isCorrect, level, responseTime);
     setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
