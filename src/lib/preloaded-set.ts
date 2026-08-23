@@ -2143,13 +2143,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "27rfpap",
+          "id": "q60-choice-a",
           "label": "A",
-          "text": "Engineers create data visualizations, dashboards, and reports",
+          "text": "Analysts present their findings to team members, while engineers are responsible for creating data visualizations, dashboards, and reports.",
+          "isCorrect": false
+        },
+        {
+          "id": "q60-choice-b",
+          "label": "B",
+          "text": "Engineers apply their knowledge of large datasets, while analysts are responsible for less complex types of intelligence.",
+          "isCorrect": false
+        },
+        {
+          "id": "q60-choice-c",
+          "label": "C",
+          "text": "Engineers gather requirements from stakeholders, while analysts apply those requirements to evaluate devices, infrastructures, and information channels.",
+          "isCorrect": false
+        },
+        {
+          "id": "q60-choice-d",
+          "label": "D",
+          "text": "Engineers design, configure, implement, and improve tools, while analysts use those tools to retrieve, organize, and interpret data.",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: A - analysts present their findings to team members. B. Engineers apply their knowledge of large datasets: analysts are responsible for less complex types of intelligence. C. Engineers gather requirements from stakeholders: analysts apply those requirements to evaluate devices, infrastructures, and information channels. D. Engineers design, configure, implement, and improve tools: analysts use those tools to retrieve, organize, and interpret data.: D. Engineers design, configure, implement, and improve tools analysts use those tools to retrieve, organize, and interpret data.:",
+      "explanation": "Đáp án đúng: D - D. Engineers design, configure, implement, and improve tools, while analysts use those tools to retrieve, organize, and interpret data.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
