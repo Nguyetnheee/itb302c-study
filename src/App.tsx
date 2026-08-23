@@ -16,7 +16,8 @@ import {
   getAttempts, saveAttempt, 
   getSettings, saveSettings, 
   getStreakInfo, recordStudyActivity,
-  getActiveSession, saveActiveSession
+  getActiveSession, saveActiveSession,
+  markBatchStarted
 } from './lib/storage';
 import { buildDemoStudySet, getDemoProgress, DEMO_SET_ID } from './lib/demo-data';
 import { PRELOADED_STUDY_SET } from './lib/preloaded-set';
@@ -125,6 +126,7 @@ export default function App() {
     setActiveSetId(setId);
     setSessionType(type);
     setActiveBatchIndex(batchIndex);
+    markBatchStarted(setId, batchIndex);
     setView('study');
     setShowSummary(false);
   };

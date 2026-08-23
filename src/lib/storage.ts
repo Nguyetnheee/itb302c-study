@@ -135,6 +135,24 @@ export function saveActiveSession(setId: string, session: StudySession | null): 
   }
 }
 
+export function getStartedBatches(setId: string): number[] {
+  const data = localStorage.getItem(`pal_started_batches_${setId}`);
+  if (!data) return [];
+  try {
+    return JSON.parse(data);
+  } catch {
+    return [];
+  }
+}
+
+export function markBatchStarted(setId: string, batchIndex: number): void {
+  const batches = getStartedBatches(setId);
+  if (!batches.includes(batchIndex)) {
+    batches.push(batchIndex);
+    localStorage.setItem(`pal_started_batches_${setId}`, JSON.stringify(batches));
+  }
+}
+
 
 
 export function getStreakInfo(): StreakInfo {
