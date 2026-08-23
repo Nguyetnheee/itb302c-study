@@ -380,6 +380,7 @@ export default function App() {
 
         {view === 'study' && activeSet && (
           <StudySession 
+            key={`${activeSet.id}_${sessionType}_${activeBatchIndex}`}
             setId={activeSet.id}
             sessionType={sessionType}
             batchIndex={activeBatchIndex}

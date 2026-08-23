@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { 
   Check, X, Eye, HelpCircle, Award, RefreshCw, LogOut, ArrowRight, 
   Settings2, Star, Keyboard, HelpCircle as HintIcon, Sparkles, CheckSquare
@@ -31,7 +31,7 @@ export default function StudySession({
   const batchSize = settings.questionsPerBatch;
   
   // Get active session questions based on batch or type
-  const getSessionQuestions = (): Question[] => {
+  const sessionQuestions = useMemo(() => {
     if (sessionType === 'learn') {
       const start = batchIndex * batchSize;
       const end = start + batchSize;
@@ -57,9 +57,7 @@ export default function StudySession({
     }
     // Default test mode: randomized selections
     return [...questions].sort(() => 0.5 - Math.random()).slice(0, 15);
-  };
-
-  const [sessionQuestions] = useState<Question[]>(getSessionQuestions);
+  }, [batchIndex, batchSize, sessionType, questions, progressMap]);
   
   // Round management (Max 2 rounds: Round 1 = Learn & Rate Confidence, Round 2 = Review Unsure / Incorrect)
   const isMultiRound = sessionType === 'learn';
