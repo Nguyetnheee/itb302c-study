@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { StudySet, QuestionProgress, StreakInfo, Settings } from '../lib/types';
 import { getMemoryStateLabel, estimateRetention } from '../lib/learning-engine';
-import { getStartedBatches } from '../lib/storage';
+import { getStartedBatches, getCompletedBatches } from '../lib/storage';
 
 interface DashboardProps {
   studySets: StudySet[];
@@ -137,14 +137,12 @@ export default function Dashboard({
   const renderBatchProgression = (set: StudySet) => {
     const progressMap = progressMaps[set.id] || {};
     const startedBatches = getStartedBatches(set.id);
+    const completedBatches = getCompletedBatches(set.id);
     const size = settings.questionsPerBatch;
     const totalQuestionsCount = set.questions.length;
     const totalBatches = Math.ceil(totalQuestionsCount / size);
     const batches = [];
 
-    // Progressive unlocking rule:
-    // Batch 1 (b = 0) is ALWAYS unlocked.
-    // Batch B is unlocked if Batch B-1 was STUDIED (has attempted questions, mastered, or marked as started).
     let previousBatchStudied = true;
 
     for (let b = 0; b < totalBatches; b++) {
@@ -172,8 +170,9 @@ export default function Dashboard({
       });
 
       const totalInBatch = batchQuestions.length;
-      const isMastered = masteredCount === totalInBatch;
-      const hasStudiedThisBatch = attemptedCount > 0 || isMastered || startedBatches.includes(b);
+      const isSM2Mastered = masteredCount === totalInBatch;
+      const isCompleted = isSM2Mastered || attemptedCount === totalInBatch || completedBatches.includes(b);
+      const hasStudiedThisBatch = attemptedCount > 0 || isCompleted || startedBatches.includes(b);
       const isUnlocked = b === 0 || previousBatchStudied;
 
       batches.push({
@@ -184,12 +183,11 @@ export default function Dashboard({
         attemptedCount,
         totalInBatch,
         weakCount,
-        isMastered,
+        isCompleted,
         hasStudied: hasStudiedThisBatch,
         isUnlocked
       });
 
-      // Pass flag to unlock the NEXT batch (b + 1)
       previousBatchStudied = hasStudiedThisBatch;
     }
 
@@ -203,12 +201,12 @@ export default function Dashboard({
             style={{ 
               padding: '1.25rem', 
               opacity: batch.isUnlocked ? 1 : 0.6,
-              background: batch.isMastered 
+              background: batch.isCompleted 
                 ? 'linear-gradient(to right, rgba(16, 185, 129, 0.05), var(--bg-card))' 
                 : batch.hasStudied 
                 ? 'linear-gradient(to right, rgba(59, 130, 246, 0.05), var(--bg-card))' 
                 : 'var(--bg-card)',
-              borderColor: batch.isMastered 
+              borderColor: batch.isCompleted 
                 ? 'var(--color-success)' 
                 : batch.hasStudied 
                 ? 'var(--color-primary)' 
@@ -220,14 +218,14 @@ export default function Dashboard({
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ fontWeight: '700', fontSize: '1.1rem' }}>{batch.title}</span>
                 <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>({batch.range})</span>
-                {batch.isMastered ? (
-                  <span className="badge badge-mastered" style={{ padding: '0.15rem 0.5rem', fontSize: '0.65rem' }}>Mastered</span>
+                {batch.isCompleted ? (
+                  <span className="badge badge-mastered" style={{ padding: '0.15rem 0.5rem', fontSize: '0.65rem' }}>Completed</span>
                 ) : batch.hasStudied ? (
                   <span className="badge" style={{ background: 'rgba(59, 130, 246, 0.15)', color: '#3b82f6', padding: '0.15rem 0.5rem', fontSize: '0.65rem' }}>In Progress</span>
                 ) : null}
               </div>
               <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', marginTop: '0.25rem' }}>
-                {batch.masteredCount} / {batch.totalInBatch} questions mastered
+                {batch.attemptedCount} / {batch.totalInBatch} questions studied ({batch.masteredCount} mastered)
               </div>
             </div>
 
@@ -237,7 +235,7 @@ export default function Dashboard({
                   <Lock size={16} />
                   <span style={{ fontSize: '0.85rem' }}>Locked</span>
                 </div>
-              ) : batch.isMastered ? (
+              ) : batch.isCompleted ? (
                 <button 
                   className="btn btn-secondary" 
                   onClick={() => onStartSession(set.id, 'learn', batch.index)}
@@ -261,7 +259,7 @@ export default function Dashboard({
                     onClick={() => onStartSession(set.id, 'learn', batch.index)}
                     style={{ padding: '0.5rem 1rem', fontSize: '0.85rem' }}
                   >
-                    <Play size={14} /> Start Batch
+                    <Play size={14} /> {batch.hasStudied ? 'Continue Batch' : 'Start Batch'}
                   </button>
                 </div>
               )}

@@ -17,7 +17,7 @@ import {
   getSettings, saveSettings, 
   getStreakInfo, recordStudyActivity,
   getActiveSession, saveActiveSession,
-  markBatchStarted
+  markBatchStarted, markBatchCompleted
 } from './lib/storage';
 import { buildDemoStudySet, getDemoProgress, DEMO_SET_ID } from './lib/demo-data';
 import { PRELOADED_STUDY_SET } from './lib/preloaded-set';
@@ -134,6 +134,9 @@ export default function App() {
   // Complete study session callback
   const handleSessionComplete = (sessionAttempts: Attempt[], updatedProgress: { [qId: string]: QuestionProgress }) => {
     if (!activeSetId) return;
+
+    // Mark batch completed
+    markBatchCompleted(activeSetId, activeBatchIndex);
 
     // 1. Record attempts log
     sessionAttempts.forEach((attempt) => {

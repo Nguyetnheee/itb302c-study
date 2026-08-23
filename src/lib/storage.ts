@@ -153,6 +153,24 @@ export function markBatchStarted(setId: string, batchIndex: number): void {
   }
 }
 
+export function getCompletedBatches(setId: string): number[] {
+  const data = localStorage.getItem(`pal_completed_batches_${setId}`);
+  if (!data) return [];
+  try {
+    return JSON.parse(data);
+  } catch {
+    return [];
+  }
+}
+
+export function markBatchCompleted(setId: string, batchIndex: number): void {
+  const batches = getCompletedBatches(setId);
+  if (!batches.includes(batchIndex)) {
+    batches.push(batchIndex);
+    localStorage.setItem(`pal_completed_batches_${setId}`, JSON.stringify(batches));
+  }
+}
+
 
 
 export function getStreakInfo(): StreakInfo {
