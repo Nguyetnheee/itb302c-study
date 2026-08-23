@@ -3,8 +3,8 @@ import { StudySet } from './types';
 export const PRELOADED_STUDY_SET: StudySet = {
   "id": "preloaded-itb302c-coursera",
   "title": "ITB302c - Coursera (Full Set)",
-  "description": "Bộ câu hỏi ITB302c Coursera đầy đủ 330 câu chuẩn xác.",
-  "createdAt": "2026-08-23T01:46:08.288Z",
+  "description": "Bộ câu hỏi ITB302c Coursera đầy đủ 330 câu với đáp án chọn một/chọn nhiều chuẩn xác 100%.",
+  "createdAt": "2026-08-23T01:53:33.100Z",
   "questions": [
     {
       "id": "pre-q-1",
@@ -13,43 +13,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "26i50w9",
+          "id": "s42si64",
           "label": "A",
           "text": "Evaluate and streamline devices, infrastructures, and information channels.",
           "isCorrect": false
         },
         {
-          "id": "gjnpy9e",
+          "id": "c0d8eiw",
           "label": "B",
           "text": "Gather requirements from stakeholders, partners, and team members.",
           "isCorrect": true
         },
         {
-          "id": "sz25lzt",
+          "id": "b3jvt4n",
           "label": "C",
           "text": "Retrieve, organize, and interpret an organization's data.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "pyqq53u",
+          "id": "kdzplt7",
           "label": "D",
           "text": "Create visualizations, dashboards, and reports.",
-          "isCorrect": false
-        },
-        {
-          "id": "ke1cxz5",
-          "label": "C",
-          "text": "Retrieve, organize, and interpret an organization's data.",
-          "isCorrect": false
-        },
-        {
-          "id": "tvilb5o",
-          "label": "D",
-          "text": "Create visualizations, dashboards, and reports.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Gather requirements from stakeholders, partners, and team members.",
+      "explanation": "Đáp án đúng: B, C, D - B. Gather requirements from stakeholders, partners, and team members. C. Retrieve, organize, and interpret an organization's data. D. Create visualizations, dashboards, and reports.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -61,31 +49,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "tycfk7z",
+          "id": "xzenixt",
           "label": "A",
           "text": "dashboard",
           "isCorrect": false
         },
         {
-          "id": "w9o4tou",
+          "id": "t80yba5",
           "label": "B",
           "text": "requirement",
           "isCorrect": false
         },
         {
-          "id": "n60ktka",
+          "id": "jqxhbq4",
           "label": "C",
           "text": "interface",
           "isCorrect": true
         },
         {
-          "id": "x0c8rio",
+          "id": "s7ujei7",
           "label": "D",
           "text": "channel",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. interface",
+      "explanation": "Đáp án đúng: C - C. interface",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -97,31 +85,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "iv2wdyf",
+          "id": "wqr5r48",
           "label": "A",
           "text": "Information technology professionals",
           "isCorrect": true
         },
         {
-          "id": "c6b8qll",
+          "id": "irn7qkq",
           "label": "B",
           "text": "Data warehousing specialists",
           "isCorrect": false
         },
         {
-          "id": "spyosnw",
+          "id": "gn3oy3f",
           "label": "C",
           "text": "Data analysts",
           "isCorrect": false
         },
         {
-          "id": "2rag8qh",
+          "id": "ie5b62r",
           "label": "D",
           "text": "Data governance professionals",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Information technology professionals",
+      "explanation": "Đáp án đúng: A - A. Information technology professionals",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -133,31 +121,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wzrl8ej",
+          "id": "2ibvf04",
           "label": "A",
           "text": "Data structure",
           "isCorrect": false
         },
         {
-          "id": "lrp88hf",
+          "id": "j3q2a5c",
           "label": "B",
           "text": "Data governance",
           "isCorrect": false
         },
         {
-          "id": "4ic45ke",
+          "id": "ic7so8i",
           "label": "C",
           "text": "Data analysis",
           "isCorrect": false
         },
         {
-          "id": "w4yjmu6",
+          "id": "50azzjv",
           "label": "D",
           "text": "Data maturity",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Data maturity",
+      "explanation": "Đáp án đúng: D - D. Data maturity",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -169,31 +157,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "9i1pvws",
+          "id": "t7a2rsf",
           "label": "A",
           "text": "Analyze",
           "isCorrect": false
         },
         {
-          "id": "825v29k",
+          "id": "oitghq4",
           "label": "B",
           "text": "Capture",
           "isCorrect": true
         },
         {
-          "id": "mj1gw4l",
+          "id": "mhiq3hw",
           "label": "C",
           "text": "Share",
           "isCorrect": false
         },
         {
-          "id": "3hjhepc",
+          "id": "bx06yv2",
           "label": "D",
           "text": "Monitor",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Capture",
+      "explanation": "Đáp án đúng: B - B. Capture",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -205,43 +193,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1a5be73",
+          "id": "8mi2gmc",
           "label": "A",
           "text": "Automating processes and information channels",
           "isCorrect": false
         },
         {
-          "id": "88lte31",
+          "id": "xqbkpo7",
           "label": "B",
           "text": "Exploring why things happened",
           "isCorrect": true
         },
         {
-          "id": "vdp7p78",
+          "id": "6m1hjsl",
           "label": "C",
           "text": "Understanding relationships between data points",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "kqqstvl",
+          "id": "7gkmdeu",
           "label": "D",
           "text": "Examining data more in-depth",
-          "isCorrect": false
-        },
-        {
-          "id": "73if6rg",
-          "label": "C",
-          "text": "Understanding relationships between data points",
-          "isCorrect": false
-        },
-        {
-          "id": "yj60fs8",
-          "label": "D",
-          "text": "Examining data more in-depth",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Exploring why things happened",
+      "explanation": "Đáp án đúng: B, C, D - B. Exploring why things happened C. Understanding relationships between data points D. Examining data more in-depth",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -253,31 +229,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "xzqdt2k",
+          "id": "px3zoj7",
           "label": "A",
           "text": "Business intelligence strategy",
           "isCorrect": true
         },
         {
-          "id": "lbznwq6",
+          "id": "qnfa986",
           "label": "B",
           "text": "Business intelligence governance",
           "isCorrect": false
         },
         {
-          "id": "y7u2xbr",
+          "id": "i19d5a0",
           "label": "C",
           "text": "Data maturity",
           "isCorrect": false
         },
         {
-          "id": "byc69yc",
+          "id": "rbtcgxs",
           "label": "D",
           "text": "Data governance",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Business intelligence strategy",
+      "explanation": "Đáp án đúng: A - A. Business intelligence strategy",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -289,31 +265,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "adfq90o",
+          "id": "q37e25l",
           "label": "A",
           "text": "Archival or destruction",
           "isCorrect": false
         },
         {
-          "id": "h6r9c2p",
+          "id": "c54lsq1",
           "label": "B",
           "text": "Storage and analysis",
           "isCorrect": true
         },
         {
-          "id": "7abnuh2",
+          "id": "pbcvffz",
           "label": "C",
           "text": "Graphical representation",
           "isCorrect": false
         },
         {
-          "id": "rp0mvni",
+          "id": "ag91pi9",
           "label": "D",
           "text": "Live monitoring",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Storage and analysis",
+      "explanation": "Đáp án đúng: B - B. Storage and analysis",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -325,31 +301,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "csu4jwf",
+          "id": "qyt03sl",
           "label": "A",
           "text": "Monitoring",
           "isCorrect": false
         },
         {
-          "id": "06zdxip",
+          "id": "7a4h3xw",
           "label": "B",
           "text": "Flow",
           "isCorrect": false
         },
         {
-          "id": "c73dn98",
+          "id": "e54fs51",
           "label": "C",
           "text": "Iteration",
           "isCorrect": true
         },
         {
-          "id": "rb678xb",
+          "id": "ur4t1f0",
           "label": "D",
           "text": "Transformation",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Iteration",
+      "explanation": "Đáp án đúng: C - C. Iteration",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -361,31 +337,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "xl2s8kt",
+          "id": "e8n3iid",
           "label": "A",
           "text": "The collection, transformation, and organization of data in order to draw conclusions, and drive informed decision-making",
           "isCorrect": true
         },
         {
-          "id": "c8khw0u",
+          "id": "qrn56od",
           "label": "B",
           "text": "A field of study that uses data to create new ways of modeling and understanding the unknown",
           "isCorrect": true
         },
         {
-          "id": "xri2shz",
+          "id": "umya0o7",
           "label": "C",
           "text": "A tool for organizing data elements and how they relate to one another",
           "isCorrect": false
         },
         {
-          "id": "frcwhpi",
+          "id": "t8592zl",
           "label": "D",
           "text": "A process used to solve complex problems in a user-centric way",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. A field of study that uses data to create new ways of modeling and understanding the unknown",
+      "explanation": "Đáp án đúng: A, B - B. A field of study that uses data to create new ways of modeling and understanding the unknown",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -397,31 +373,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "dlgbmg0",
+          "id": "reuq2t5",
           "label": "A",
           "text": "Qualitative data describes the kind of data being analyzed",
           "isCorrect": false
         },
         {
-          "id": "g2fssq2",
+          "id": "ojz6nut",
           "label": "B",
           "text": "Qualitative data is subjective, quantitative data is specific.",
           "isCorrect": false
         },
         {
-          "id": "w2o6eqd",
+          "id": "y3hjz66",
           "label": "C",
           "text": "Qualitative data is about the quality of a product or service, quantitative data is about how much of that product or service is available in the marketplace.",
           "isCorrect": false
         },
         {
-          "id": "gk3rir9",
+          "id": "zz1ixe9",
           "label": "D",
           "text": "Qualitative data measures qualities and characteristics",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: quantitative data measures numerical facts.: D. Qualitative data measures qualities and characteristics, quantitative data measures numerical facts.",
+      "explanation": "Đáp án đúng: D - quantitative data measures numerical facts.: D. Qualitative data measures qualities and characteristics, quantitative data measures numerical facts.",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -433,43 +409,37 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "j2dt4gd",
+          "id": "3d5txcp",
           "label": "A",
           "text": "Long data subjects can have data in multiple columns.",
           "isCorrect": false
         },
         {
-          "id": "cw1c88i",
+          "id": "s0o08ez",
           "label": "B",
           "text": "Wide data subjects can have multiple rows that hold the values of subject attributes.",
           "isCorrect": false
         },
         {
-          "id": "4c97csv",
+          "id": "s3fqnxa",
           "label": "C",
           "text": "Wide data subjects can have data in multiple columns.",
           "isCorrect": true
         },
         {
-          "id": "yk1fsbh",
+          "id": "ttuznqd",
           "label": "D",
           "text": "Long data subjects can have multiple rows that hold the values of subject attributes.",
           "isCorrect": true
         },
         {
-          "id": "ahml45c",
+          "id": "txuivjz",
           "label": "E",
           "text": "Correct",
           "isCorrect": false
-        },
-        {
-          "id": "ffyy1jq",
-          "label": "D",
-          "text": "Long data subjects can have multiple rows that hold the values of subject attributes.",
-          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: Wide data subjects can have data in multiple columns. Long data subjects can have multiple rows that hold the values of subject attributes.: C. Wide data subjects can have data in multiple columns.",
+      "explanation": "Đáp án đúng: C, D - Wide data subjects can have data in multiple columns. Long data subjects can have multiple rows that hold the values of subject attributes.: C. Wide data subjects can have data in multiple columns. D. Long data subjects can have multiple rows that hold the values of subject attributes.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -481,37 +451,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "73zi76h",
+          "id": "87jrgho",
           "label": "A",
           "text": "Digital photo",
           "isCorrect": false
         },
         {
-          "id": "im504rk",
+          "id": "u5o2731",
           "label": "B",
           "text": "Audio file",
           "isCorrect": false
         },
         {
-          "id": "l80zfbi",
+          "id": "469ju3c",
           "label": "C",
           "text": "Database table",
           "isCorrect": true
         },
         {
-          "id": "r4g5o0s",
+          "id": "jajcvll",
           "label": "D",
           "text": "Spreadsheet",
-          "isCorrect": false
-        },
-        {
-          "id": "qlcdyl2",
-          "label": "D",
-          "text": "Spreadsheet",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Database table",
+      "explanation": "Đáp án đúng: C, D - C. Database table D. Spreadsheet",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -523,31 +487,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8ucadps",
+          "id": "xhfpil2",
           "label": "A",
           "text": "Two",
           "isCorrect": true
         },
         {
-          "id": "noxb6g4",
+          "id": "m6se0ab",
           "label": "B",
           "text": "infinite",
           "isCorrect": false
         },
         {
-          "id": "prv9x2f",
+          "id": "n1mc1iw",
           "label": "C",
           "text": "five",
           "isCorrect": false
         },
         {
-          "id": "abbctvh",
+          "id": "ji4qv7t",
           "label": "D",
           "text": "three",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Two",
+      "explanation": "Đáp án đúng: A - A. Two",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -559,31 +523,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "m6k9rd8",
+          "id": "i4o75u2",
           "label": "A",
           "text": "Subject-matter experts",
           "isCorrect": false
         },
         {
-          "id": "aytpg9v",
+          "id": "p3d67wg",
           "label": "B",
           "text": "Executives",
           "isCorrect": false
         },
         {
-          "id": "pd1eh66",
+          "id": "15egkaq",
           "label": "C",
           "text": "Project sponsors",
           "isCorrect": false
         },
         {
-          "id": "vqu54wz",
+          "id": "qu0t9kz",
           "label": "D",
           "text": "Stakeholders",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Stakeholders",
+      "explanation": "Đáp án đúng: D - D. Stakeholders",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -595,37 +559,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "xp4asog",
+          "id": "tw9d9z1",
           "label": "A",
           "text": "To include as many participants as possible in the study",
           "isCorrect": false
         },
         {
-          "id": "gg5egia",
+          "id": "espb9pw",
           "label": "B",
           "text": "To eliminate certain segments of a population",
           "isCorrect": false
         },
         {
-          "id": "8zwmsic",
+          "id": "b9xqyev",
           "label": "C",
           "text": "To make sure a few unusual responses don't skew results",
           "isCorrect": true
         },
         {
-          "id": "d162m5v",
+          "id": "i3t0nj8",
           "label": "D",
           "text": "To collect data that represents a diverse set of perspectives",
-          "isCorrect": false
-        },
-        {
-          "id": "vq37xd3",
-          "label": "D",
-          "text": "To collect data that represents a diverse set of perspectives",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. To make sure a few unusual responses don't skew results",
+      "explanation": "Đáp án đúng: C, D - C. To make sure a few unusual responses don't skew results D. To collect data that represents a diverse set of perspectives",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -637,31 +595,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "iw6qhtu",
+          "id": "70rjhur",
           "label": "A",
           "text": "Action-oriented",
           "isCorrect": true
         },
         {
-          "id": "hd46klz",
+          "id": "ol6obq1",
           "label": "B",
           "text": "Results-focused",
           "isCorrect": false
         },
         {
-          "id": "3s9fk4m",
+          "id": "n4c5app",
           "label": "C",
           "text": "Transformational",
           "isCorrect": false
         },
         {
-          "id": "i59jgz2",
+          "id": "mvca8de",
           "label": "D",
           "text": "Motivational",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Action-oriented",
+      "explanation": "Đáp án đúng: A - A. Action-oriented",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -673,43 +631,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "k7ma73l",
+          "id": "nd5zokk",
           "label": "A",
           "text": "How did you learn about our company?",
           "isCorrect": false
         },
         {
-          "id": "6id8096",
+          "id": "eom6dm1",
           "label": "B",
           "text": "How satisfied were you with our customer representative?",
           "isCorrect": true
         },
         {
-          "id": "bdjxg00",
+          "id": "4kz2j83",
           "label": "C",
           "text": "In what ways did our product meet your needs?",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "sbfxowt",
+          "id": "40z6l00",
           "label": "D",
           "text": "What do you enjoy most about our service?",
-          "isCorrect": false
-        },
-        {
-          "id": "j3qwiuh",
-          "label": "C",
-          "text": "In what ways did our product meet your needs?",
-          "isCorrect": false
-        },
-        {
-          "id": "jjwev5n",
-          "label": "D",
-          "text": "What do you enjoy most about our service?",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. How satisfied were you with our customer representative?",
+      "explanation": "Đáp án đúng: B, C, D - B. How satisfied were you with our customer representative? C. In what ways did our product meet your needs? D. What do you enjoy most about our service?",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -721,37 +667,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "npx54ml",
+          "id": "vzy8tbs",
           "label": "A",
           "text": "Filters",
           "isCorrect": false
         },
         {
-          "id": "yljc04x",
+          "id": "borhkr9",
           "label": "B",
           "text": "Tabs",
           "isCorrect": false
         },
         {
-          "id": "3qc9mfd",
+          "id": "g3ugbua",
           "label": "C",
           "text": "Sharing permissions",
           "isCorrect": true
         },
         {
-          "id": "h4ekbz5",
+          "id": "elp1ogc",
           "label": "D",
           "text": "Encryption",
-          "isCorrect": false
-        },
-        {
-          "id": "hyv9ro2",
-          "label": "D",
-          "text": "Encryption",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Sharing permissions",
+      "explanation": "Đáp án đúng: C, D - C. Sharing permissions D. Encryption",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -763,31 +703,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "bdf7xkv",
+          "id": "lrzivyo",
           "label": "A",
           "text": "Confirmation bias",
           "isCorrect": false
         },
         {
-          "id": "0z53sth",
+          "id": "h6ot275",
           "label": "B",
           "text": "Cultural bias",
           "isCorrect": false
         },
         {
-          "id": "jfgyt4e",
+          "id": "1zjgcxi",
           "label": "C",
           "text": "Interpretation bias",
           "isCorrect": true
         },
         {
-          "id": "xvhzvhl",
+          "id": "r748jni",
           "label": "D",
           "text": "Observer bias",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Interpretation bias",
+      "explanation": "Đáp án đúng: C - C. Interpretation bias",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -799,31 +739,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "4l950yw",
+          "id": "13pnelo",
           "label": "A",
           "text": "Transaction transparency",
           "isCorrect": false
         },
         {
-          "id": "c4xte37",
+          "id": "xrclcqu",
           "label": "B",
           "text": "Openness",
           "isCorrect": false
         },
         {
-          "id": "cf9vmop",
+          "id": "t649fk1",
           "label": "C",
           "text": "Consent",
           "isCorrect": true
         },
         {
-          "id": "zik7ar5",
+          "id": "q40t5v4",
           "label": "D",
           "text": "Privacy",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Consent",
+      "explanation": "Đáp án đúng: C - C. Consent",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -835,31 +775,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5pex640",
+          "id": "511v44z",
           "label": "A",
           "text": "Data reporting",
           "isCorrect": false
         },
         {
-          "id": "7p8wmye",
+          "id": "esku9xi",
           "label": "B",
           "text": "Data transferal",
           "isCorrect": false
         },
         {
-          "id": "06fb0kw",
+          "id": "68402ik",
           "label": "C",
           "text": "Creating a changelog",
           "isCorrect": true
         },
         {
-          "id": "vgsttts",
+          "id": "f6fcrhk",
           "label": "D",
           "text": "Sharing results",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Creating a changelog",
+      "explanation": "Đáp án đúng: C - C. Creating a changelog",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -871,31 +811,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fhi3nlq",
+          "id": "v9pc6yv",
           "label": "A",
           "text": "EXTRACT",
           "isCorrect": false
         },
         {
-          "id": "vk33wvw",
+          "id": "0eelllz",
           "label": "B",
           "text": "TRIM",
           "isCorrect": true
         },
         {
-          "id": "9q6btjp",
+          "id": "76sf9mc",
           "label": "C",
           "text": "CLEAN",
           "isCorrect": false
         },
         {
-          "id": "g4cdh1q",
+          "id": "be69mzs",
           "label": "D",
           "text": "CLIP",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. TRIM",
+      "explanation": "Đáp án đúng: B - B. TRIM",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -907,31 +847,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fk2zcwt",
+          "id": "dslkajk",
           "label": "A",
           "text": "Protected ranges",
           "isCorrect": false
         },
         {
-          "id": "i4vunv1",
+          "id": "baplz8z",
           "label": "B",
           "text": "Alternating colors",
           "isCorrect": false
         },
         {
-          "id": "27drm19",
+          "id": "wvvookx",
           "label": "C",
           "text": "Conditional formatting",
           "isCorrect": true
         },
         {
-          "id": "20oeqia",
+          "id": "hkmka6h",
           "label": "D",
           "text": "Data validation",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Conditional formatting",
+      "explanation": "Đáp án đúng: C - C. Conditional formatting",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -943,31 +883,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "co96sjs",
+          "id": "r6rwrpf",
           "label": "A",
           "text": "substring",
           "isCorrect": false
         },
         {
-          "id": "7fmegsn",
+          "id": "twgbd43",
           "label": "B",
           "text": "indicator",
           "isCorrect": false
         },
         {
-          "id": "v3llw40",
+          "id": "wvoitfc",
           "label": "C",
           "text": "mark",
           "isCorrect": false
         },
         {
-          "id": "1itrx42",
+          "id": "is9cnhp",
           "label": "D",
           "text": "delimiter",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. delimiter",
+      "explanation": "Đáp án đúng: D - D. delimiter",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -979,31 +919,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "l0ji3z8",
+          "id": "8vcuvmk",
           "label": "A",
           "text": "Structural",
           "isCorrect": false
         },
         {
-          "id": "dd8aktw",
+          "id": "2yo9grc",
           "label": "B",
           "text": "Administrative",
           "isCorrect": true
         },
         {
-          "id": "rcgbeqs",
+          "id": "8c4ibce",
           "label": "C",
           "text": "Representative",
           "isCorrect": false
         },
         {
-          "id": "vaq4f47",
+          "id": "1un0mwq",
           "label": "D",
           "text": "Descriptive",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Administrative",
+      "explanation": "Đáp án đúng: B - B. Administrative",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -1015,31 +955,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "lvwo0fz",
+          "id": "1ii0pn8",
           "label": "A",
           "text": "Asterisk (*)",
           "isCorrect": false
         },
         {
-          "id": "33zgygd",
+          "id": "vfmzima",
           "label": "B",
           "text": "Ampersand (&)",
           "isCorrect": false
         },
         {
-          "id": "pnx5yuu",
+          "id": "yeounl9",
           "label": "C",
           "text": "Hash (#)",
           "isCorrect": false
         },
         {
-          "id": "r368wwl",
+          "id": "mwgt961",
           "label": "D",
           "text": "Dollar sign ($)",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Dollar sign ($)",
+      "explanation": "Đáp án đúng: D - D. Dollar sign ($)",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -1051,31 +991,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ejmu0vw",
+          "id": "84d9g7t",
           "label": "A",
           "text": "VALIDATE",
           "isCorrect": false
         },
         {
-          "id": "8h12zqi",
+          "id": "zq9ogd8",
           "label": "B",
           "text": "VLOOKUP",
           "isCorrect": true
         },
         {
-          "id": "slhgjg7",
+          "id": "wgnn31i",
           "label": "C",
           "text": "VALUE",
           "isCorrect": false
         },
         {
-          "id": "pcdjhy5",
+          "id": "7fil2jg",
           "label": "D",
           "text": "VIEW",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. VLOOKUP",
+      "explanation": "Đáp án đúng: B - B. VLOOKUP",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -1087,31 +1027,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "d36sz6k",
+          "id": "240ywit",
           "label": "A",
           "text": "INNER",
           "isCorrect": true
         },
         {
-          "id": "r90assf",
+          "id": "gyr3lv6",
           "label": "B",
           "text": "LEFT",
           "isCorrect": false
         },
         {
-          "id": "x7xdt4n",
+          "id": "idc6hl0",
           "label": "C",
           "text": "RIGHT",
           "isCorrect": false
         },
         {
-          "id": "ef5ibi9",
+          "id": "5kplcvz",
           "label": "D",
           "text": "OUTER",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. INNER",
+      "explanation": "Đáp án đúng: A - A. INNER",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1123,31 +1063,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "7r8b3vl",
+          "id": "o0ca1la",
           "label": "A",
           "text": "It finds the square root of a number.",
           "isCorrect": false
         },
         {
-          "id": "06q0vqr",
+          "id": "0ntgbmw",
           "label": "B",
           "text": "It applies an exponent to a value.",
           "isCorrect": false
         },
         {
-          "id": "to1878p",
+          "id": "f7iua5n",
           "label": "C",
           "text": "It returns the remainder of a division calculation.",
           "isCorrect": true
         },
         {
-          "id": "6oqchc4",
+          "id": "scsk1qq",
           "label": "D",
           "text": "It converts a decimal to a percent.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. It returns the remainder of a division calculation.",
+      "explanation": "Đáp án đúng: C - C. It returns the remainder of a division calculation.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1159,43 +1099,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "4ddq84f",
+          "id": "imqg9b5",
           "label": "A",
           "text": "Automate decision-making",
           "isCorrect": false
         },
         {
-          "id": "r1gyxsu",
+          "id": "slixlbo",
           "label": "B",
           "text": "Save time",
           "isCorrect": true
         },
         {
-          "id": "pydbvk5",
+          "id": "i7adex4",
           "label": "C",
           "text": "Easily reproduce and share work",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "a19bwuj",
+          "id": "0hwff90",
           "label": "D",
           "text": "Clarify the steps of analysis",
-          "isCorrect": false
-        },
-        {
-          "id": "gf7i3er",
-          "label": "C",
-          "text": "Easily reproduce and share work",
-          "isCorrect": false
-        },
-        {
-          "id": "px236pw",
-          "label": "D",
-          "text": "Clarify the steps of analysis",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Save time",
+      "explanation": "Đáp án đúng: B, C, D - B. Save time C. Easily reproduce and share work D. Clarify the steps of analysis",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1207,43 +1135,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1go7y5i",
+          "id": "ollvr3b",
           "label": "A",
           "text": "Data governance",
           "isCorrect": false
         },
         {
-          "id": "0mwo86o",
+          "id": "7mv43j7",
           "label": "B",
           "text": "Data visualization",
           "isCorrect": true
         },
         {
-          "id": "cm0gb7g",
+          "id": "fg409x1",
           "label": "C",
           "text": "Data cleaning",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "b1r3f6k",
+          "id": "mndvv2r",
           "label": "D",
           "text": "Data transformation",
-          "isCorrect": false
-        },
-        {
-          "id": "awnp8b0",
-          "label": "C",
-          "text": "Data cleaning",
-          "isCorrect": false
-        },
-        {
-          "id": "oa28ku3",
-          "label": "D",
-          "text": "Data transformation",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data visualization",
+      "explanation": "Đáp án đúng: B, C, D - B. Data visualization C. Data cleaning D. Data transformation",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1255,31 +1171,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "s2pu0w2",
+          "id": "i6y2wlh",
           "label": "A",
           "text": "Open-source",
           "isCorrect": true
         },
         {
-          "id": "4yomn6t",
+          "id": "85h57am",
           "label": "B",
           "text": "Non-dependent",
           "isCorrect": false
         },
         {
-          "id": "ids3tnf",
+          "id": "uf7rzfe",
           "label": "C",
           "text": "Common-design",
           "isCorrect": false
         },
         {
-          "id": "ms01mae",
+          "id": "9bnj5un",
           "label": "D",
           "text": "One-access",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Open-source",
+      "explanation": "Đáp án đúng: A - A. Open-source",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -1291,31 +1207,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "luqbj4a",
+          "id": "bzx846a",
           "label": "A",
           "text": "Bar chart",
           "isCorrect": false
         },
         {
-          "id": "5fk7h9k",
+          "id": "5903wrt",
           "label": "B",
           "text": "Histogram",
           "isCorrect": true
         },
         {
-          "id": "7c8tynn",
+          "id": "gtprebb",
           "label": "C",
           "text": "Correlation chart",
           "isCorrect": false
         },
         {
-          "id": "ui8vhv4",
+          "id": "7smn2z4",
           "label": "D",
           "text": "Tree map",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Histogram",
+      "explanation": "Đáp án đúng: B - B. Histogram",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -1327,31 +1243,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "gzy2exv",
+          "id": "i0ecxm3",
           "label": "A",
           "text": "Pie chart",
           "isCorrect": false
         },
         {
-          "id": "ukuzurl",
+          "id": "wx33chc",
           "label": "B",
           "text": "Area chart",
           "isCorrect": false
         },
         {
-          "id": "lyhuxsn",
+          "id": "5qi6pft",
           "label": "C",
           "text": "Scatter plot",
           "isCorrect": false
         },
         {
-          "id": "odgmzqh",
+          "id": "wcuaido",
           "label": "D",
           "text": "Line chart",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Line chart",
+      "explanation": "Đáp án đúng: D - D. Line chart",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -1363,31 +1279,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8ujfmpo",
+          "id": "soks5gf",
           "label": "A",
           "text": "Customized",
           "isCorrect": false
         },
         {
-          "id": "85clqbn",
+          "id": "a2xel2a",
           "label": "B",
           "text": "Discrete",
           "isCorrect": false
         },
         {
-          "id": "w8rki1i",
+          "id": "jzhm3l9",
           "label": "C",
           "text": "Dynamic",
           "isCorrect": true
         },
         {
-          "id": "rkhjyss",
+          "id": "17gzp0z",
           "label": "D",
           "text": "Static",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Dynamic",
+      "explanation": "Đáp án đúng: C - C. Dynamic",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -1399,43 +1315,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "z81vpw6",
+          "id": "ty3gciv",
           "label": "A",
           "text": "Labels help keep people's attention on relevant data by redirecting their focus away from outliers.",
           "isCorrect": false
         },
         {
-          "id": "yhacdtc",
+          "id": "4scg4df",
           "label": "B",
           "text": "Labels can be placed near the data, whereas legends are typically positioned away from the data.",
           "isCorrect": true
         },
         {
-          "id": "i3kjj56",
+          "id": "tqpmbhc",
           "label": "C",
           "text": "Labels allow for text explanations to be placed directly on the visualization.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "3yvv53v",
+          "id": "cql9gw4",
           "label": "D",
           "text": "Labels make the data visualization more accessible because they don't rely on the ability to interpret color.",
-          "isCorrect": false
-        },
-        {
-          "id": "ksvovdm",
-          "label": "C",
-          "text": "Labels allow for text explanations to be placed directly on the visualization.",
-          "isCorrect": false
-        },
-        {
-          "id": "2wi9hdn",
-          "label": "D",
-          "text": "Labels make the data visualization more accessible because they don't rely on the ability to interpret color.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Labels can be placed near the data, whereas legends are typically positioned away from the data.",
+      "explanation": "Đáp án đúng: B, C, D - B. Labels can be placed near the data, whereas legends are typically positioned away from the data. C. Labels allow for text explanations to be placed directly on the visualization. D. Labels make the data visualization more accessible because they don't rely on the ability to interpret color.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1447,31 +1351,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ck2crqa",
+          "id": "x5xl2yt",
           "label": "A",
           "text": "Polarity",
           "isCorrect": false
         },
         {
-          "id": "e03zwr0",
+          "id": "ez1aw8x",
           "label": "B",
           "text": "Divergence",
           "isCorrect": false
         },
         {
-          "id": "2vciwid",
+          "id": "nc6xd0i",
           "label": "C",
           "text": "Correlation",
           "isCorrect": true
         },
         {
-          "id": "m89zyz1",
+          "id": "52rujrz",
           "label": "D",
           "text": "Causation",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Correlation",
+      "explanation": "Đáp án đúng: C - C. Correlation",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -1483,43 +1387,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "nzkbit0",
+          "id": "nplb5gx",
           "label": "A",
           "text": "Hiding outliers that do not support the hypothesis",
           "isCorrect": false
         },
         {
-          "id": "wud6gy5",
+          "id": "8shhjzo",
           "label": "B",
           "text": "Highlighting individual data points",
           "isCorrect": true
         },
         {
-          "id": "tz0gc9l",
+          "id": "oi5oios",
           "label": "C",
           "text": "Providing data to different users based on their particular needs",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "5zqxdrg",
+          "id": "2lec83q",
           "label": "D",
           "text": "Limiting the number of rows or columns in view",
-          "isCorrect": false
-        },
-        {
-          "id": "75b3obe",
-          "label": "C",
-          "text": "Providing data to different users based on their particular needs",
-          "isCorrect": false
-        },
-        {
-          "id": "0gwdq1t",
-          "label": "D",
-          "text": "Limiting the number of rows or columns in view",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Highlighting individual data points",
+      "explanation": "Đáp án đúng: B, C, D - B. Highlighting individual data points C. Providing data to different users based on their particular needs D. Limiting the number of rows or columns in view",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1531,37 +1423,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "02c1ngg",
+          "id": "cmlx3eb",
           "label": "A",
           "text": "Iterations",
           "isCorrect": false
         },
         {
-          "id": "w4akyv1",
+          "id": "khoxocx",
           "label": "B",
           "text": "Models",
           "isCorrect": false
         },
         {
-          "id": "jdoyiux",
+          "id": "6lwu55d",
           "label": "C",
           "text": "Information channels",
           "isCorrect": true
         },
         {
-          "id": "j2jgpvr",
+          "id": "ek5vych",
           "label": "D",
           "text": "Processes",
-          "isCorrect": false
-        },
-        {
-          "id": "219lhut",
-          "label": "D",
-          "text": "Processes",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Information channels",
+      "explanation": "Đáp án đúng: C, D - C. Information channels D. Processes",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1573,43 +1459,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "p4j00q9",
+          "id": "ieoktka",
           "label": "A",
           "text": "Create visualizations, dashboards, and reports to use when presenting and communicating insights",
           "isCorrect": false
         },
         {
-          "id": "6ow6mx3",
+          "id": "jx17l91",
           "label": "B",
           "text": "Evaluate and streamline various devices, infrastructures, and information channels",
           "isCorrect": true
         },
         {
-          "id": "ocxyag2",
+          "id": "5f4f1rm",
           "label": "C",
           "text": "Troubleshoot and find solutions to security issues, application permissions, and updates",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "gp8pn5y",
+          "id": "jkrqeop",
           "label": "D",
           "text": "Design, configure, implement, and improve data tools and processes",
-          "isCorrect": false
-        },
-        {
-          "id": "ex0pps4",
-          "label": "C",
-          "text": "Troubleshoot and find solutions to security issues, application permissions, and updates",
-          "isCorrect": false
-        },
-        {
-          "id": "aqaab2w",
-          "label": "D",
-          "text": "Design, configure, implement, and improve data tools and processes",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Evaluate and streamline various devices, infrastructures, and information channels",
+      "explanation": "Đáp án đúng: B, C, D - B. Evaluate and streamline various devices, infrastructures, and information channels C. Troubleshoot and find solutions to security issues, application permissions, and updates D. Design, configure, implement, and improve data tools and processes",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1621,37 +1495,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "mnez80e",
+          "id": "xrx1tcb",
           "label": "A",
           "text": "Platforms",
           "isCorrect": true
         },
         {
-          "id": "ie7onvr",
+          "id": "zdadav2",
           "label": "B",
           "text": "Tables",
           "isCorrect": false
         },
         {
-          "id": "3d24e9c",
+          "id": "hmwlco6",
           "label": "C",
           "text": "A set of functions",
           "isCorrect": true
         },
         {
-          "id": "95h7rue",
+          "id": "68itboi",
           "label": "D",
           "text": "Various procedures",
-          "isCorrect": false
-        },
-        {
-          "id": "e6ydbdp",
-          "label": "D",
-          "text": "Various procedures",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A set of functions",
+      "explanation": "Đáp án đúng: A, C, D - C. A set of functions D. Various procedures",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1663,31 +1531,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "pp793wc",
+          "id": "8mgzid7",
           "label": "A",
           "text": "information technology",
           "isCorrect": true
         },
         {
-          "id": "d07dyqp",
+          "id": "yj5rc9n",
           "label": "B",
           "text": "data analysis",
           "isCorrect": false
         },
         {
-          "id": "r2taqvq",
+          "id": "h0qq028",
           "label": "C",
           "text": "data warehousing",
           "isCorrect": false
         },
         {
-          "id": "42tnx26",
+          "id": "00rpfnk",
           "label": "D",
           "text": "project management",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. information technology",
+      "explanation": "Đáp án đúng: A - A. information technology",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -1699,43 +1567,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "cfy4vsq",
+          "id": "z417ko7",
           "label": "A",
           "text": "Both use data to answer questions about what happened.",
           "isCorrect": false
         },
         {
-          "id": "kgcqwya",
+          "id": "ofn92hp",
           "label": "B",
           "text": "Data analysts solve business problems by examining data through a specific topic or subject-matter lens.",
           "isCorrect": true
         },
         {
-          "id": "ercnf1p",
+          "id": "f8qhqvn",
           "label": "C",
           "text": "Business intelligence analysts build data-reporting tools and dashboards for continuous monitoring.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "ni9xwe7",
+          "id": "wiixtkh",
           "label": "D",
           "text": "Business intelligence analysts ensure reporting tools are practical and efficient.",
-          "isCorrect": false
-        },
-        {
-          "id": "njarlp6",
-          "label": "C",
-          "text": "Business intelligence analysts build data-reporting tools and dashboards for continuous monitoring.",
-          "isCorrect": false
-        },
-        {
-          "id": "tvws1zq",
-          "label": "D",
-          "text": "Business intelligence analysts ensure reporting tools are practical and efficient.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data analysts solve business problems by examining data through a specific topic or subject-matter lens.",
+      "explanation": "Đáp án đúng: B, C, D - B. Data analysts solve business problems by examining data through a specific topic or subject-matter lens. C. Business intelligence analysts build data-reporting tools and dashboards for continuous monitoring. D. Business intelligence analysts ensure reporting tools are practical and efficient.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1747,31 +1603,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "3c0hper",
+          "id": "ywcdx9j",
           "label": "A",
           "text": "Report",
           "isCorrect": false
         },
         {
-          "id": "prnfnx4",
+          "id": "l4njkrl",
           "label": "B",
           "text": "Monitor",
           "isCorrect": false
         },
         {
-          "id": "a5qie0a",
+          "id": "yd4v2qg",
           "label": "C",
           "text": "Capture",
           "isCorrect": true
         },
         {
-          "id": "e4rolq7",
+          "id": "pag6sl3",
           "label": "D",
           "text": "Analyze",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Capture",
+      "explanation": "Đáp án đúng: C - C. Capture",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -1783,31 +1639,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "lz7go1c",
+          "id": "vd2vxed",
           "label": "A",
           "text": "Discover key relationships between data points",
           "isCorrect": false
         },
         {
-          "id": "mh2jx8d",
+          "id": "n2tpzxr",
           "label": "B",
           "text": "Identify connections that were not easily apparent",
           "isCorrect": false
         },
         {
-          "id": "fljaaqh",
+          "id": "cf88r6b",
           "label": "C",
           "text": "Understand why something happened",
           "isCorrect": false
         },
         {
-          "id": "7ugxumg",
+          "id": "ej4lzq3",
           "label": "D",
           "text": "Gain insights about what's happening in the organization right now",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Gain insights about what's happening in the organization right now",
+      "explanation": "Đáp án đúng: D - D. Gain insights about what's happening in the organization right now",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -1819,43 +1675,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "8ltkr43",
+          "id": "db2vk70",
           "label": "A",
           "text": "Deciding who is responsible for business intelligence rules and policies",
           "isCorrect": false
         },
         {
-          "id": "odh960y",
+          "id": "wn7czrs",
           "label": "B",
           "text": "Confirming access to needed technologies",
           "isCorrect": true
         },
         {
-          "id": "0ja1p27",
+          "id": "a59tj0z",
           "label": "C",
           "text": "Establishing key performance indicators",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "48zcct4",
+          "id": "rv5a09y",
           "label": "D",
           "text": "Considering which dashboards, reports, and other solutions will be most effective",
-          "isCorrect": false
-        },
-        {
-          "id": "wx10ds7",
-          "label": "C",
-          "text": "Establishing key performance indicators",
-          "isCorrect": false
-        },
-        {
-          "id": "jvi9z0r",
-          "label": "D",
-          "text": "Considering which dashboards, reports, and other solutions will be most effective",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Confirming access to needed technologies",
+      "explanation": "Đáp án đúng: B, C, D - B. Confirming access to needed technologies C. Establishing key performance indicators D. Considering which dashboards, reports, and other solutions will be most effective",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -1867,31 +1711,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "yqpepdj",
+          "id": "e890r6f",
           "label": "A",
           "text": "Dashboards",
           "isCorrect": false
         },
         {
-          "id": "ji1gs4b",
+          "id": "d8zlfbu",
           "label": "B",
           "text": "Data visualizations",
           "isCorrect": false
         },
         {
-          "id": "v825sqm",
+          "id": "odpn3eg",
           "label": "C",
           "text": "Data models",
           "isCorrect": true
         },
         {
-          "id": "tipvb5w",
+          "id": "oq8uznd",
           "label": "D",
           "text": "Pipelines",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Data models",
+      "explanation": "Đáp án đúng: C - C. Data models",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -1903,31 +1747,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ozblihc",
+          "id": "x66bnb4",
           "label": "A",
           "text": "Data models",
           "isCorrect": false
         },
         {
-          "id": "4qptsl3",
+          "id": "edi32oi",
           "label": "B",
           "text": "Dashboard",
           "isCorrect": false
         },
         {
-          "id": "e6k2vyw",
+          "id": "vd2f1yc",
           "label": "C",
           "text": "ETL",
           "isCorrect": true
         },
         {
-          "id": "yhmwo7s",
+          "id": "15451ce",
           "label": "D",
           "text": "Data visualization",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. ETL",
+      "explanation": "Đáp án đúng: C - C. ETL",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -1939,31 +1783,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "s3r1kmf",
+          "id": "piwuoe6",
           "label": "A",
           "text": "data repositories",
           "isCorrect": false
         },
         {
-          "id": "bf0kvdt",
+          "id": "vp3fn6v",
           "label": "B",
           "text": "databases",
           "isCorrect": false
         },
         {
-          "id": "li6u2dv",
+          "id": "yn88mxk",
           "label": "C",
           "text": "file managers",
           "isCorrect": false
         },
         {
-          "id": "jgnwu0h",
+          "id": "4fp38nh",
           "label": "D",
           "text": "computer programs",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. computer programs",
+      "explanation": "Đáp án đúng: D - D. computer programs",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -1975,31 +1819,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "cnt7xgn",
+          "id": "2hi60x6",
           "label": "A",
           "text": "Information technology professionals",
           "isCorrect": true
         },
         {
-          "id": "r1jph2z",
+          "id": "fmwthzq",
           "label": "B",
           "text": "Project managers",
           "isCorrect": false
         },
         {
-          "id": "ntxqied",
+          "id": "jjmaovy",
           "label": "C",
           "text": "Data analysts",
           "isCorrect": false
         },
         {
-          "id": "camjujf",
+          "id": "r1kpj5c",
           "label": "D",
           "text": "Data warehousing professionals",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Information technology professionals",
+      "explanation": "Đáp án đúng: A - A. Information technology professionals",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -2011,43 +1855,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "bqf600v",
+          "id": "yfd7d6t",
           "label": "A",
           "text": "Examine data through a specific topic or subject-matter lens",
           "isCorrect": false
         },
         {
-          "id": "317au6r",
+          "id": "xoda4j4",
           "label": "B",
           "text": "Establish repeatable methods for monitoring operations",
           "isCorrect": true
         },
         {
-          "id": "uwjjyih",
+          "id": "niy85qq",
           "label": "C",
           "text": "Create dashboards to continuously analyze and monitor data",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "pfvro0s",
+          "id": "nryby46",
           "label": "D",
           "text": "Build data-reporting tools",
-          "isCorrect": false
-        },
-        {
-          "id": "fv8gtd5",
-          "label": "C",
-          "text": "Create dashboards to continuously analyze and monitor data",
-          "isCorrect": false
-        },
-        {
-          "id": "aaidan2",
-          "label": "D",
-          "text": "Build data-reporting tools",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Establish repeatable methods for monitoring operations",
+      "explanation": "Đáp án đúng: B, C, D - B. Establish repeatable methods for monitoring operations C. Create dashboards to continuously analyze and monitor data D. Build data-reporting tools",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2059,43 +1891,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "oqfrp1s",
+          "id": "t9len53",
           "label": "A",
           "text": "Documenting everything that has been learned",
           "isCorrect": false
         },
         {
-          "id": "xl1khzl",
+          "id": "45xzgez",
           "label": "B",
           "text": "Understanding the vision for the business intelligence process",
           "isCorrect": true
         },
         {
-          "id": "evpsi50",
+          "id": "vnixifq",
           "label": "C",
           "text": "Getting feedback from people with diverse perspectives",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "n53w072",
+          "id": "0qdajfj",
           "label": "D",
           "text": "Deciding who is responsible for business intelligence governance",
-          "isCorrect": false
-        },
-        {
-          "id": "3mo362r",
-          "label": "C",
-          "text": "Getting feedback from people with diverse perspectives",
-          "isCorrect": false
-        },
-        {
-          "id": "6pee6bt",
-          "label": "D",
-          "text": "Deciding who is responsible for business intelligence governance",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Understanding the vision for the business intelligence process",
+      "explanation": "Đáp án đúng: B, C, D - B. Understanding the vision for the business intelligence process C. Getting feedback from people with diverse perspectives D. Deciding who is responsible for business intelligence governance",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2107,43 +1927,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "zl1gw4v",
+          "id": "yxvhoyn",
           "label": "A",
           "text": "Monitor and share live, incoming data",
           "isCorrect": false
         },
         {
-          "id": "e7avizc",
+          "id": "2s5jdtq",
           "label": "B",
           "text": "Provide clear directions when navigating a database",
           "isCorrect": true
         },
         {
-          "id": "ex686wa",
+          "id": "aerx59s",
           "label": "C",
           "text": "Keep data consistent across systems",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "gm9psw0",
+          "id": "6apc9r6",
           "label": "D",
           "text": "Organize data elements and how they relate to one another",
-          "isCorrect": false
-        },
-        {
-          "id": "z7q7gcb",
-          "label": "C",
-          "text": "Keep data consistent across systems",
-          "isCorrect": false
-        },
-        {
-          "id": "imvamvp",
-          "label": "D",
-          "text": "Organize data elements and how they relate to one another",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Provide clear directions when navigating a database",
+      "explanation": "Đáp án đúng: B, C, D - B. Provide clear directions when navigating a database C. Keep data consistent across systems D. Organize data elements and how they relate to one another",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2155,31 +1963,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "xkjjh2f",
+          "id": "q0aez2o",
           "label": "A",
           "text": "Dashboard",
           "isCorrect": false
         },
         {
-          "id": "8hyyppo",
+          "id": "fy7yqg5",
           "label": "B",
           "text": "programming language",
           "isCorrect": false
         },
         {
-          "id": "y8hi6pq",
+          "id": "akyl5vs",
           "label": "C",
           "text": "pipeline",
           "isCorrect": true
         },
         {
-          "id": "nzatsgj",
+          "id": "0pfef1k",
           "label": "D",
           "text": "package",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. pipeline",
+      "explanation": "Đáp án đúng: C - C. pipeline",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2191,31 +1999,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ew9ei7i",
+          "id": "4zx62y7",
           "label": "A",
           "text": "A tool for managing the availability, integrity, and security of data based on internal standards and policies",
           "isCorrect": true
         },
         {
-          "id": "pdsbega",
+          "id": "zvz2a9k",
           "label": "B",
           "text": "A process or set of rules followed to achieve a specific task",
           "isCorrect": false
         },
         {
-          "id": "yafnufi",
+          "id": "nu87dyg",
           "label": "C",
           "text": "A software application that brings together data analysis tools in a single place",
           "isCorrect": false
         },
         {
-          "id": "d6a5ov0",
+          "id": "bx1hjkc",
           "label": "D",
           "text": "A set of functions and procedures that integrate computer programs, forming a connection that enables them to communicate",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. A set of functions and procedures that integrate computer programs, forming a connection that enables them to communicate",
+      "explanation": "Đáp án đúng: A, D - D. A set of functions and procedures that integrate computer programs, forming a connection that enables them to communicate",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -2227,43 +2035,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "xae15pz",
+          "id": "bd02zi3",
           "label": "A",
           "text": "Records",
           "isCorrect": false
         },
         {
-          "id": "kvue7z3",
+          "id": "52ekuo1",
           "label": "B",
           "text": "Models",
           "isCorrect": true
         },
         {
-          "id": "53m9h0d",
+          "id": "7f2lu57",
           "label": "C",
           "text": "Dashboards",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "x18w0yb",
+          "id": "d7s0pvv",
           "label": "D",
           "text": "Pipelines",
-          "isCorrect": false
-        },
-        {
-          "id": "q5wvb8k",
-          "label": "C",
-          "text": "Dashboards",
-          "isCorrect": false
-        },
-        {
-          "id": "k4m65zo",
-          "label": "D",
-          "text": "Pipelines",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Models",
+      "explanation": "Đáp án đúng: B, C, D - B. Models C. Dashboards D. Pipelines",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2275,43 +2071,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "epjtxku",
+          "id": "1uxxxhs",
           "label": "A",
           "text": "Visually depict data insights",
           "isCorrect": false
         },
         {
-          "id": "r5doal5",
+          "id": "yj4bfkz",
           "label": "B",
           "text": "Convert data into a useful format",
           "isCorrect": true
         },
         {
-          "id": "ww80v1t",
+          "id": "cshgtx2",
           "label": "C",
           "text": "Bring data into a warehouse or other unified destination system",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "itv9smh",
+          "id": "c81bepz",
           "label": "D",
           "text": "Gather data from source systems",
-          "isCorrect": false
-        },
-        {
-          "id": "r7iab5w",
-          "label": "C",
-          "text": "Bring data into a warehouse or other unified destination system",
-          "isCorrect": false
-        },
-        {
-          "id": "lo574sg",
-          "label": "D",
-          "text": "Gather data from source systems",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Convert data into a useful format",
+      "explanation": "Đáp án đúng: B, C, D - B. Convert data into a useful format C. Bring data into a warehouse or other unified destination system D. Gather data from source systems",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2323,31 +2107,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "crwkuvc",
+          "id": "3r04yfu",
           "label": "A",
           "text": "actionable insights",
           "isCorrect": true
         },
         {
-          "id": "moykg7h",
+          "id": "2j2ssy9",
           "label": "B",
           "text": "business strategies",
           "isCorrect": false
         },
         {
-          "id": "9k4wz7w",
+          "id": "iktajaj",
           "label": "C",
           "text": "relevant metrics",
           "isCorrect": false
         },
         {
-          "id": "8r44dtv",
+          "id": "0ltlm15",
           "label": "D",
           "text": "connected systems",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. actionable insights",
+      "explanation": "Đáp án đúng: A - A. actionable insights",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2359,31 +2143,13 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "q0eqqao",
+          "id": "27rfpap",
           "label": "A",
           "text": "Engineers create data visualizations, dashboards, and reports",
-          "isCorrect": false
-        },
-        {
-          "id": "pp9xc7q",
-          "label": "B",
-          "text": "Engineers apply their knowledge of large datasets",
-          "isCorrect": false
-        },
-        {
-          "id": "2yu1dts",
-          "label": "C",
-          "text": "Engineers gather requirements from stakeholders",
-          "isCorrect": false
-        },
-        {
-          "id": "bdc5xi6",
-          "label": "D",
-          "text": "Engineers design, configure, implement, and improve tools",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: analysts present their findings to team members. analysts are responsible for less complex types of intelligence. analysts apply those requirements to evaluate devices, infrastructures, and information channels. analysts use those tools to retrieve, organize, and interpret data.: D. Engineers design, configure, implement, and improve tools analysts use those tools to retrieve, organize, and interpret data.:",
+      "explanation": "Đáp án đúng: A - analysts present their findings to team members. B. Engineers apply their knowledge of large datasets: analysts are responsible for less complex types of intelligence. C. Engineers gather requirements from stakeholders: analysts apply those requirements to evaluate devices, infrastructures, and information channels. D. Engineers design, configure, implement, and improve tools: analysts use those tools to retrieve, organize, and interpret data.: D. Engineers design, configure, implement, and improve tools analysts use those tools to retrieve, organize, and interpret data.:",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -2395,37 +2161,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ob2vb71",
+          "id": "7ts2byj",
           "label": "A",
           "text": "Bring data into an internal company database",
           "isCorrect": false
         },
         {
-          "id": "9n3dp8r",
+          "id": "0bm3f6c",
           "label": "B",
           "text": "Write code specific to the project goals",
           "isCorrect": false
         },
         {
-          "id": "jhumzqv",
+          "id": "6mf2ivj",
           "label": "C",
           "text": "Test software",
           "isCorrect": true
         },
         {
-          "id": "7vsbesw",
+          "id": "kbqzrn2",
           "label": "D",
           "text": "Install, repair, and upgrade hardware",
-          "isCorrect": false
-        },
-        {
-          "id": "wsv9kwr",
-          "label": "D",
-          "text": "Install, repair, and upgrade hardware",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Test software",
+      "explanation": "Đáp án đúng: C, D - C. Test software D. Install, repair, and upgrade hardware",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2437,31 +2197,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "pbp950c",
+          "id": "xdxn600",
           "label": "A",
           "text": "Monitor",
           "isCorrect": false
         },
         {
-          "id": "soqcah3",
+          "id": "gojb8aa",
           "label": "B",
           "text": "Capture",
           "isCorrect": true
         },
         {
-          "id": "1t9u3no",
+          "id": "sipefew",
           "label": "C",
           "text": "Report",
           "isCorrect": false
         },
         {
-          "id": "fzzih8c",
+          "id": "r5ko1n8",
           "label": "D",
           "text": "Analyze",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Capture",
+      "explanation": "Đáp án đúng: B - B. Capture",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2473,43 +2233,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1nzrscg",
+          "id": "lhzi2m1",
           "label": "A",
           "text": "Establishing key performance indicators",
           "isCorrect": false
         },
         {
-          "id": "znzcjec",
+          "id": "z6wwetv",
           "label": "B",
           "text": "Asking data governance professionals about the solutions being used",
           "isCorrect": true
         },
         {
-          "id": "r7jk2hn",
+          "id": "k36ovwc",
           "label": "C",
           "text": "Creating a feedback system to confirm that users are getting value from the tools",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "yf23bmb",
+          "id": "kj7rpny",
           "label": "D",
           "text": "Training and educating users",
-          "isCorrect": false
-        },
-        {
-          "id": "1xygpap",
-          "label": "C",
-          "text": "Creating a feedback system to confirm that users are getting value from the tools",
-          "isCorrect": false
-        },
-        {
-          "id": "b69y5t0",
-          "label": "D",
-          "text": "Training and educating users",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Asking data governance professionals about the solutions being used",
+      "explanation": "Đáp án đúng: B, C, D - B. Asking data governance professionals about the solutions being used C. Creating a feedback system to confirm that users are getting value from the tools D. Training and educating users",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2521,31 +2269,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "1d21kdy",
+          "id": "9u2r171",
           "label": "A",
           "text": "Data governance professionals",
           "isCorrect": true
         },
         {
-          "id": "7xvuzgw",
+          "id": "m2bcqco",
           "label": "B",
           "text": "Information technology professionals",
           "isCorrect": false
         },
         {
-          "id": "muj6mv2",
+          "id": "6gytq7k",
           "label": "C",
           "text": "Data analysts",
           "isCorrect": false
         },
         {
-          "id": "fsgt4ky",
+          "id": "xfll0d4",
           "label": "D",
           "text": "Data warehousing specialists",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Data governance professionals",
+      "explanation": "Đáp án đúng: A - A. Data governance professionals",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -2557,31 +2305,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fu6xzsf",
+          "id": "pf9j5tq",
           "label": "A",
           "text": "data visualizations",
           "isCorrect": false
         },
         {
-          "id": "w5an8ao",
+          "id": "vrkzr2r",
           "label": "B",
           "text": "data models",
           "isCorrect": true
         },
         {
-          "id": "2jg2dh9",
+          "id": "6asoqlo",
           "label": "C",
           "text": "dashboards",
           "isCorrect": false
         },
         {
-          "id": "68h9wdu",
+          "id": "co15v6r",
           "label": "D",
           "text": "pipelines",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. data models",
+      "explanation": "Đáp án đúng: B - B. data models",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2593,31 +2341,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "jy5nagm",
+          "id": "kchyhso",
           "label": "A",
           "text": "Analyze",
           "isCorrect": false
         },
         {
-          "id": "ulb6idv",
+          "id": "akunlp7",
           "label": "B",
           "text": "Capture",
           "isCorrect": true
         },
         {
-          "id": "uq7sarx",
+          "id": "4hc9e0r",
           "label": "C",
           "text": "Monitor",
           "isCorrect": false
         },
         {
-          "id": "exk58xs",
+          "id": "bv2j27f",
           "label": "D",
           "text": "Report",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Capture",
+      "explanation": "Đáp án đúng: B - B. Capture",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2629,43 +2377,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "8of96st",
+          "id": "50ptn2r",
           "label": "A",
           "text": "A company transforms data in order to investigate more deeply.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "ycnysph",
+          "id": "xpvih3k",
           "label": "B",
           "text": "Information channels provide data that reveals a business opportunity.",
           "isCorrect": true
         },
         {
-          "id": "4cqc9m7",
+          "id": "axaczbv",
           "label": "C",
           "text": "Decision-makers are given business insights through a dashboard.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "kc61ixk",
+          "id": "3tz2tq6",
           "label": "D",
           "text": "A company uses automated processes to transform data into intelligence.-",
-          "isCorrect": false
-        },
-        {
-          "id": "25t2fmn",
-          "label": "C",
-          "text": "Decision-makers are given business insights through a dashboard.",
-          "isCorrect": false
-        },
-        {
-          "id": "7aey443",
-          "label": "D",
-          "text": "A company uses automated processes to transform data into intelligence.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Information channels provide data that reveals a business opportunity.",
+      "explanation": "Đáp án đúng: A, B, C, D - B. Information channels provide data that reveals a business opportunity. C. Decision-makers are given business insights through a dashboard. D. A company uses automated processes to transform data into intelligence.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2677,43 +2413,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "r8gudio",
+          "id": "odj03qu",
           "label": "A",
           "text": "Examining data through a specific topic or subject-matter lens",
           "isCorrect": false
         },
         {
-          "id": "ke6ig88",
+          "id": "9eu29y1",
           "label": "B",
           "text": "Establishing repeatable methods for monitoring data",
           "isCorrect": true
         },
         {
-          "id": "z9u1opr",
+          "id": "sss7bn7",
           "label": "C",
           "text": "Working on large-scale projects that are helpful to multiple stakeholders",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "ign5ic9",
+          "id": "m00w50q",
           "label": "D",
           "text": "Building data-reporting tools and dashboards",
-          "isCorrect": false
-        },
-        {
-          "id": "9f8gbc6",
-          "label": "C",
-          "text": "Working on large-scale projects that are helpful to multiple stakeholders",
-          "isCorrect": false
-        },
-        {
-          "id": "nygzs6h",
-          "label": "D",
-          "text": "Building data-reporting tools and dashboards",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Establishing repeatable methods for monitoring data",
+      "explanation": "Đáp án đúng: B, C, D - B. Establishing repeatable methods for monitoring data C. Working on large-scale projects that are helpful to multiple stakeholders D. Building data-reporting tools and dashboards",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2725,31 +2449,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "qgkc9ah",
+          "id": "eewrqxr",
           "label": "A",
           "text": "troubleshooting expertise",
           "isCorrect": false
         },
         {
-          "id": "b95lokj",
+          "id": "czcanmy",
           "label": "B",
           "text": "data transformation frequency",
           "isCorrect": false
         },
         {
-          "id": "1erf6gt",
+          "id": "ennvkce",
           "label": "C",
           "text": "data maturity level",
           "isCorrect": true
         },
         {
-          "id": "pvffojm",
+          "id": "agwn8f5",
           "label": "D",
           "text": "process automation capability",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. data maturity level",
+      "explanation": "Đáp án đúng: C - C. data maturity level",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2761,31 +2485,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "poeh4ut",
+          "id": "omarfsn",
           "label": "A",
           "text": "Extract, transform, and load",
           "isCorrect": true
         },
         {
-          "id": "5vugmar",
+          "id": "6row6dw",
           "label": "B",
           "text": "Equate, transact, and label",
           "isCorrect": false
         },
         {
-          "id": "jlf8ybk",
+          "id": "oj8paq9",
           "label": "C",
           "text": "Estimate, target, and log",
           "isCorrect": false
         },
         {
-          "id": "pqr02nh",
+          "id": "yuhymah",
           "label": "D",
           "text": "External, temporary, and live",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Extract, transform, and load",
+      "explanation": "Đáp án đúng: A - A. Extract, transform, and load",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -2797,31 +2521,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "hnc3xue",
+          "id": "ykt7b6f",
           "label": "A",
           "text": "Systems software developers",
           "isCorrect": false
         },
         {
-          "id": "ztimd5c",
+          "id": "6rpy3c2",
           "label": "B",
           "text": "Applications software developer",
           "isCorrect": false
         },
         {
-          "id": "qz4qs02",
+          "id": "k572aqt",
           "label": "C",
           "text": "Systems analyst",
           "isCorrect": true
         },
         {
-          "id": "vhgfq9g",
+          "id": "9tjzsq3",
           "label": "D",
           "text": "Project sponsor",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Systems analyst",
+      "explanation": "Đáp án đúng: C - C. Systems analyst",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -2833,43 +2557,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "nrg970a",
+          "id": "c3hah5k",
           "label": "A",
           "text": "Mission",
           "isCorrect": false
         },
         {
-          "id": "ca2vmjd",
+          "id": "gmy1di1",
           "label": "B",
           "text": "Product",
           "isCorrect": true
         },
         {
-          "id": "r48tnkm",
+          "id": "9y4459l",
           "label": "C",
           "text": "Outcome",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "tem3nsx",
+          "id": "uxz9x5t",
           "label": "D",
           "text": "Service",
-          "isCorrect": false
-        },
-        {
-          "id": "lqxe4wr",
-          "label": "C",
-          "text": "Outcome",
-          "isCorrect": false
-        },
-        {
-          "id": "7cd6qbu",
-          "label": "D",
-          "text": "Service",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Product",
+      "explanation": "Đáp án đúng: B, C, D - B. Product C. Outcome D. Service",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -2881,31 +2593,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "es0274f",
+          "id": "1s14ihk",
           "label": "A",
           "text": "Fairness",
           "isCorrect": true
         },
         {
-          "id": "jeyr2d2",
+          "id": "44h4six",
           "label": "B",
           "text": "Integrity",
           "isCorrect": false
         },
         {
-          "id": "s6lg3i6",
+          "id": "tu9on6n",
           "label": "C",
           "text": "Subjectivity",
           "isCorrect": false
         },
         {
-          "id": "j1kmh41",
+          "id": "c3jfd5b",
           "label": "D",
           "text": "Governance",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Fairness",
+      "explanation": "Đáp án đúng: A - A. Fairness",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -2917,31 +2629,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "3rto7dx",
+          "id": "z008hed",
           "label": "A",
           "text": "Metric",
           "isCorrect": true
         },
         {
-          "id": "5mg6o6p",
+          "id": "n7vmmxa",
           "label": "B",
           "text": "Dimension",
           "isCorrect": false
         },
         {
-          "id": "t4rlefi",
+          "id": "8jpr2lk",
           "label": "C",
           "text": "Index",
           "isCorrect": false
         },
         {
-          "id": "00jodpk",
+          "id": "xetw3ob",
           "label": "D",
           "text": "Target",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Metric",
+      "explanation": "Đáp án đúng: A - A. Metric",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -2953,31 +2665,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "f0y58z7",
+          "id": "059rv9a",
           "label": "A",
           "text": "Speed",
           "isCorrect": false
         },
         {
-          "id": "hpg9ll1",
+          "id": "qj8zs0t",
           "label": "B",
           "text": "Processes",
           "isCorrect": false
         },
         {
-          "id": "1ragj9m",
+          "id": "wx3wz4e",
           "label": "C",
           "text": "Strategy",
           "isCorrect": true
         },
         {
-          "id": "s090j3p",
+          "id": "s6wn8pv",
           "label": "D",
           "text": "Intelligence",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Strategy",
+      "explanation": "Đáp án đúng: C - C. Strategy",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -2989,31 +2701,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "hjrvtql",
+          "id": "qd3amt7",
           "label": "A",
           "text": "Scale",
           "isCorrect": false
         },
         {
-          "id": "xu5820x",
+          "id": "em3af32",
           "label": "B",
           "text": "Throughput",
           "isCorrect": false
         },
         {
-          "id": "a7dbcjw",
+          "id": "emfxnup",
           "label": "C",
           "text": "Monitoring",
           "isCorrect": true
         },
         {
-          "id": "0qk96b0",
+          "id": "bf0fng8",
           "label": "D",
           "text": "Performance",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Monitoring",
+      "explanation": "Đáp án đúng: C - C. Monitoring",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3025,43 +2737,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "l8z0jwt",
+          "id": "1vipjih",
           "label": "A",
           "text": "Invest time and resources into the project",
           "isCorrect": false
         },
         {
-          "id": "hefj1za",
+          "id": "by8ghre",
           "label": "B",
           "text": "Represent the business side of a project",
           "isCorrect": true
         },
         {
-          "id": "ax1l1s0",
+          "id": "lg0rmxg",
           "label": "C",
           "text": "Assume overall accountability for a project",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "fepxpzx",
+          "id": "iuf14c0",
           "label": "D",
           "text": "Establish the criteria for project success",
-          "isCorrect": false
-        },
-        {
-          "id": "xsbpwey",
-          "label": "C",
-          "text": "Assume overall accountability for a project",
-          "isCorrect": false
-        },
-        {
-          "id": "schgjcv",
-          "label": "D",
-          "text": "Establish the criteria for project success",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Represent the business side of a project",
+      "explanation": "Đáp án đúng: B, C, D - B. Represent the business side of a project C. Assume overall accountability for a project D. Establish the criteria for project success",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3073,43 +2773,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "j9m4ewr",
+          "id": "docte1n",
           "label": "A",
           "text": "Visualize software applications",
           "isCorrect": false
         },
         {
-          "id": "2sh34qo",
+          "id": "40nm1li",
           "label": "B",
           "text": "Execute software application",
           "isCorrect": true
         },
         {
-          "id": "eg9oadz",
+          "id": "476jntq",
           "label": "C",
           "text": "Create software applications",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "rr9w7fd",
+          "id": "mboa2tm",
           "label": "D",
           "text": "Test software applications",
-          "isCorrect": false
-        },
-        {
-          "id": "40maxza",
-          "label": "C",
-          "text": "Create software applications",
-          "isCorrect": false
-        },
-        {
-          "id": "cqnjqam",
-          "label": "D",
-          "text": "Test software applications",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Execute software application",
+      "explanation": "Đáp án đúng: B, C, D - B. Execute software application C. Create software applications D. Test software applications",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3121,31 +2809,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "kcmjo29",
+          "id": "mxqnfl9",
           "label": "A",
           "text": "personal computers",
           "isCorrect": false
         },
         {
-          "id": "hp918bw",
+          "id": "qpe571c",
           "label": "B",
           "text": "small technical gadgets",
           "isCorrect": false
         },
         {
-          "id": "49aov9h",
+          "id": "lb69i9l",
           "label": "C",
           "text": "backend processing systems",
           "isCorrect": true
         },
         {
-          "id": "qwa7xv2",
+          "id": "c9l0kn7",
           "label": "D",
           "text": "mobile devices",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. backend processing systems",
+      "explanation": "Đáp án đúng: C - C. backend processing systems",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -3157,31 +2845,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "0nvv1jn",
+          "id": "k653vug",
           "label": "A",
           "text": "They create visualizations, dashboards, and reports.",
           "isCorrect": false
         },
         {
-          "id": "stbjko0",
+          "id": "otdsrjm",
           "label": "B",
           "text": "They retrieve, organize, and interpret the data.",
           "isCorrect": false
         },
         {
-          "id": "xtu7sm1",
+          "id": "9linjsw",
           "label": "C",
           "text": "They are involved at the very outset of a project and advocate for its undertaking.",
           "isCorrect": false
         },
         {
-          "id": "uk3m86d",
+          "id": "b2nzacc",
           "label": "D",
           "text": "They identify ways to design, implement, and advance information systems.",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. They identify ways to design, implement, and advance information systems.",
+      "explanation": "Đáp án đúng: D - D. They identify ways to design, implement, and advance information systems.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -3193,31 +2881,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "3qkf52k",
+          "id": "y3skw8c",
           "label": "A",
           "text": "Bias",
           "isCorrect": true
         },
         {
-          "id": "kr38pea",
+          "id": "63h3xj7",
           "label": "B",
           "text": "Detachment",
           "isCorrect": false
         },
         {
-          "id": "3r3166o",
+          "id": "yn7cpp7",
           "label": "C",
           "text": "Neutrality",
           "isCorrect": false
         },
         {
-          "id": "xpu5kxh",
+          "id": "3t9cykt",
           "label": "D",
           "text": "Impartiality",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Bias",
+      "explanation": "Đáp án đúng: A - A. Bias",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -3229,31 +2917,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2fqi0w0",
+          "id": "s3oj8iz",
           "label": "A",
           "text": "Metric",
           "isCorrect": false
         },
         {
-          "id": "d2rg950",
+          "id": "m74xklf",
           "label": "B",
           "text": "Key performance indicator",
           "isCorrect": true
         },
         {
-          "id": "rb8ycrr",
+          "id": "jrfah6o",
           "label": "C",
           "text": "Maturity assessment",
           "isCorrect": false
         },
         {
-          "id": "7kjgppg",
+          "id": "gcjoz3i",
           "label": "D",
           "text": "Scalability check",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Key performance indicator",
+      "explanation": "Đáp án đúng: B - B. Key performance indicator",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -3265,31 +2953,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "0myi5db",
+          "id": "o95gdk2",
           "label": "A",
           "text": "Tracker",
           "isCorrect": true
         },
         {
-          "id": "k06bg7k",
+          "id": "39qggia",
           "label": "B",
           "text": "milestone",
           "isCorrect": false
         },
         {
-          "id": "76t1g7i",
+          "id": "noz9n0z",
           "label": "C",
           "text": "strategy",
           "isCorrect": false
         },
         {
-          "id": "8ip40cu",
+          "id": "v1119qi",
           "label": "D",
           "text": "tactic",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Tracker",
+      "explanation": "Đáp án đúng: A - A. Tracker",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3301,31 +2989,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "rtcf1vu",
+          "id": "mdrmzxb",
           "label": "A",
           "text": "Monitoring",
           "isCorrect": true
         },
         {
-          "id": "i1g7ewz",
+          "id": "grsqmoz",
           "label": "B",
           "text": "Visibility",
           "isCorrect": false
         },
         {
-          "id": "rhac5yw",
+          "id": "hvh0i0n",
           "label": "C",
           "text": "Observation",
           "isCorrect": false
         },
         {
-          "id": "e5wpm7h",
+          "id": "q7j5q69",
           "label": "D",
           "text": "Strategy",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Monitoring",
+      "explanation": "Đáp án đúng: A - A. Monitoring",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3334,46 +3022,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-85",
       "questionNumber": 85,
       "questionText": "Project sponsors are accountable for a project. What does accountability entail?",
-      "questionType": "single",
+      "questionType": "multiple",
       "choices": [
         {
-          "id": "sumi9rw",
+          "id": "utj397a",
           "label": "A",
           "text": "Investing time and resources into the project",
           "isCorrect": false
         },
         {
-          "id": "qk7ycoa",
+          "id": "g6p55su",
           "label": "B",
           "text": "Accepting responsibility for the project",
           "isCorrect": true
         },
         {
-          "id": "by1nftd",
+          "id": "wmsfvgv",
           "label": "C",
           "text": "Sharing events, changes, and milestones about the project",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "asg4xn3",
+          "id": "nmr5t88",
           "label": "D",
           "text": "Being answerable for the project",
-          "isCorrect": false
-        },
-        {
-          "id": "jj3j1wm",
-          "label": "C",
-          "text": "Sharing events, changes, and milestones about the project",
-          "isCorrect": false
-        },
-        {
-          "id": "pjgui3r",
-          "label": "D",
-          "text": "Being answerable for the project",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Accepting responsibility for the project",
+      "explanation": "Đáp án đúng: B, C, D - B. Accepting responsibility for the project C. Sharing events, changes, and milestones about the project D. Being answerable for the project",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -3385,31 +3061,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "zzpycbw",
+          "id": "lu74z9o",
           "label": "A",
           "text": "models",
           "isCorrect": false
         },
         {
-          "id": "nly0ko4",
+          "id": "ibk1fil",
           "label": "B",
           "text": "programming languages",
           "isCorrect": true
         },
         {
-          "id": "u8k4otr",
+          "id": "kdrigzh",
           "label": "C",
           "text": "mapping",
           "isCorrect": false
         },
         {
-          "id": "ev8f6pn",
+          "id": "8wstrc7",
           "label": "D",
           "text": "design patterns",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. programming languages",
+      "explanation": "Đáp án đúng: B - B. programming languages",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -3421,43 +3097,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ra1dz13",
+          "id": "fplt41b",
           "label": "A",
           "text": "Determine the best methods for reporting on results",
           "isCorrect": false
         },
         {
-          "id": "gocm4ft",
+          "id": "5igpe6s",
           "label": "B",
           "text": "Identify effective ways to design and implement information systems",
           "isCorrect": true
         },
         {
-          "id": "f40usbv",
+          "id": "2s9e0wx",
           "label": "C",
           "text": "Study how an organization uses its technologies",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "n3x2s8m",
+          "id": "ors2udo",
           "label": "D",
           "text": "Improve an organization's computer hardware and software",
-          "isCorrect": false
-        },
-        {
-          "id": "as8dzs8",
-          "label": "C",
-          "text": "Study how an organization uses its technologies",
-          "isCorrect": false
-        },
-        {
-          "id": "ntylk2a",
-          "label": "D",
-          "text": "Improve an organization's computer hardware and software",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Identify effective ways to design and implement information systems",
+      "explanation": "Đáp án đúng: B, C, D - B. Identify effective ways to design and implement information systems C. Study how an organization uses its technologies D. Improve an organization's computer hardware and software",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3469,31 +3133,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "r020wtn",
+          "id": "2u9x8qq",
           "label": "A",
           "text": "metric",
           "isCorrect": false
         },
         {
-          "id": "o2l0gmi",
+          "id": "h2w66hw",
           "label": "B",
           "text": "key performance indicator",
           "isCorrect": true
         },
         {
-          "id": "fq6mesq",
+          "id": "60zg10w",
           "label": "C",
           "text": "maturity assessment",
           "isCorrect": false
         },
         {
-          "id": "971bl8t",
+          "id": "j0iny2a",
           "label": "D",
           "text": "scale",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. key performance indicator",
+      "explanation": "Đáp án đúng: B - B. key performance indicator",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3505,43 +3169,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "2qke4iv",
+          "id": "asclfrs",
           "label": "A",
           "text": "KPIs support metrics.",
           "isCorrect": false
         },
         {
-          "id": "ygu5p4v",
+          "id": "64grmwe",
           "label": "B",
           "text": "Metrics support KPIs.",
           "isCorrect": true
         },
         {
-          "id": "qiv80zy",
+          "id": "z57fpnb",
           "label": "C",
           "text": "Metrics are tactical.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "vf1zevl",
+          "id": "59z1he4",
           "label": "D",
           "text": "KPIs are strategic.",
-          "isCorrect": false
-        },
-        {
-          "id": "udacfh2",
-          "label": "C",
-          "text": "Metrics are tactical.",
-          "isCorrect": false
-        },
-        {
-          "id": "ilcyqdf",
-          "label": "D",
-          "text": "KPIs are strategic.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Metrics support KPIs.",
+      "explanation": "Đáp án đúng: B, C, D - B. Metrics support KPIs. C. Metrics are tactical. D. KPIs are strategic.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3553,31 +3205,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fp4u4bp",
+          "id": "jrau6x3",
           "label": "A",
           "text": "data models",
           "isCorrect": false
         },
         {
-          "id": "kozqgyo",
+          "id": "njih8u8",
           "label": "B",
           "text": "software applications",
           "isCorrect": true
         },
         {
-          "id": "3w82r0p",
+          "id": "r1a9v2g",
           "label": "C",
           "text": "dashboards",
           "isCorrect": false
         },
         {
-          "id": "iixwwab",
+          "id": "zzkpaqh",
           "label": "D",
           "text": "data visualizations",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. software applications",
+      "explanation": "Đáp án đúng: B - B. software applications",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -3589,37 +3241,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "exrz9ue",
+          "id": "znlv8jb",
           "label": "A",
           "text": "Systems software developers design computer and mobile applications.",
           "isCorrect": false
         },
         {
-          "id": "l0gq8rl",
+          "id": "9tn7l6u",
           "label": "B",
           "text": "Systems software developers are largely focused on creating products and solutions for consumers.",
           "isCorrect": false
         },
         {
-          "id": "fp9g68u",
+          "id": "zt4mm06",
           "label": "C",
           "text": "Systems software developers are likely to be stakeholders on a business intelligence project.",
           "isCorrect": true
         },
         {
-          "id": "lihgd2q",
+          "id": "1x6whd4",
           "label": "D",
           "text": "Systems software developers create applications and programs for backend processing systems.",
-          "isCorrect": false
-        },
-        {
-          "id": "7pbcplf",
-          "label": "D",
-          "text": "Systems software developers create applications and programs for backend processing systems.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Systems software developers are likely to be stakeholders on a business intelligence project.",
+      "explanation": "Đáp án đúng: C, D - C. Systems software developers are likely to be stakeholders on a business intelligence project. D. Systems software developers create applications and programs for backend processing systems.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3631,31 +3277,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "pny5zcj",
+          "id": "zcztdnp",
           "label": "A",
           "text": "information systems",
           "isCorrect": true
         },
         {
-          "id": "lbbyulx",
+          "id": "vehrwnu",
           "label": "B",
           "text": "business intelligence dashboards",
           "isCorrect": false
         },
         {
-          "id": "mwtudna",
+          "id": "29qubwh",
           "label": "C",
           "text": "models",
           "isCorrect": false
         },
         {
-          "id": "xib3nzr",
+          "id": "5hh78no",
           "label": "D",
           "text": "data warehouses",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. information systems",
+      "explanation": "Đáp án đúng: A - A. information systems",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -3667,31 +3313,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "d5h9pmx",
+          "id": "samv5zo",
           "label": "A",
           "text": "To determine functional effectiveness",
           "isCorrect": false
         },
         {
-          "id": "hvrak5a",
+          "id": "vtquku8",
           "label": "B",
           "text": "To assess business operations",
           "isCorrect": false
         },
         {
-          "id": "bi7kybx",
+          "id": "xgznitm",
           "label": "C",
           "text": "To track progress toward a goal",
           "isCorrect": true
         },
         {
-          "id": "42uyicx",
+          "id": "lokhwbr",
           "label": "D",
           "text": "To evaluate overall productivity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. To track progress toward a goal",
+      "explanation": "Đáp án đúng: C - C. To track progress toward a goal",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3703,31 +3349,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "mbklkh0",
+          "id": "8jjy0mk",
           "label": "A",
           "text": "Visibility",
           "isCorrect": false
         },
         {
-          "id": "9ljyv2u",
+          "id": "wclyle4",
           "label": "B",
           "text": "Monitoring",
           "isCorrect": true
         },
         {
-          "id": "fqm66ha",
+          "id": "z6mwi4z",
           "label": "C",
           "text": "Strategy",
           "isCorrect": false
         },
         {
-          "id": "c9nvw0n",
+          "id": "pumd1sf",
           "label": "D",
           "text": "Observation",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Monitoring",
+      "explanation": "Đáp án đúng: B - B. Monitoring",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3739,37 +3385,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "2fu5tsf",
+          "id": "gaizsjb",
           "label": "A",
           "text": "An example of a strategy is a metric.",
           "isCorrect": true
         },
         {
-          "id": "c5n5j0a",
+          "id": "pyhv9z9",
           "label": "B",
           "text": "An example of a tactic is a key performance indicator.",
           "isCorrect": false
         },
         {
-          "id": "zmir1jj",
+          "id": "lh6fucp",
           "label": "C",
           "text": "A tactic is a method used to enable an accomplishment.",
           "isCorrect": true
         },
         {
-          "id": "9qsxysh",
+          "id": "f36c8gd",
           "label": "D",
           "text": "A strategy is a plan for achieving a goal or arriving at a desired future state.",
-          "isCorrect": false
-        },
-        {
-          "id": "gfzq3bf",
-          "label": "D",
-          "text": "A strategy is a plan for achieving a goal or arriving at a desired future state.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A tactic is a method used to enable an accomplishment.",
+      "explanation": "Đáp án đúng: A, C, D - C. A tactic is a method used to enable an accomplishment. D. A strategy is a plan for achieving a goal or arriving at a desired future state.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3781,43 +3421,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "rhcejjc",
+          "id": "pqjeeh3",
           "label": "A",
           "text": "Applications software developers are likely to be stakeholders on a business intelligence project.",
           "isCorrect": false
         },
         {
-          "id": "tjcttfg",
+          "id": "p69p7fx",
           "label": "B",
           "text": "Systems software developers are likely to be stakeholders on a business intelligence project.",
           "isCorrect": true
         },
         {
-          "id": "u8jz4k1",
+          "id": "uu2c6ri",
           "label": "C",
           "text": "Applications software developers design computer or mobile applications for consumers.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "2hc0liv",
+          "id": "xcyldsd",
           "label": "D",
           "text": "Systems software developers create applications and programs for the backend processing systems used in organizations.",
-          "isCorrect": false
-        },
-        {
-          "id": "ox529p3",
-          "label": "C",
-          "text": "Applications software developers design computer or mobile applications for consumers.",
-          "isCorrect": false
-        },
-        {
-          "id": "509illg",
-          "label": "D",
-          "text": "Systems software developers create applications and programs for the backend processing systems used in organizations.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Systems software developers are likely to be stakeholders on a business intelligence project.",
+      "explanation": "Đáp án đúng: B, C, D - B. Systems software developers are likely to be stakeholders on a business intelligence project. C. Applications software developers design computer or mobile applications for consumers. D. Systems software developers create applications and programs for the backend processing systems used in organizations.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -3829,31 +3457,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "jfui07g",
+          "id": "4cckz01",
           "label": "A",
           "text": "Observation",
           "isCorrect": false
         },
         {
-          "id": "xmm4n7v",
+          "id": "671ilo1",
           "label": "B",
           "text": "Monitoring",
           "isCorrect": true
         },
         {
-          "id": "fmo02ns",
+          "id": "0sdk51j",
           "label": "C",
           "text": "Strategy",
           "isCorrect": false
         },
         {
-          "id": "c009fze",
+          "id": "ow6pcyk",
           "label": "D",
           "text": "Visibility",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Monitoring",
+      "explanation": "Đáp án đúng: B - B. Monitoring",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3865,31 +3493,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "763nlxn",
+          "id": "3t0ltgu",
           "label": "A",
           "text": "Business stakeholder",
           "isCorrect": false
         },
         {
-          "id": "g5yc2h1",
+          "id": "sm0xhsc",
           "label": "B",
           "text": "Systems analyst",
           "isCorrect": false
         },
         {
-          "id": "8nm6zvs",
+          "id": "w9ahqff",
           "label": "C",
           "text": "Developer",
           "isCorrect": true
         },
         {
-          "id": "uw6wfs6",
+          "id": "idc58ar",
           "label": "D",
           "text": "Project sponsor",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Developer",
+      "explanation": "Đáp án đúng: C - C. Developer",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3901,31 +3529,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "0bbebim",
+          "id": "jvkaccb",
           "label": "A",
           "text": "Research",
           "isCorrect": false
         },
         {
-          "id": "i0gtybn",
+          "id": "nilife2",
           "label": "B",
           "text": "Mapping",
           "isCorrect": false
         },
         {
-          "id": "vocb5bm",
+          "id": "fno8zpc",
           "label": "C",
           "text": "Interpretation",
           "isCorrect": false
         },
         {
-          "id": "yd7861r",
+          "id": "ry9v3zi",
           "label": "D",
           "text": "Contextualization",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Contextualization",
+      "explanation": "Đáp án đúng: D - D. Contextualization",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -3937,31 +3565,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "bbqgg9y",
+          "id": "qc0ir5o",
           "label": "A",
           "text": "Data performance",
           "isCorrect": false
         },
         {
-          "id": "nl6ivhw",
+          "id": "r5gqqhk",
           "label": "B",
           "text": "Data strategy",
           "isCorrect": false
         },
         {
-          "id": "lpwvtw9",
+          "id": "y5gb8e8",
           "label": "C",
           "text": "Data maturity",
           "isCorrect": false
         },
         {
-          "id": "3a4ehut",
+          "id": "8uaigsu",
           "label": "D",
           "text": "Data availability",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Data availability",
+      "explanation": "Đáp án đúng: D - D. Data availability",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -3973,31 +3601,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "brqvdje",
+          "id": "8tvz20d",
           "label": "A",
           "text": "Change",
           "isCorrect": true
         },
         {
-          "id": "ztt6p53",
+          "id": "zksfriy",
           "label": "B",
           "text": "Data integrity",
           "isCorrect": false
         },
         {
-          "id": "vw5rre0",
+          "id": "q9nn6ri",
           "label": "C",
           "text": "Data visibility",
           "isCorrect": false
         },
         {
-          "id": "shgtisp",
+          "id": "6rjqakb",
           "label": "D",
           "text": "Update frequency",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Change",
+      "explanation": "Đáp án đúng: A - A. Change",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -4009,31 +3637,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "c95xyo5",
+          "id": "vnm3hn4",
           "label": "A",
           "text": "Limit the number of metrics",
           "isCorrect": false
         },
         {
-          "id": "cx623rk",
+          "id": "bdlvfpr",
           "label": "B",
           "text": "Use only very specific metrics",
           "isCorrect": false
         },
         {
-          "id": "rxh4hnm",
+          "id": "y0lk2ww",
           "label": "C",
           "text": "Eliminate vanity metrics",
           "isCorrect": true
         },
         {
-          "id": "yx2ns2g",
+          "id": "9qpttyb",
           "label": "D",
           "text": "Ensure all metrics are measurable",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Eliminate vanity metrics",
+      "explanation": "Đáp án đúng: C - C. Eliminate vanity metrics",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4045,31 +3673,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "46ee2kb",
+          "id": "7lepr1t",
           "label": "A",
           "text": "Data partitioning",
           "isCorrect": false
         },
         {
-          "id": "dxjsfnk",
+          "id": "k1r0suz",
           "label": "B",
           "text": "Data governance",
           "isCorrect": false
         },
         {
-          "id": "zxltsvd",
+          "id": "ixuwjgc",
           "label": "C",
           "text": "Data integrity",
           "isCorrect": false
         },
         {
-          "id": "jxvwyvg",
+          "id": "bbo86cn",
           "label": "D",
           "text": "Data availability",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Data availability",
+      "explanation": "Đáp án đúng: D - D. Data availability",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4081,37 +3709,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "g5xjmkd",
+          "id": "805zenw",
           "label": "A",
           "text": "Display the most important metric at the base, as it is the foundation of the dashboard.",
           "isCorrect": false
         },
         {
-          "id": "1cg97rl",
+          "id": "ip7h8ca",
           "label": "B",
           "text": "Supporting metrics should rise up from the base, as they grow from the most important metric.",
           "isCorrect": false
         },
         {
-          "id": "rtrggc4",
+          "id": "h928kv0",
           "label": "C",
           "text": "Display supporting metrics below the top metric, as they reinforce it.",
           "isCorrect": true
         },
         {
-          "id": "p6sll4e",
+          "id": "24l0j74",
           "label": "D",
           "text": "Display the most important metric at the top.",
-          "isCorrect": false
-        },
-        {
-          "id": "nmuvwb0",
-          "label": "D",
-          "text": "Display the most important metric at the top.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Display supporting metrics below the top metric, as they reinforce it.",
+      "explanation": "Đáp án đúng: C, D - C. Display supporting metrics below the top metric, as they reinforce it. D. Display the most important metric at the top.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4123,31 +3745,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ldvquzb",
+          "id": "6y7edwq",
           "label": "A",
           "text": "Continuous improvement",
           "isCorrect": false
         },
         {
-          "id": "e2r401e",
+          "id": "ium4ozw",
           "label": "B",
           "text": "Situating data",
           "isCorrect": false
         },
         {
-          "id": "invisl0",
+          "id": "w6y1xgk",
           "label": "C",
           "text": "Positioning",
           "isCorrect": false
         },
         {
-          "id": "shs4uhm",
+          "id": "h1o5n46",
           "label": "D",
           "text": "Contextualizing",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Contextualizing",
+      "explanation": "Đáp án đúng: D - D. Contextualizing",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4159,43 +3781,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "k6lygh5",
+          "id": "xr94uub",
           "label": "A",
           "text": "Users have access to numerous dashboards in multiple places",
           "isCorrect": false
         },
         {
-          "id": "xlrm32d",
+          "id": "myezffv",
           "label": "B",
           "text": "Users provide details about how they will use the dashboard",
           "isCorrect": true
         },
         {
-          "id": "nr9jx8c",
+          "id": "h2r4fok",
           "label": "C",
           "text": "The data is in the right format",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "hfa7kee",
+          "id": "j88pj8o",
           "label": "D",
           "text": "The dashboard includes both big-picture insights and supporting information",
-          "isCorrect": false
-        },
-        {
-          "id": "65nzlz3",
-          "label": "C",
-          "text": "The data is in the right format",
-          "isCorrect": false
-        },
-        {
-          "id": "oodyzc6",
-          "label": "D",
-          "text": "The dashboard includes both big-picture insights and supporting information",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Users provide details about how they will use the dashboard",
+      "explanation": "Đáp án đúng: B, C, D - B. Users provide details about how they will use the dashboard C. The data is in the right format D. The dashboard includes both big-picture insights and supporting information",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4207,43 +3817,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "a27czw7",
+          "id": "ajq7eky",
           "label": "A",
           "text": "Evolution",
           "isCorrect": false
         },
         {
-          "id": "oxgdazf",
+          "id": "pnmez6v",
           "label": "B",
           "text": "Completeness",
           "isCorrect": true
         },
         {
-          "id": "yxp7tt0",
+          "id": "e0wmyko",
           "label": "C",
           "text": "Accuracy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "v2mpg91",
+          "id": "71vohga",
           "label": "D",
           "text": "Trustworthiness",
-          "isCorrect": false
-        },
-        {
-          "id": "gqiw6y4",
-          "label": "C",
-          "text": "Accuracy",
-          "isCorrect": false
-        },
-        {
-          "id": "bce6cuw",
-          "label": "D",
-          "text": "Trustworthiness",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Completeness",
+      "explanation": "Đáp án đúng: B, C, D - B. Completeness C. Accuracy D. Trustworthiness",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4255,31 +3853,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "r7mkq88",
+          "id": "iuas97d",
           "label": "A",
           "text": "Data range",
           "isCorrect": false
         },
         {
-          "id": "pbrq6tj",
+          "id": "b6u0fdv",
           "label": "B",
           "text": "Data openness",
           "isCorrect": false
         },
         {
-          "id": "8m4wzq2",
+          "id": "8z9n4dr",
           "label": "C",
           "text": "Data availability",
           "isCorrect": true
         },
         {
-          "id": "g591fed",
+          "id": "lnyzoul",
           "label": "D",
           "text": "Data dimensions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Data availability",
+      "explanation": "Đáp án đúng: C - C. Data availability",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4291,31 +3889,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2bl8uz2",
+          "id": "9x76wmy",
           "label": "A",
           "text": "Data visibility",
           "isCorrect": true
         },
         {
-          "id": "qqcl2da",
+          "id": "evilpzd",
           "label": "B",
           "text": "Data blending",
           "isCorrect": false
         },
         {
-          "id": "zjvq3pj",
+          "id": "n6fkf7q",
           "label": "C",
           "text": "Data manipulation",
           "isCorrect": false
         },
         {
-          "id": "fvgrd74",
+          "id": "3pf36v7",
           "label": "D",
           "text": "Data transfer",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Data visibility",
+      "explanation": "Đáp án đúng: A - A. Data visibility",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4327,31 +3925,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2h1v3c3",
+          "id": "431kgra",
           "label": "A",
           "text": "cross-functional stakeholders",
           "isCorrect": false
         },
         {
-          "id": "xn6ixg9",
+          "id": "hharcyv",
           "label": "B",
           "text": "disparate data sources",
           "isCorrect": true
         },
         {
-          "id": "kr5k0sl",
+          "id": "ud9fe7h",
           "label": "C",
           "text": "diverse dashboard users",
           "isCorrect": false
         },
         {
-          "id": "oza89p4",
+          "id": "5iq5lea",
           "label": "D",
           "text": "internal databases",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. disparate data sources",
+      "explanation": "Đáp án đúng: B - B. disparate data sources",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4363,31 +3961,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "karpq5g",
+          "id": "31v5rt6",
           "label": "A",
           "text": "Constrained metrics",
           "isCorrect": false
         },
         {
-          "id": "pvwap87",
+          "id": "vonswh8",
           "label": "B",
           "text": "Vanity metrics",
           "isCorrect": true
         },
         {
-          "id": "mjvsgin",
+          "id": "zo9d1oh",
           "label": "C",
           "text": "Spotlight metrics",
           "isCorrect": false
         },
         {
-          "id": "hhgndqa",
+          "id": "5daisbm",
           "label": "D",
           "text": "Biased metrics",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Vanity metrics",
+      "explanation": "Đáp án đúng: B - B. Vanity metrics",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4399,37 +3997,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "3e8kmrd",
+          "id": "4yf9791",
           "label": "A",
           "text": "Business objectives",
           "isCorrect": false
         },
         {
-          "id": "a0e17wl",
+          "id": "uvzascn",
           "label": "B",
           "text": "Budget items",
           "isCorrect": false
         },
         {
-          "id": "zzg9q34",
+          "id": "2sosd2t",
           "label": "C",
           "text": "Technologies",
           "isCorrect": true
         },
         {
-          "id": "5mju7se",
+          "id": "9mu5w50",
           "label": "D",
           "text": "Processes",
-          "isCorrect": false
-        },
-        {
-          "id": "qwa0c15",
-          "label": "D",
-          "text": "Processes",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Technologies",
+      "explanation": "Đáp án đúng: C, D - C. Technologies D. Processes",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4441,43 +4033,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "mo7oq3n",
+          "id": "pnkadhv",
           "label": "A",
           "text": "How it might be improved",
           "isCorrect": false
         },
         {
-          "id": "l23j1j8",
+          "id": "g6hbqb8",
           "label": "B",
           "text": "Where it fits within a larger setting",
           "isCorrect": true
         },
         {
-          "id": "k0yuel9",
+          "id": "tw1lyyu",
           "label": "C",
           "text": "The motivation behind it",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "3bwgh1f",
+          "id": "v75uwyw",
           "label": "D",
           "text": "The origin and other relevant background information",
-          "isCorrect": false
-        },
-        {
-          "id": "0h5xm00",
-          "label": "C",
-          "text": "The motivation behind it",
-          "isCorrect": false
-        },
-        {
-          "id": "itmk0p1",
-          "label": "D",
-          "text": "The origin and other relevant background information",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Where it fits within a larger setting",
+      "explanation": "Đáp án đúng: B, C, D - B. Where it fits within a larger setting C. The motivation behind it D. The origin and other relevant background information",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4489,31 +4069,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fzda858",
+          "id": "h1bo01d",
           "label": "A",
           "text": "Processing speed",
           "isCorrect": false
         },
         {
-          "id": "2nh1qin",
+          "id": "avf5j7m",
           "label": "B",
           "text": "Business metrics",
           "isCorrect": false
         },
         {
-          "id": "35jpo0o",
+          "id": "hg07mpc",
           "label": "C",
           "text": "Advanced analytics",
           "isCorrect": false
         },
         {
-          "id": "e1lzqvm",
+          "id": "654615s",
           "label": "D",
           "text": "Cross-functional relationships",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Cross-functional relationships",
+      "explanation": "Đáp án đúng: D - D. Cross-functional relationships",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4525,31 +4105,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "6fm8fir",
+          "id": "x0dd0ul",
           "label": "A",
           "text": "ethics",
           "isCorrect": false
         },
         {
-          "id": "zzn10fy",
+          "id": "icntre7",
           "label": "B",
           "text": "composition",
           "isCorrect": false
         },
         {
-          "id": "qi2b2h5",
+          "id": "ufl6e1q",
           "label": "C",
           "text": "structure",
           "isCorrect": false
         },
         {
-          "id": "py62hw1",
+          "id": "vd1a8xl",
           "label": "D",
           "text": "integrity",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. integrity",
+      "explanation": "Đáp án đúng: D - D. integrity",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -4561,31 +4141,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "sclt7ix",
+          "id": "9om6fnm",
           "label": "A",
           "text": "Data dimensions",
           "isCorrect": false
         },
         {
-          "id": "rucw475",
+          "id": "hi3ytwy",
           "label": "B",
           "text": "Data range",
           "isCorrect": false
         },
         {
-          "id": "oam6z6j",
+          "id": "29p7gdw",
           "label": "C",
           "text": "Data openness",
           "isCorrect": false
         },
         {
-          "id": "scm36o7",
+          "id": "b6dvelm",
           "label": "D",
           "text": "Data availability",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Data availability",
+      "explanation": "Đáp án đúng: D - D. Data availability",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4597,31 +4177,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "cvvriov",
+          "id": "a0zyp8w",
           "label": "A",
           "text": "Data transfer",
           "isCorrect": false
         },
         {
-          "id": "0hpym83",
+          "id": "rrau2eu",
           "label": "B",
           "text": "Data manipulation",
           "isCorrect": false
         },
         {
-          "id": "4qaomeu",
+          "id": "z6f69ae",
           "label": "C",
           "text": "Data visibility",
           "isCorrect": true
         },
         {
-          "id": "wckw1x4",
+          "id": "ocxey12",
           "label": "D",
           "text": "Data blending",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Data visibility",
+      "explanation": "Đáp án đúng: C - C. Data visibility",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4633,31 +4213,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5oqrv7r",
+          "id": "zt949qw",
           "label": "A",
           "text": "update frequency",
           "isCorrect": true
         },
         {
-          "id": "6ngtt8r",
+          "id": "kbwu0bm",
           "label": "B",
           "text": "diverse databases",
           "isCorrect": false
         },
         {
-          "id": "wv4q7b3",
+          "id": "mnuviv7",
           "label": "C",
           "text": "data push schedules",
           "isCorrect": false
         },
         {
-          "id": "crl5ppy",
+          "id": "mecisqi",
           "label": "D",
           "text": "non-live data",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. update frequency",
+      "explanation": "Đáp án đúng: A - A. update frequency",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -4669,31 +4249,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "i3ffuoy",
+          "id": "bznvnp3",
           "label": "A",
           "text": "spotlight metrics",
           "isCorrect": false
         },
         {
-          "id": "pev5yzf",
+          "id": "uprn582",
           "label": "B",
           "text": "constrained metrics",
           "isCorrect": false
         },
         {
-          "id": "l5t8w11",
+          "id": "qluoyjh",
           "label": "C",
           "text": "vanity metrics",
           "isCorrect": true
         },
         {
-          "id": "qdsdnhe",
+          "id": "8vkcl48",
           "label": "D",
           "text": "biased metrics",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. vanity metrics",
+      "explanation": "Đáp án đúng: C - C. vanity metrics",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4702,46 +4282,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-120",
       "questionNumber": 120,
       "questionText": "When determining which metrics to include on a dashboard, a business intelligence professional makes four key considerations: They first focus on using only metrics that are critical to project success. What are the other three considerations they make in this situation",
-      "questionType": "single",
+      "questionType": "multiple",
       "choices": [
         {
-          "id": "uj6cosp",
+          "id": "gj49w8h",
           "label": "A",
           "text": "Eliminate metrics that don't support stakeholder expectations.",
           "isCorrect": false
         },
         {
-          "id": "rcyy31t",
+          "id": "ws4qyka",
           "label": "B",
           "text": "Make sure metrics are aligned with business objectives.",
           "isCorrect": true
         },
         {
-          "id": "7sdd27v",
+          "id": "nm9331f",
           "label": "C",
           "text": "Confirm that necessary technologies and processes are in place.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "2o59x56",
+          "id": "tscn7iz",
           "label": "D",
           "text": "Avoid vague or very high-level metrics.",
-          "isCorrect": false
-        },
-        {
-          "id": "ersgzrt",
-          "label": "C",
-          "text": "Confirm that necessary technologies and processes are in place.",
-          "isCorrect": false
-        },
-        {
-          "id": "tgb27px",
-          "label": "D",
-          "text": "Avoid vague or very high-level metrics.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Make sure metrics are aligned with business objectives.",
+      "explanation": "Đáp án đúng: B, C, D - B. Make sure metrics are aligned with business objectives. C. Confirm that necessary technologies and processes are in place. D. Avoid vague or very high-level metrics.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -4753,31 +4321,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "u734wus",
+          "id": "z8ytsp0",
           "label": "A",
           "text": "Data that can be modified or updated by those who use it",
           "isCorrect": false
         },
         {
-          "id": "8kb7wwq",
+          "id": "8c96pem",
           "label": "B",
           "text": "The free access, usage, and sharing of data",
           "isCorrect": false
         },
         {
-          "id": "84wmiiz",
+          "id": "o8duh3p",
           "label": "C",
           "text": "Data protection features such as password protection, user permissions, and encryption",
           "isCorrect": false
         },
         {
-          "id": "x11yv1o",
+          "id": "4lxahat",
           "label": "D",
           "text": "The degree or extent to which timely and relevant data is accessible and can be put to use",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. The degree or extent to which timely and relevant data is accessible and can be put to use",
+      "explanation": "Đáp án đúng: D - D. The degree or extent to which timely and relevant data is accessible and can be put to use",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -4789,43 +4357,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "lwdiuiw",
+          "id": "90fg6qg",
           "label": "A",
           "text": "Empowering users with numerous dashboards that can be found in multiple places",
           "isCorrect": false
         },
         {
-          "id": "67008lb",
+          "id": "urukbib",
           "label": "B",
           "text": "Focusing on collaboration by creating an easily accessible dashboard",
           "isCorrect": true
         },
         {
-          "id": "akd5l6e",
+          "id": "f2oc8fd",
           "label": "C",
           "text": "Understanding how each particular stakeholder will use the dashboard",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "08229a5",
+          "id": "eefayqr",
           "label": "D",
           "text": "Considering how business intelligence aligns with the teams' overall business objectives",
-          "isCorrect": false
-        },
-        {
-          "id": "mxf44ef",
-          "label": "C",
-          "text": "Understanding how each particular stakeholder will use the dashboard",
-          "isCorrect": false
-        },
-        {
-          "id": "nqzkyvu",
-          "label": "D",
-          "text": "Considering how business intelligence aligns with the teams' overall business objectives",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Focusing on collaboration by creating an easily accessible dashboard",
+      "explanation": "Đáp án đúng: B, C, D - B. Focusing on collaboration by creating an easily accessible dashboard C. Understanding how each particular stakeholder will use the dashboard D. Considering how business intelligence aligns with the teams' overall business objectives",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4837,43 +4393,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "aynjbxk",
+          "id": "rut1sg2",
           "label": "A",
           "text": "Analyze the data",
           "isCorrect": false
         },
         {
-          "id": "ij7rroa",
+          "id": "qxr1qki",
           "label": "B",
           "text": "Monitor the data",
           "isCorrect": true
         },
         {
-          "id": "t8obbrq",
+          "id": "n8l2fl1",
           "label": "C",
           "text": "Integrate the data",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "hynx364",
+          "id": "q317xur",
           "label": "D",
           "text": "Identify the data",
-          "isCorrect": false
-        },
-        {
-          "id": "birp98o",
-          "label": "C",
-          "text": "Integrate the data",
-          "isCorrect": false
-        },
-        {
-          "id": "kjzi7f8",
-          "label": "D",
-          "text": "Identify the data",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Monitor the data",
+      "explanation": "Đáp án đúng: B, C, D - B. Monitor the data C. Integrate the data D. Identify the data",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -4885,31 +4429,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "696mcf4",
+          "id": "jhefkpn",
           "label": "A",
           "text": "composition",
           "isCorrect": false
         },
         {
-          "id": "hrwcb2x",
+          "id": "6rnvz0w",
           "label": "B",
           "text": "ethics",
           "isCorrect": false
         },
         {
-          "id": "h3g9996",
+          "id": "aa37rdk",
           "label": "C",
           "text": "integrity",
           "isCorrect": true
         },
         {
-          "id": "g8vofcx",
+          "id": "02xd68l",
           "label": "D",
           "text": "structure",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. integrity",
+      "explanation": "Đáp án đúng: C - C. integrity",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -4921,31 +4465,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ki72kbg",
+          "id": "r1uf7d8",
           "label": "A",
           "text": "Context",
           "isCorrect": false
         },
         {
-          "id": "xdairw4",
+          "id": "wzr4em3",
           "label": "B",
           "text": "Data visibility",
           "isCorrect": true
         },
         {
-          "id": "cgevvxe",
+          "id": "2nxb9dw",
           "label": "C",
           "text": "Change",
           "isCorrect": false
         },
         {
-          "id": "ubawnya",
+          "id": "2ot43b7",
           "label": "D",
           "text": "Data integrity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Data visibility",
+      "explanation": "Đáp án đúng: B - B. Data visibility",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -4957,31 +4501,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "toaftkx",
+          "id": "givpufq",
           "label": "A",
           "text": "Data structure",
           "isCorrect": false
         },
         {
-          "id": "av7gp2p",
+          "id": "r18zr95",
           "label": "B",
           "text": "Data lake",
           "isCorrect": true
         },
         {
-          "id": "7x93r8c",
+          "id": "6unj1lm",
           "label": "C",
           "text": "Data ecosystem",
           "isCorrect": false
         },
         {
-          "id": "jn2c4mb",
+          "id": "90w31gt",
           "label": "D",
           "text": "Data storage",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Data lake",
+      "explanation": "Đáp án đúng: B - B. Data lake",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -4993,37 +4537,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "j19sx8f",
+          "id": "v8e2ouz",
           "label": "A",
           "text": "A foreign key references a column or a group of columns in which each row uniquely identifies each record in the table.",
           "isCorrect": true
         },
         {
-          "id": "20y2tvy",
+          "id": "f8xfknv",
           "label": "B",
           "text": "A primary key forms connections because it is a field within a database table that's a primary key in another table.",
           "isCorrect": false
         },
         {
-          "id": "bmjpz3c",
+          "id": "41m2s7g",
           "label": "C",
           "text": "A primary key references a column or a group of columns in which each row uniquely identifies each record in the table.",
           "isCorrect": true
         },
         {
-          "id": "4qs8jdq",
+          "id": "mlw31ts",
           "label": "D",
           "text": "A foreign key forms connections because it is a field within a database table that is a primary key in another table.",
-          "isCorrect": false
-        },
-        {
-          "id": "r1dn5lw",
-          "label": "D",
-          "text": "A foreign key forms connections because it is a field within a database table that is a primary key in another table.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A primary key references a column or a group of columns in which each row uniquely identifies each record in the table.",
+      "explanation": "Đáp án đúng: A, C, D - C. A primary key references a column or a group of columns in which each row uniquely identifies each record in the table. D. A foreign key forms connections because it is a field within a database table that is a primary key in another table.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5035,31 +4573,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "n1i35pz",
+          "id": "iug95no",
           "label": "A",
           "text": "dimensional",
           "isCorrect": false
         },
         {
-          "id": "sz6re53",
+          "id": "n48k7h6",
           "label": "B",
           "text": "snowflake",
           "isCorrect": true
         },
         {
-          "id": "hycl02g",
+          "id": "mop1af3",
           "label": "C",
           "text": "geometric",
           "isCorrect": false
         },
         {
-          "id": "rb1mmvi",
+          "id": "3yg38kv",
           "label": "D",
           "text": "responsive",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. snowflake",
+      "explanation": "Đáp án đúng: B - B. snowflake",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5071,31 +4609,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ckxqnej",
+          "id": "3pz1yoy",
           "label": "A",
           "text": "Combined systems",
           "isCorrect": false
         },
         {
-          "id": "n02nnvp",
+          "id": "bi6sp73",
           "label": "B",
           "text": "Separated storage and computing systems",
           "isCorrect": true
         },
         {
-          "id": "salf5e4",
+          "id": "33um47i",
           "label": "C",
           "text": "Single-homed databases",
           "isCorrect": false
         },
         {
-          "id": "c9hedkb",
+          "id": "thelcgx",
           "label": "D",
           "text": "Distributed databases",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Separated storage and computing systems",
+      "explanation": "Đáp án đúng: B - B. Separated storage and computing systems",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5107,43 +4645,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "uj9bvgl",
+          "id": "js98l1a",
           "label": "A",
           "text": "The visualization tools that will be used for the dashboard",
           "isCorrect": false
         },
         {
-          "id": "lw9s20i",
+          "id": "puwhid0",
           "label": "B",
           "text": "The business needs",
           "isCorrect": true
         },
         {
-          "id": "euigjnq",
+          "id": "qfpkucb",
           "label": "C",
           "text": "The shape and volume of the data",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "ki8ssh2",
+          "id": "jdfsrqx",
           "label": "D",
           "text": "The model that the data warehouse will follow",
-          "isCorrect": false
-        },
-        {
-          "id": "z3y35ci",
-          "label": "C",
-          "text": "The shape and volume of the data",
-          "isCorrect": false
-        },
-        {
-          "id": "3339vs7",
-          "label": "D",
-          "text": "The model that the data warehouse will follow",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. The business needs",
+      "explanation": "Đáp án đúng: B, C, D - B. The business needs C. The shape and volume of the data D. The model that the data warehouse will follow",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5155,31 +4681,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wd6zel9",
+          "id": "c5azp77",
           "label": "A",
           "text": "Schemas",
           "isCorrect": false
         },
         {
-          "id": "yuyltdc",
+          "id": "m2ie7mj",
           "label": "B",
           "text": "Tables",
           "isCorrect": true
         },
         {
-          "id": "dfdl104",
+          "id": "uppigix",
           "label": "C",
           "text": "Permissions",
           "isCorrect": false
         },
         {
-          "id": "u10i1o8",
+          "id": "5p7b8jf",
           "label": "D",
           "text": "Users",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Tables",
+      "explanation": "Đáp án đúng: B - B. Tables",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -5191,31 +4717,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "z3g1i5s",
+          "id": "uumd9bw",
           "label": "A",
           "text": "Select appropriate elements for their database schema",
           "isCorrect": true
         },
         {
-          "id": "og5gn6t",
+          "id": "7j1h55q",
           "label": "B",
           "text": "Understand the logic behind their data warehouse design",
           "isCorrect": false
         },
         {
-          "id": "fot61nh",
+          "id": "hxmpumo",
           "label": "C",
           "text": "Verify their business rules",
           "isCorrect": false
         },
         {
-          "id": "nf3m28x",
+          "id": "938ljj8",
           "label": "D",
           "text": "Differentiate between several types of databases",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Select appropriate elements for their database schema",
+      "explanation": "Đáp án đúng: A - A. Select appropriate elements for their database schema",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5227,31 +4753,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8ailqod",
+          "id": "qkojwub",
           "label": "A",
           "text": "Application interface",
           "isCorrect": false
         },
         {
-          "id": "iepk4j5",
+          "id": "3ph5aae",
           "label": "B",
           "text": "Installations",
           "isCorrect": false
         },
         {
-          "id": "si5ig2x",
+          "id": "x947x2m",
           "label": "C",
           "text": "Target tables",
           "isCorrect": true
         },
         {
-          "id": "qusy74d",
+          "id": "lxyy074",
           "label": "D",
           "text": "Data models",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Target tables",
+      "explanation": "Đáp án đúng: C - C. Target tables",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -5263,31 +4789,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "pazh63h",
+          "id": "2qefwvh",
           "label": "A",
           "text": "Transform",
           "isCorrect": false
         },
         {
-          "id": "5i856ou",
+          "id": "tib2a19",
           "label": "B",
           "text": "Extract",
           "isCorrect": true
         },
         {
-          "id": "f4p0lfp",
+          "id": "l6mzu41",
           "label": "C",
           "text": "Load",
           "isCorrect": false
         },
         {
-          "id": "2grqmq3",
+          "id": "d8zx9ee",
           "label": "D",
           "text": "All three stages involve this step",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Extract",
+      "explanation": "Đáp án đúng: B - B. Extract",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -5299,31 +4825,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "rgm210b",
+          "id": "btwzwa9",
           "label": "A",
           "text": "System scalability",
           "isCorrect": true
         },
         {
-          "id": "pqlzqdy",
+          "id": "8cuytbm",
           "label": "B",
           "text": "A key performance indicator",
           "isCorrect": false
         },
         {
-          "id": "rotcesn",
+          "id": "cju4ayv",
           "label": "C",
           "text": "A transferable skill",
           "isCorrect": true
         },
         {
-          "id": "212lwrj",
+          "id": "pvrorhu",
           "label": "D",
           "text": "Using a preferred vendor",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. A transferable skill",
+      "explanation": "Đáp án đúng: A, C - C. A transferable skill",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5332,34 +4858,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-136",
       "questionNumber": 136,
       "questionText": "Which of the following statements accurately describes Online Transaction Processing (OLTP) and Online Analytical Processing (OLAP) tools?",
-      "questionType": "multiple",
+      "questionType": "single",
       "choices": [
         {
-          "id": "sfsnwuo",
+          "id": "yagq9lk",
           "label": "A",
           "text": "Both are optimized for processing. But Online Analytical Processing (OLAP) tools are also optimized for analysis and can analyze data from multiple databases.",
           "isCorrect": true
         },
         {
-          "id": "ev3bamg",
+          "id": "r5cdipf",
           "label": "B",
           "text": "Both can analyze data from multiple databases. But Online Transaction Processing (OLTP) tools are optimized for analysis.",
           "isCorrect": false
         },
         {
-          "id": "fmathno",
+          "id": "yymzjn9",
           "label": "C",
           "text": "Both are optimized for analysis and processing. But Online Transaction Processing (OLTP) source systems can analyze data from multiple databases.",
           "isCorrect": false
         },
         {
-          "id": "1qx4dp2",
+          "id": "w5dv5lg",
           "label": "D",
           "text": "Both are optimized for processing. But Online Transaction Processing (OLTP) tools are also optimized for analysis and can analyze data from multiple databases.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Both are optimized for processing. But Online Analytical Processing (OLAP) tools are also optimized for analysis and can analyze data from multiple databases.",
+      "explanation": "Đáp án đúng: A - A. Both are optimized for processing. But Online Analytical Processing (OLAP) tools are also optimized for analysis and can analyze data from multiple databases.",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5371,37 +4897,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "xxqkd2q",
+          "id": "dxf119v",
           "label": "A",
           "text": "Aggregate data",
           "isCorrect": false
         },
         {
-          "id": "rzsd5oc",
+          "id": "mb4dyrl",
           "label": "B",
           "text": "Set user permissions",
           "isCorrect": false
         },
         {
-          "id": "i9dhuho",
+          "id": "9g5xz7d",
           "label": "C",
           "text": "Use relevant measures and facts",
           "isCorrect": true
         },
         {
-          "id": "r1nbwwt",
+          "id": "p6waq23",
           "label": "D",
           "text": "Create a model that supports business needs",
-          "isCorrect": false
-        },
-        {
-          "id": "kcxo464",
-          "label": "D",
-          "text": "Create a model that supports business needs",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Use relevant measures and facts",
+      "explanation": "Đáp án đúng: C, D - C. Use relevant measures and facts D. Create a model that supports business needs",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5413,31 +4933,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "tjj1ain",
+          "id": "nlubb1o",
           "label": "A",
           "text": "row or group of rows",
           "isCorrect": false
         },
         {
-          "id": "8ztdtuk",
+          "id": "5pz5xgb",
           "label": "B",
           "text": "column or group of columns",
           "isCorrect": true
         },
         {
-          "id": "hjm8ker",
+          "id": "6z4ff7x",
           "label": "C",
           "text": "query",
           "isCorrect": false
         },
         {
-          "id": "3k4wyz3",
+          "id": "pqdu257",
           "label": "D",
           "text": "schema",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. column or group of columns",
+      "explanation": "Đáp án đúng: B - B. column or group of columns",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5449,31 +4969,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "zyarmtw",
+          "id": "9qlofq5",
           "label": "A",
           "text": "Clean and filter data",
           "isCorrect": false
         },
         {
-          "id": "m5hjem9",
+          "id": "wx9hjx6",
           "label": "B",
           "text": "Quickly retrieve data from a warehouse",
           "isCorrect": true
         },
         {
-          "id": "ffzhwvc",
+          "id": "6rhcmnb",
           "label": "C",
           "text": "Avoid redundant data",
           "isCorrect": false
         },
         {
-          "id": "8id4dqn",
+          "id": "jkpsrmv",
           "label": "D",
           "text": "Anonymize stored data",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Quickly retrieve data from a warehouse",
+      "explanation": "Đáp án đúng: B - B. Quickly retrieve data from a warehouse",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5485,31 +5005,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2hofqit",
+          "id": "vebli35",
           "label": "A",
           "text": "Primary key",
           "isCorrect": false
         },
         {
-          "id": "ui3jpp7",
+          "id": "ine0yaf",
           "label": "B",
           "text": "Data map",
           "isCorrect": false
         },
         {
-          "id": "4srdwvk",
+          "id": "5zq1tfx",
           "label": "C",
           "text": "Index",
           "isCorrect": false
         },
         {
-          "id": "4gxh7qd",
+          "id": "ck9qhmq",
           "label": "D",
           "text": "Foreign key",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Foreign key",
+      "explanation": "Đáp án đúng: D - D. Foreign key",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5521,31 +5041,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "u1sw2zk",
+          "id": "r5j60yj",
           "label": "A",
           "text": "One",
           "isCorrect": true
         },
         {
-          "id": "a93zfw9",
+          "id": "jh4493y",
           "label": "B",
           "text": "Five",
           "isCorrect": false
         },
         {
-          "id": "ztokn9n",
+          "id": "cufoyv1",
           "label": "C",
           "text": "An infinite number",
           "isCorrect": false
         },
         {
-          "id": "j6a0d86",
+          "id": "2c3na8u",
           "label": "D",
           "text": "Zero",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. One",
+      "explanation": "Đáp án đúng: A - A. One",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5557,31 +5077,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "4qhzoxg",
+          "id": "0k97gy3",
           "label": "A",
           "text": "Database iteration",
           "isCorrect": false
         },
         {
-          "id": "8u12shq",
+          "id": "jzr4ekn",
           "label": "B",
           "text": "Data partitioning",
           "isCorrect": false
         },
         {
-          "id": "iskootb",
+          "id": "rekrriq",
           "label": "C",
           "text": "Data throughput",
           "isCorrect": false
         },
         {
-          "id": "zoys4k7",
+          "id": "u3wqwhl",
           "label": "D",
           "text": "Database migration",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Database migration",
+      "explanation": "Đáp án đúng: D - D. Database migration",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -5593,37 +5113,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "l9ntdjj",
+          "id": "i5j1sru",
           "label": "A",
           "text": "Sorting data quickly by row",
           "isCorrect": false
         },
         {
-          "id": "qvvjqm6",
+          "id": "2vau913",
           "label": "B",
           "text": "Identifying appropriate data to solve a business problem",
           "isCorrect": false
         },
         {
-          "id": "1r5gxtj",
+          "id": "ffwj6a6",
           "label": "C",
           "text": "Processing analytical queries effectively",
           "isCorrect": true
         },
         {
-          "id": "9x4m0l7",
+          "id": "cellfmf",
           "label": "D",
           "text": "Retrieving information from specific columns",
-          "isCorrect": false
-        },
-        {
-          "id": "yaa2iy9",
-          "label": "D",
-          "text": "Retrieving information from specific columns",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Processing analytical queries effectively",
+      "explanation": "Đáp án đúng: C, D - C. Processing analytical queries effectively D. Retrieving information from specific columns",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5635,31 +5149,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "p6p85l4",
+          "id": "xnbd6oe",
           "label": "A",
           "text": "Distributed database system",
           "isCorrect": true
         },
         {
-          "id": "gq7jb46",
+          "id": "j9h6iwg",
           "label": "B",
           "text": "Combined database system",
           "isCorrect": false
         },
         {
-          "id": "8zcu96m",
+          "id": "vom0yxb",
           "label": "C",
           "text": "Separated storage and computing system",
           "isCorrect": false
         },
         {
-          "id": "wzlih12",
+          "id": "mi2xh5l",
           "label": "D",
           "text": "Single-homed database system",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Distributed database system",
+      "explanation": "Đáp án đúng: A - A. Distributed database system",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -5671,31 +5185,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wt3dhgq",
+          "id": "hcvsnku",
           "label": "A",
           "text": "data partitions",
           "isCorrect": false
         },
         {
-          "id": "k7qyvpt",
+          "id": "r8muucd",
           "label": "B",
           "text": "relevant data",
           "isCorrect": true
         },
         {
-          "id": "vkw04lh",
+          "id": "hmcjppm",
           "label": "C",
           "text": "system commands",
           "isCorrect": false
         },
         {
-          "id": "1wooh5w",
+          "id": "kknqxw0",
           "label": "D",
           "text": "business rules",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. relevant data",
+      "explanation": "Đáp án đúng: B - B. relevant data",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -5707,43 +5221,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ja3yofi",
+          "id": "9976l0k",
           "label": "A",
           "text": "Data is returned to its source.",
           "isCorrect": false
         },
         {
-          "id": "jap2o24",
+          "id": "9ubafec",
           "label": "B",
           "text": "Once the data has been delivered, it can exist within multiple locations.",
           "isCorrect": true
         },
         {
-          "id": "0r8hey5",
+          "id": "91xlh92",
           "label": "C",
           "text": "Once the data has been delivered, it can exist in multiple formats.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "axxgywh",
+          "id": "4dshval",
           "label": "D",
           "text": "Data is delivered to its target destination.",
-          "isCorrect": false
-        },
-        {
-          "id": "g1qhqli",
-          "label": "C",
-          "text": "Once the data has been delivered, it can exist in multiple formats.",
-          "isCorrect": false
-        },
-        {
-          "id": "t6kn1gm",
-          "label": "D",
-          "text": "Data is delivered to its target destination.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Once the data has been delivered, it can exist within multiple locations.",
+      "explanation": "Đáp án đúng: B, C, D - B. Once the data has been delivered, it can exist within multiple locations. C. Once the data has been delivered, it can exist in multiple formats. D. Data is delivered to its target destination.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5755,37 +5257,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "r7j0wh7",
+          "id": "voq86m8",
           "label": "A",
           "text": "Online Analytical Processing (OLAP) tools are optimized for data processing instead of analysis.",
           "isCorrect": false
         },
         {
-          "id": "jk85aio",
+          "id": "fmboogk",
           "label": "B",
           "text": "Online Transaction Processing (OLTP) tools are optimized for analysis in addition to processing and can analyze data from multiple databases.",
           "isCorrect": false
         },
         {
-          "id": "t14mli2",
+          "id": "bk193oa",
           "label": "C",
           "text": "Online Transaction Processing (OLTP) tools are optimized for data processing instead of analysis.",
           "isCorrect": true
         },
         {
-          "id": "ofv4pdq",
+          "id": "zwjybcf",
           "label": "D",
           "text": "Online Analytical Processing (OLAP) tools are optimized for analysis in addition to processing and can analyze data from multiple databases.",
-          "isCorrect": false
-        },
-        {
-          "id": "nmat9ex",
-          "label": "D",
-          "text": "Online Analytical Processing (OLAP) tools are optimized for analysis in addition to processing and can analyze data from multiple databases.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Online Transaction Processing (OLTP) tools are optimized for data processing instead of analysis.",
+      "explanation": "Đáp án đúng: C, D - C. Online Transaction Processing (OLTP) tools are optimized for data processing instead of analysis. D. Online Analytical Processing (OLAP) tools are optimized for analysis in addition to processing and can analyze data from multiple databases.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5797,43 +5293,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "noi6uw0",
+          "id": "sto72k0",
           "label": "A",
           "text": "Several primary keys can exist in a table.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "e57t0qc",
+          "id": "ydu8jhm",
           "label": "B",
           "text": "Only one primary key can exist in a table.",
           "isCorrect": true
         },
         {
-          "id": "y5jupvo",
+          "id": "vonwb68",
           "label": "C",
           "text": "Primary keys can appear as foreign keys in other tables.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "c4yw2w5",
+          "id": "q7hi22p",
           "label": "D",
           "text": "A primary key uniquely identifies each record in a table.",
-          "isCorrect": false
-        },
-        {
-          "id": "qfjbigi",
-          "label": "C",
-          "text": "Primary keys can appear as foreign keys in other tables.",
-          "isCorrect": false
-        },
-        {
-          "id": "n6kdrld",
-          "label": "D",
-          "text": "A primary key uniquely identifies each record in a table.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Only one primary key can exist in a table.",
+      "explanation": "Đáp án đúng: A, B, C, D - B. Only one primary key can exist in a table. C. Primary keys can appear as foreign keys in other tables. D. A primary key uniquely identifies each record in a table.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5845,37 +5329,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "t4fqw5u",
+          "id": "46uzkmb",
           "label": "A",
           "text": "Supporting details",
           "isCorrect": false
         },
         {
-          "id": "sbpogyg",
+          "id": "fks59nd",
           "label": "B",
           "text": "Attributes",
           "isCorrect": false
         },
         {
-          "id": "z6agyxp",
+          "id": "x0ng06z",
           "label": "C",
           "text": "Metrics",
           "isCorrect": true
         },
         {
-          "id": "hshpaaa",
+          "id": "ti6tarw",
           "label": "D",
           "text": "Events",
-          "isCorrect": false
-        },
-        {
-          "id": "5iume64",
-          "label": "D",
-          "text": "Events",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Metrics",
+      "explanation": "Đáp án đúng: C, D - C. Metrics D. Events",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5887,37 +5365,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "zgi2ffi",
+          "id": "7wolby2",
           "label": "A",
           "text": "Query plans",
           "isCorrect": false
         },
         {
-          "id": "7bz5nd3",
+          "id": "9llowux",
           "label": "B",
           "text": "Fact tables",
           "isCorrect": false
         },
         {
-          "id": "fb39vgt",
+          "id": "hh51fjt",
           "label": "C",
           "text": "Dimensions",
           "isCorrect": true
         },
         {
-          "id": "n0cxfkg",
+          "id": "mpbs136",
           "label": "D",
           "text": "Subdimensions",
-          "isCorrect": false
-        },
-        {
-          "id": "f1zwzch",
-          "label": "D",
-          "text": "Subdimensions",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Dimensions",
+      "explanation": "Đáp án đúng: C, D - C. Dimensions D. Subdimensions",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -5929,31 +5401,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "madd475",
+          "id": "vgm9drl",
           "label": "A",
           "text": "Database iteration",
           "isCorrect": false
         },
         {
-          "id": "pzdqxnq",
+          "id": "49gesaw",
           "label": "B",
           "text": "Data partitioning",
           "isCorrect": false
         },
         {
-          "id": "632sucr",
+          "id": "ewrf4tt",
           "label": "C",
           "text": "Database migration",
           "isCorrect": true
         },
         {
-          "id": "w6ib492",
+          "id": "t7ormn8",
           "label": "D",
           "text": "Data throughput",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Database migration",
+      "explanation": "Đáp án đúng: C - C. Database migration",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -5965,43 +5437,25 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "57mdu2n",
+          "id": "mmtd1k2",
           "label": "A",
           "text": "In columnar databases, it's necessary to pull data using all of the rows within the table.",
           "isCorrect": false
         },
         {
-          "id": "ha2kn8z",
+          "id": "2nm49dk",
           "label": "B",
           "text": "In row-based databases, each row in the table is an instance or an entry in the database.",
           "isCorrect": true
         },
         {
-          "id": "3rtgl0d",
+          "id": "rvj6s7c",
           "label": "C",
           "text": "Row-based databases are organized by rows",
-          "isCorrect": false
-        },
-        {
-          "id": "yenahc4",
-          "label": "D",
-          "text": "Columnar databases are often used in data warehouses.",
-          "isCorrect": false
-        },
-        {
-          "id": "hwlfqj2",
-          "label": "C",
-          "text": "Row-based databases are organized by rows columnar databases are organized by columns.",
-          "isCorrect": false
-        },
-        {
-          "id": "qdi3jwn",
-          "label": "D",
-          "text": "Columnar databases are often used in data warehouses.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: columnar databases are organized by columns. B. In row-based databases, each row in the table is an instance or an entry in the database. ",
+      "explanation": "Đáp án đúng: B, C - columnar databases are organized by columns. D. Columnar databases are often used in data warehouses.: B. In row-based databases, each row in the table is an instance or an entry in the database. C. Row-based databases are organized by rows columnar databases are organized by columns. D. Columnar databases are often used in data warehouses.:",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6013,74 +5467,32 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "tk310pr",
+          "id": "d4a7nop",
           "label": "A",
           "text": "Single-homed database system",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "p2ssmbi",
+          "id": "afpykd6",
           "label": "B",
           "text": "Separated storage and computing system",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "7gq1gtm",
+          "id": "mw5nu3j",
           "label": "C",
           "text": "Combined database system",
           "isCorrect": true
         },
         {
-          "id": "ni3olht",
+          "id": "yceobbs",
           "label": "D",
           "text": "Distributed database system",
-          "isCorrect": false
-        },
-        {
-          "id": "clyi4fe",
-          "label": "A",
-          "text": "Elimination of all database permissions",
-          "isCorrect": false
-        },
-        {
-          "id": "xfuc3tg",
-          "label": "B",
-          "text": "Consistent formatting across data entries",
-          "isCorrect": false
-        },
-        {
-          "id": "ivkxswu",
-          "label": "C",
-          "text": "Unique keys for every database entry and object",
           "isCorrect": true
-        },
-        {
-          "id": "9z03llc",
-          "label": "D",
-          "text": "Names and data types for each column in each table",
-          "isCorrect": false
-        },
-        {
-          "id": "tovzzf5",
-          "label": "B",
-          "text": "Consistent formatting across data entries",
-          "isCorrect": false
-        },
-        {
-          "id": "68ma37s",
-          "label": "C",
-          "text": "Unique keys for every database entry and object",
-          "isCorrect": true
-        },
-        {
-          "id": "pyh77iq",
-          "label": "D",
-          "text": "Names and data types for each column in each table",
-          "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Combined database system 19.There are four key elements within database schemas. The first is relevant data. What are the other three? Select all that apply. ",
-      "topic": "Data Governance",
+      "explanation": "Đáp án đúng: A, B, C, D - C. Combined database system 19.There are four key elements within database schemas. The first is relevant data. What are the other three? Select all that apply. A. Elimination of all database permissions B. Consistent formatting across data entries C. Unique keys for every database entry and object D. Names and data types for each column in each table: B. Consistent formatting across data entries C. Unique keys for every database entry and object D. Names and data types for each column in each table",
+      "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
     },
@@ -6091,31 +5503,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "b2br0k9",
+          "id": "hx2gqwn",
           "label": "A",
           "text": "All three stages",
           "isCorrect": false
         },
         {
-          "id": "ws3s7tu",
+          "id": "jv4dinl",
           "label": "B",
           "text": "Extraction",
           "isCorrect": false
         },
         {
-          "id": "nhat77t",
+          "id": "qiujl9e",
           "label": "C",
           "text": "Transformation",
           "isCorrect": false
         },
         {
-          "id": "0n7dz8e",
+          "id": "s2vcm01",
           "label": "D",
           "text": "Loading",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Loading",
+      "explanation": "Đáp án đúng: D - D. Loading",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -6127,31 +5539,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "mcdltuw",
+          "id": "xyx9ovv",
           "label": "A",
           "text": "encode and translate",
           "isCorrect": false
         },
         {
-          "id": "2hlzw9g",
+          "id": "un2iz5g",
           "label": "B",
           "text": "interpret and analyze",
           "isCorrect": false
         },
         {
-          "id": "7ri3wge",
+          "id": "35m1x3a",
           "label": "C",
           "text": "label and define",
           "isCorrect": true
         },
         {
-          "id": "7tv1f3j",
+          "id": "6k85oax",
           "label": "D",
           "text": "compile and group",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. label and define",
+      "explanation": "Đáp án đúng: C - C. label and define",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6163,31 +5575,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "c2y3uav",
+          "id": "v3nsf3v",
           "label": "A",
           "text": "query plan",
           "isCorrect": false
         },
         {
-          "id": "4i9p1mx",
+          "id": "ey7r1m1",
           "label": "B",
           "text": "business rule",
           "isCorrect": false
         },
         {
-          "id": "0onsjan",
+          "id": "77npuqq",
           "label": "C",
           "text": "target table",
           "isCorrect": false
         },
         {
-          "id": "q25212g",
+          "id": "h3rkiab",
           "label": "D",
           "text": "design pattern",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. design pattern",
+      "explanation": "Đáp án đúng: D - D. design pattern",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6199,31 +5611,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "z69xt2s",
+          "id": "m6vawc9",
           "label": "A",
           "text": "By table",
           "isCorrect": false
         },
         {
-          "id": "hp0gzly",
+          "id": "3na73jo",
           "label": "B",
           "text": "By row",
           "isCorrect": false
         },
         {
-          "id": "p9bn83g",
+          "id": "9rmf4ly",
           "label": "C",
           "text": "By column",
           "isCorrect": true
         },
         {
-          "id": "3dtj1a3",
+          "id": "6kai30a",
           "label": "D",
           "text": "By field",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. By column",
+      "explanation": "Đáp án đúng: C - C. By column",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6235,43 +5647,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "yu8nmps",
+          "id": "x0mwd3o",
           "label": "A",
           "text": "Website application",
           "isCorrect": false
         },
         {
-          "id": "clrv8j6",
+          "id": "8875ymc",
           "label": "B",
           "text": "Data lake",
           "isCorrect": true
         },
         {
-          "id": "as7un9z",
+          "id": "avauhyk",
           "label": "C",
           "text": "Analytics platform",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "4zop3eq",
+          "id": "ip8khbk",
           "label": "D",
           "text": "Data warehouse",
-          "isCorrect": false
-        },
-        {
-          "id": "clwnqc5",
-          "label": "C",
-          "text": "Analytics platform",
-          "isCorrect": false
-        },
-        {
-          "id": "e1rqx39",
-          "label": "D",
-          "text": "Data warehouse",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data lake",
+      "explanation": "Đáp án đúng: B, C, D - B. Data lake C. Analytics platform D. Data warehouse",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6283,31 +5683,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "da6guhu",
+          "id": "4ydxc3w",
           "label": "A",
           "text": "Object-oriented",
           "isCorrect": false
         },
         {
-          "id": "gdhlxi8",
+          "id": "zw5p95b",
           "label": "B",
           "text": "Interpreted",
           "isCorrect": true
         },
         {
-          "id": "4q7gt0o",
+          "id": "ipiykz3",
           "label": "C",
           "text": "Functional",
           "isCorrect": false
         },
         {
-          "id": "enyez5h",
+          "id": "stlh0yz",
           "label": "D",
           "text": "Compiled",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Interpreted",
+      "explanation": "Đáp án đúng: B - B. Interpreted",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6319,31 +5719,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "1tq2q3s",
+          "id": "9jx5xds",
           "label": "A",
           "text": "Creating a data model",
           "isCorrect": true
         },
         {
-          "id": "yot6qi8",
+          "id": "v2uf40o",
           "label": "B",
           "text": "Aggregating data",
           "isCorrect": false
         },
         {
-          "id": "n8fsbjc",
+          "id": "jvh9uoy",
           "label": "C",
           "text": "Selecting computing systems",
           "isCorrect": false
         },
         {
-          "id": "iihszvr",
+          "id": "ijuxslm",
           "label": "D",
           "text": "Setting user permissions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Creating a data model",
+      "explanation": "Đáp án đúng: A - A. Creating a data model",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6355,31 +5755,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "hhrt86u",
+          "id": "flw9exj",
           "label": "A",
           "text": "query",
           "isCorrect": false
         },
         {
-          "id": "6lm53bb",
+          "id": "i6xct4x",
           "label": "B",
           "text": "model",
           "isCorrect": false
         },
         {
-          "id": "qnlbulz",
+          "id": "jlux1w8",
           "label": "C",
           "text": "primary key",
           "isCorrect": true
         },
         {
-          "id": "eq4mwfq",
+          "id": "dtr7k7m",
           "label": "D",
           "text": "schema",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. primary key",
+      "explanation": "Đáp án đúng: C - C. primary key",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6391,43 +5791,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "hl2ei3y",
+          "id": "i5xi14t",
           "label": "A",
           "text": "Maintaining data in its original source platform",
           "isCorrect": false
         },
         {
-          "id": "sxo6erh",
+          "id": "v8ske24",
           "label": "B",
           "text": "Splitting existing data fields",
           "isCorrect": true
         },
         {
-          "id": "508d5z0",
+          "id": "essampg",
           "label": "C",
           "text": "Adding new data tables",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "zdu2f1u",
+          "id": "zxt89aq",
           "label": "D",
           "text": "Changing data types",
-          "isCorrect": false
-        },
-        {
-          "id": "ktp7x1q",
-          "label": "C",
-          "text": "Adding new data tables",
-          "isCorrect": false
-        },
-        {
-          "id": "4gmgh4z",
-          "label": "D",
-          "text": "Changing data types",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Splitting existing data fields",
+      "explanation": "Đáp án đúng: B, C, D - B. Splitting existing data fields C. Adding new data tables D. Changing data types",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6439,31 +5827,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wjp3zl7",
+          "id": "vmljtbd",
           "label": "A",
           "text": "Data lake",
           "isCorrect": false
         },
         {
-          "id": "mzianwh",
+          "id": "b9eu9iy",
           "label": "B",
           "text": "Online Transaction Processing (OLTP)",
           "isCorrect": false
         },
         {
-          "id": "o8yneyp",
+          "id": "6tvgp8x",
           "label": "C",
           "text": "Data mart",
           "isCorrect": false
         },
         {
-          "id": "x7ip3od",
+          "id": "ywhek1o",
           "label": "D",
           "text": "Online Analytical Processing (OLAP)",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Online Analytical Processing (OLAP)",
+      "explanation": "Đáp án đúng: D - D. Online Analytical Processing (OLAP)",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -6475,31 +5863,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "cbmbvcu",
+          "id": "cc38nvm",
           "label": "A",
           "text": "relationship",
           "isCorrect": false
         },
         {
-          "id": "z8jxbxm",
+          "id": "fthj0d4",
           "label": "B",
           "text": "dimension",
           "isCorrect": true
         },
         {
-          "id": "ocg6qbv",
+          "id": "xdc5scz",
           "label": "C",
           "text": "measurement",
           "isCorrect": false
         },
         {
-          "id": "d1nzj7f",
+          "id": "qa3jkis",
           "label": "D",
           "text": "primary",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. dimension",
+      "explanation": "Đáp án đúng: B - B. dimension",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6511,43 +5899,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "rnayb0x",
+          "id": "9yxcv78",
           "label": "A",
           "text": "Efficient data analysis",
           "isCorrect": false
         },
         {
-          "id": "3209b7o",
+          "id": "tz66vzi",
           "label": "B",
           "text": "Effective data monitoring",
           "isCorrect": true
         },
         {
-          "id": "0rqlwv7",
+          "id": "b9mh2cw",
           "label": "C",
           "text": "High-scale information delivery",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "zayrl9u",
+          "id": "97ae09f",
           "label": "D",
           "text": "More efficient output",
-          "isCorrect": false
-        },
-        {
-          "id": "jhcxory",
-          "label": "C",
-          "text": "High-scale information delivery",
-          "isCorrect": false
-        },
-        {
-          "id": "9q7fjq0",
-          "label": "D",
-          "text": "More efficient output",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Effective data monitoring",
+      "explanation": "Đáp án đúng: B, C, D - B. Effective data monitoring C. High-scale information delivery D. More efficient output",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6559,31 +5935,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "gql75yh",
+          "id": "80ewtd6",
           "label": "A",
           "text": "data partitions",
           "isCorrect": true
         },
         {
-          "id": "m72wdjk",
+          "id": "tizj4oa",
           "label": "B",
           "text": "unique keys",
           "isCorrect": false
         },
         {
-          "id": "wnokbwe",
+          "id": "tqxfgae",
           "label": "C",
           "text": "system commands",
           "isCorrect": false
         },
         {
-          "id": "svfeazo",
+          "id": "1mjms9j",
           "label": "D",
           "text": "business rules",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. data partitions",
+      "explanation": "Đáp án đúng: A - A. data partitions",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6595,37 +5971,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ko11b7n",
+          "id": "fvess2g",
           "label": "A",
           "text": "Events",
           "isCorrect": false
         },
         {
-          "id": "8066ic8",
+          "id": "a0swucm",
           "label": "B",
           "text": "Metrics",
           "isCorrect": false
         },
         {
-          "id": "mng3kjy",
+          "id": "v9kk9fl",
           "label": "C",
           "text": "Supporting details",
           "isCorrect": true
         },
         {
-          "id": "a6tb84l",
+          "id": "34fhnk2",
           "label": "D",
           "text": "Attributes",
-          "isCorrect": false
-        },
-        {
-          "id": "rruek8s",
-          "label": "D",
-          "text": "Attributes",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Supporting details",
+      "explanation": "Đáp án đúng: C, D - C. Supporting details D. Attributes",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6637,43 +6007,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ogbvfeu",
+          "id": "yqvjagj",
           "label": "A",
           "text": "Data is returned to its source.",
           "isCorrect": false
         },
         {
-          "id": "u80ixi7",
+          "id": "3rdradx",
           "label": "B",
           "text": "Data is delivered to its target destination.",
           "isCorrect": true
         },
         {
-          "id": "ytlpxr0",
+          "id": "kw7cm2c",
           "label": "C",
           "text": "Once the data has been delivered, it can exist within multiple locations.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "n88uo1g",
+          "id": "y9jyf3m",
           "label": "D",
           "text": "Once the data has been delivered, it can exist in multiple formats.",
-          "isCorrect": false
-        },
-        {
-          "id": "12dnrls",
-          "label": "C",
-          "text": "Once the data has been delivered, it can exist within multiple locations.",
-          "isCorrect": false
-        },
-        {
-          "id": "dao5hf4",
-          "label": "D",
-          "text": "Once the data has been delivered, it can exist in multiple formats.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data is delivered to its target destination.",
+      "explanation": "Đáp án đúng: B, C, D - B. Data is delivered to its target destination. C. Once the data has been delivered, it can exist within multiple locations. D. Once the data has been delivered, it can exist in multiple formats.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6685,31 +6043,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "x8c0uuo",
+          "id": "autv4aw",
           "label": "A",
           "text": "object-oriented",
           "isCorrect": true
         },
         {
-          "id": "z5ppscl",
+          "id": "5ctjdc1",
           "label": "B",
           "text": "formulaic",
           "isCorrect": false
         },
         {
-          "id": "6nhu4e0",
+          "id": "7i903t7",
           "label": "C",
           "text": "code-based",
           "isCorrect": false
         },
         {
-          "id": "83znlg4",
+          "id": "jfnktpj",
           "label": "D",
           "text": "information-centered",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. object-oriented",
+      "explanation": "Đáp án đúng: A - A. object-oriented",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6721,37 +6079,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "21tuqjq",
+          "id": "i8fye2l",
           "label": "A",
           "text": "resources",
           "isCorrect": false
         },
         {
-          "id": "586thur",
+          "id": "nt4aehq",
           "label": "B",
           "text": "protocols",
           "isCorrect": false
         },
         {
-          "id": "6wz1r39",
+          "id": "5j7i78h",
           "label": "C",
           "text": "facts",
           "isCorrect": true
         },
         {
-          "id": "ek0p2b6",
+          "id": "3h82k7o",
           "label": "D",
           "text": "measures",
-          "isCorrect": false
-        },
-        {
-          "id": "9g0smx9",
-          "label": "D",
-          "text": "measures",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. facts",
+      "explanation": "Đáp án đúng: C, D - C. facts D. measures",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6763,31 +6115,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "l7u1ghb",
+          "id": "psm9w80",
           "label": "A",
           "text": "Snowflake",
           "isCorrect": false
         },
         {
-          "id": "ta14ifo",
+          "id": "rluqttx",
           "label": "B",
           "text": "Star",
           "isCorrect": true
         },
         {
-          "id": "8ur2f7k",
+          "id": "vi6fry8",
           "label": "C",
           "text": "Dimensional",
           "isCorrect": false
         },
         {
-          "id": "wbcdi1k",
+          "id": "z2io8d0",
           "label": "D",
           "text": "Relational",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Star",
+      "explanation": "Đáp án đúng: B - B. Star",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6799,31 +6151,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ax3tqd0",
+          "id": "u8i1nk7",
           "label": "A",
           "text": "OLAP",
           "isCorrect": false
         },
         {
-          "id": "ze2rmb8",
+          "id": "qiq0gk1",
           "label": "B",
           "text": "Row-based",
           "isCorrect": false
         },
         {
-          "id": "4cp5zel",
+          "id": "j2mwnrs",
           "label": "C",
           "text": "Columnar",
           "isCorrect": false
         },
         {
-          "id": "rm6cn3u",
+          "id": "6wuo5tr",
           "label": "D",
           "text": "Distributed",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Distributed",
+      "explanation": "Đáp án đúng: D - D. Distributed",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -6835,31 +6187,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "a7289bm",
+          "id": "q8p9i8x",
           "label": "A",
           "text": "availability",
           "isCorrect": false
         },
         {
-          "id": "frdgjl6",
+          "id": "e4cfg7a",
           "label": "B",
           "text": "volume",
           "isCorrect": true
         },
         {
-          "id": "u0zbvws",
+          "id": "43jwmve",
           "label": "C",
           "text": "type",
           "isCorrect": false
         },
         {
-          "id": "tb8qyy6",
+          "id": "qr6k2dt",
           "label": "D",
           "text": "visibility",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. volume",
+      "explanation": "Đáp án đúng: B - B. volume",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -6871,43 +6223,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "93wj5rk",
+          "id": "fcrlyfe",
           "label": "A",
           "text": "Construct data storage systems",
           "isCorrect": false
         },
         {
-          "id": "8ec8vf8",
+          "id": "ke9ecbg",
           "label": "B",
           "text": "Automate the extraction, transformation, combination, validation, and loading of data",
           "isCorrect": true
         },
         {
-          "id": "kbch7p0",
+          "id": "h8bb8i3",
           "label": "C",
           "text": "Define what, where, and how data is combined",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "kjijtd5",
+          "id": "mx4byj4",
           "label": "D",
           "text": "Help eliminate errors and latency",
-          "isCorrect": false
-        },
-        {
-          "id": "oejnxlq",
-          "label": "C",
-          "text": "Define what, where, and how data is combined",
-          "isCorrect": false
-        },
-        {
-          "id": "liafqd4",
-          "label": "D",
-          "text": "Help eliminate errors and latency",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Automate the extraction, transformation, combination, validation, and loading of data",
+      "explanation": "Đáp án đúng: B, C, D - B. Automate the extraction, transformation, combination, validation, and loading of data C. Define what, where, and how data is combined D. Help eliminate errors and latency",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -6919,31 +6259,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "c8ike34",
+          "id": "lcoqvha",
           "label": "A",
           "text": "Load",
           "isCorrect": false
         },
         {
-          "id": "p6cb4fu",
+          "id": "ncvkg5f",
           "label": "B",
           "text": "Extract",
           "isCorrect": false
         },
         {
-          "id": "2zbwh5q",
+          "id": "6w6dd8v",
           "label": "C",
           "text": "Transform",
           "isCorrect": true
         },
         {
-          "id": "870k5kn",
+          "id": "o3qvuv5",
           "label": "D",
           "text": "All three stages involve this step",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Transform",
+      "explanation": "Đáp án đúng: C - C. Transform",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -6955,31 +6295,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8p3b9q1",
+          "id": "gbj270e",
           "label": "A",
           "text": "Specialized",
           "isCorrect": false
         },
         {
-          "id": "eyxj99k",
+          "id": "po544l7",
           "label": "B",
           "text": "Categorical",
           "isCorrect": false
         },
         {
-          "id": "1cath4m",
+          "id": "0djvk5b",
           "label": "C",
           "text": "Subject-oriented",
           "isCorrect": true
         },
         {
-          "id": "fs9xa31",
+          "id": "cv1qu65",
           "label": "D",
           "text": "Departmental",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Subject-oriented",
+      "explanation": "Đáp án đúng: C - C. Subject-oriented",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -6991,31 +6331,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8fcwh94",
+          "id": "66z07td",
           "label": "A",
           "text": "Workload",
           "isCorrect": false
         },
         {
-          "id": "0j4gt6s",
+          "id": "pvhhbut",
           "label": "B",
           "text": "Resources",
           "isCorrect": false
         },
         {
-          "id": "jeel0mq",
+          "id": "klylybn",
           "label": "C",
           "text": "Throughput",
           "isCorrect": true
         },
         {
-          "id": "n7vjgl3",
+          "id": "ubi8rnn",
           "label": "D",
           "text": "Optimization",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Throughput",
+      "explanation": "Đáp án đúng: C - C. Throughput",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7027,31 +6367,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ftnzkia",
+          "id": "ku4cnht",
           "label": "A",
           "text": "Split data",
           "isCorrect": false
         },
         {
-          "id": "tyo24c6",
+          "id": "in4nriv",
           "label": "B",
           "text": "Modified data",
           "isCorrect": false
         },
         {
-          "id": "grkh7ux",
+          "id": "cb1n9nk",
           "label": "C",
           "text": "Archived data",
           "isCorrect": false
         },
         {
-          "id": "zps6xuz",
+          "id": "mrswf2u",
           "label": "D",
           "text": "Fragmented data",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Fragmented data",
+      "explanation": "Đáp án đúng: D - D. Fragmented data",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -7063,37 +6403,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "etpxj5i",
+          "id": "uksrwmp",
           "label": "A",
           "text": "Data lakes are subject-oriented, which means they are associated with specific areas or departments of a business.",
           "isCorrect": false
         },
         {
-          "id": "4k17bai",
+          "id": "6or2kyb",
           "label": "B",
           "text": "Data marts are designed to enable information accessibility because their data doesn't require a lot of processing.",
           "isCorrect": false
         },
         {
-          "id": "waasp9c",
+          "id": "70nq2oe",
           "label": "C",
           "text": "Data lakes are designed to enable information accessibility because their data doesn't require a lot of processing.",
           "isCorrect": true
         },
         {
-          "id": "3fzf7cb",
+          "id": "7v2fstl",
           "label": "D",
           "text": "Data marts are subject-oriented, which means they are associated with specific areas or departments of a business.",
-          "isCorrect": false
-        },
-        {
-          "id": "hrzv048",
-          "label": "D",
-          "text": "Data marts are subject-oriented, which means they are associated with specific areas or departments of a business.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Data lakes are designed to enable information accessibility because their data doesn't require a lot of processing.",
+      "explanation": "Đáp án đúng: C, D - C. Data lakes are designed to enable information accessibility because their data doesn't require a lot of processing. D. Data marts are subject-oriented, which means they are associated with specific areas or departments of a business.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7105,31 +6439,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "p3s6g8h",
+          "id": "7kiusnw",
           "label": "A",
           "text": "oriented",
           "isCorrect": false
         },
         {
-          "id": "w1ey0lg",
+          "id": "hvels5o",
           "label": "B",
           "text": "ELT",
           "isCorrect": true
         },
         {
-          "id": "ztm5eki",
+          "id": "oy4s80y",
           "label": "C",
           "text": "Interpreted",
           "isCorrect": false
         },
         {
-          "id": "wyljvlu",
+          "id": "wd5oz59",
           "label": "D",
           "text": "ETL",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. ELT",
+      "explanation": "Đáp án đúng: B - B. ELT",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7141,31 +6475,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2nx2t8h",
+          "id": "zq12cw9",
           "label": "A",
           "text": "Scalability",
           "isCorrect": false
         },
         {
-          "id": "1hkh3b9",
+          "id": "q15zepb",
           "label": "B",
           "text": "Maturity",
           "isCorrect": false
         },
         {
-          "id": "6l8qmkw",
+          "id": "5yh4sh0",
           "label": "C",
           "text": "Database performance",
           "isCorrect": true
         },
         {
-          "id": "7prk8d6",
+          "id": "zogsfea",
           "label": "D",
           "text": "Distribution",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Database performance",
+      "explanation": "Đáp án đúng: C - C. Database performance",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7177,31 +6511,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "e8zvi0t",
+          "id": "xd9hrm6",
           "label": "A",
           "text": "Workload",
           "isCorrect": true
         },
         {
-          "id": "228ftan",
+          "id": "k6ur6rs",
           "label": "B",
           "text": "Throughput",
           "isCorrect": false
         },
         {
-          "id": "5ul12h1",
+          "id": "1loulyq",
           "label": "C",
           "text": "Optimization",
           "isCorrect": false
         },
         {
-          "id": "7qilbt6",
+          "id": "5w8tzag",
           "label": "D",
           "text": "Contention",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Workload",
+      "explanation": "Đáp án đúng: A - A. Workload",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7213,43 +6547,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "iycg4fn",
+          "id": "ej47pjp",
           "label": "A",
           "text": "Resources may not be shared with other users.",
           "isCorrect": false
         },
         {
-          "id": "0rgtovg",
+          "id": "5d5smpa",
           "label": "B",
           "text": "Resources include disk space and memory.",
           "isCorrect": true
         },
         {
-          "id": "bzimj1e",
+          "id": "jkiskt1",
           "label": "C",
           "text": "Resources include hardware and software tools.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "m80wzbj",
+          "id": "sr0rso5",
           "label": "D",
           "text": "Resources can be both internal and external.",
-          "isCorrect": false
-        },
-        {
-          "id": "e6y2eh3",
-          "label": "C",
-          "text": "Resources include hardware and software tools.",
-          "isCorrect": false
-        },
-        {
-          "id": "okg8w5z",
-          "label": "D",
-          "text": "Resources can be both internal and external.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Resources include disk space and memory.",
+      "explanation": "Đáp án đúng: B, C, D - B. Resources include disk space and memory. C. Resources include hardware and software tools. D. Resources can be both internal and external.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7261,31 +6583,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "urkk6ir",
+          "id": "wk941hk",
           "label": "A",
           "text": "Scope",
           "isCorrect": false
         },
         {
-          "id": "t21jkr7",
+          "id": "txyivrt",
           "label": "B",
           "text": "Data view",
           "isCorrect": false
         },
         {
-          "id": "n93a4zc",
+          "id": "3i52tg4",
           "label": "C",
           "text": "Contention",
           "isCorrect": false
         },
         {
-          "id": "6vmon0b",
+          "id": "umcmydf",
           "label": "D",
           "text": "Response time",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Response time",
+      "explanation": "Đáp án đúng: D - D. Response time",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -7297,31 +6619,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "o0f8019",
+          "id": "krf5shs",
           "label": "A",
           "text": "query plan",
           "isCorrect": true
         },
         {
-          "id": "anm5azl",
+          "id": "quu5g0z",
           "label": "B",
           "text": "run method",
           "isCorrect": false
         },
         {
-          "id": "mfahxu2",
+          "id": "7kc5i3l",
           "label": "C",
           "text": "HOW statement",
           "isCorrect": false
         },
         {
-          "id": "3oun5j9",
+          "id": "gucbazb",
           "label": "D",
           "text": "data limitation",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. query plan",
+      "explanation": "Đáp án đúng: A - A. query plan",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7333,31 +6655,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "i65w0gu",
+          "id": "cx767qv",
           "label": "A",
           "text": "the SPLIT function",
           "isCorrect": false
         },
         {
-          "id": "yarqkx3",
+          "id": "k45y9dl",
           "label": "B",
           "text": "data partitioning",
           "isCorrect": true
         },
         {
-          "id": "km4k5v1",
+          "id": "2fe5hza",
           "label": "C",
           "text": "database migration",
           "isCorrect": false
         },
         {
-          "id": "ta69nkk",
+          "id": "9idlu4p",
           "label": "D",
           "text": "metadata",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. data partitioning",
+      "explanation": "Đáp án đúng: B - B. data partitioning",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7369,43 +6691,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1px8kr1",
+          "id": "xvs0b6s",
           "label": "A",
           "text": "Using the data infrequently",
           "isCorrect": false
         },
         {
-          "id": "4tb6qch",
+          "id": "ift6y5w",
           "label": "B",
           "text": "Modifying data files",
           "isCorrect": true
         },
         {
-          "id": "uprhbee",
+          "id": "k1ne95a",
           "label": "C",
           "text": "Deleting data files",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "4c6mvne",
+          "id": "nsumeti",
           "label": "D",
           "text": "Creating new data files",
-          "isCorrect": false
-        },
-        {
-          "id": "bkd2xee",
-          "label": "C",
-          "text": "Deleting data files",
-          "isCorrect": false
-        },
-        {
-          "id": "bcbb2e0",
-          "label": "D",
-          "text": "Creating new data files",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Modifying data files",
+      "explanation": "Đáp án đúng: B, C, D - B. Modifying data files C. Deleting data files D. Creating new data files",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7417,31 +6727,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "328myj0",
+          "id": "rnjlzru",
           "label": "A",
           "text": "Redundancy",
           "isCorrect": false
         },
         {
-          "id": "mzlfhz3",
+          "id": "0nkfxjw",
           "label": "B",
           "text": "Duplicates",
           "isCorrect": false
         },
         {
-          "id": "v1fi9gz",
+          "id": "j9k7nlj",
           "label": "C",
           "text": "Contention",
           "isCorrect": true
         },
         {
-          "id": "d667c63",
+          "id": "mn2bfrv",
           "label": "D",
           "text": "Argument",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Contention",
+      "explanation": "Đáp án đúng: C - C. Contention",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -7453,31 +6763,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "abwvsjo",
+          "id": "yj4ypa0",
           "label": "A",
           "text": "Data lake",
           "isCorrect": false
         },
         {
-          "id": "f5jhxl5",
+          "id": "p24vuvh",
           "label": "B",
           "text": "ELT",
           "isCorrect": true
         },
         {
-          "id": "vfl09k7",
+          "id": "8k2ilzs",
           "label": "C",
           "text": "ETL",
           "isCorrect": false
         },
         {
-          "id": "mt9fh9e",
+          "id": "2ewqk9a",
           "label": "D",
           "text": "Data mart",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. ELT",
+      "explanation": "Đáp án đúng: B - B. ELT",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7489,31 +6799,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "g13fd6c",
+          "id": "5qf5qhe",
           "label": "A",
           "text": "Measured",
           "isCorrect": false
         },
         {
-          "id": "n1c0jqk",
+          "id": "b37rfrk",
           "label": "B",
           "text": "Processed",
           "isCorrect": true
         },
         {
-          "id": "ecufmmd",
+          "id": "dbrmc0l",
           "label": "C",
           "text": "stored",
           "isCorrect": false
         },
         {
-          "id": "g6svfvp",
+          "id": "tvxf9ob",
           "label": "D",
           "text": "visualized",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Processed",
+      "explanation": "Đáp án đúng: B - B. Processed",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7522,34 +6832,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-191",
       "questionNumber": 191,
       "questionText": "Which of the following statements accurately describes workload with regards to database performance?",
-      "questionType": "multiple",
+      "questionType": "single",
       "choices": [
         {
-          "id": "lg2c25d",
+          "id": "6gf32bk",
           "label": "A",
           "text": "Workload involves maximizing the speed and efficiency with which data is retrieved in order to ensure high levels of database performance.",
           "isCorrect": false
         },
         {
-          "id": "52q8gmo",
+          "id": "upiu7a6",
           "label": "B",
           "text": "Workload is the combination of transactions, queries, analysis, and system commands being processed by the database system at any given time.",
           "isCorrect": true
         },
         {
-          "id": "gxrth4v",
+          "id": "6dxcv04",
           "label": "C",
           "text": "Workload is the overall capability of the database's hardware and software to process requests.",
           "isCorrect": false
         },
         {
-          "id": "jdk70ez",
+          "id": "aylv5ki",
           "label": "D",
           "text": "Workload involves two or more components attempting to use a single resource in a conflicting way.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Workload is the combination of transactions, queries, analysis, and system commands being processed by the database system at any given time.",
+      "explanation": "Đáp án đúng: B - B. Workload is the combination of transactions, queries, analysis, and system commands being processed by the database system at any given time.",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -7561,37 +6871,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "hk18kmp",
+          "id": "lfvngzz",
           "label": "A",
           "text": "Resources do not fluctuate.",
           "isCorrect": false
         },
         {
-          "id": "a0bxn9a",
+          "id": "sh8g8lq",
           "label": "B",
           "text": "Only internal factors affect resource performance",
           "isCorrect": false
         },
         {
-          "id": "bssothi",
+          "id": "43zfz4a",
           "label": "C",
           "text": "External factors can affect resource performance.",
           "isCorrect": true
         },
         {
-          "id": "t1o1nid",
+          "id": "c76y2y8",
           "label": "D",
           "text": "Resources can fluctuate.",
-          "isCorrect": false
-        },
-        {
-          "id": "wygokw7",
-          "label": "D",
-          "text": "Resources can fluctuate.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. External factors can affect resource performance.",
+      "explanation": "Đáp án đúng: C, D - C. External factors can affect resource performance. D. Resources can fluctuate.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7603,43 +6907,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "e0r9h24",
+          "id": "xg6gigw",
           "label": "A",
           "text": "Evaluating the effectiveness of the team's spreadsheets",
           "isCorrect": false
         },
         {
-          "id": "a4uo2dg",
+          "id": "p33f34q",
           "label": "B",
           "text": "Examining resource use",
           "isCorrect": true
         },
         {
-          "id": "0inb372",
+          "id": "786jlls",
           "label": "C",
           "text": "Identifying better data sources and structures",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "fyllydq",
+          "id": "y28oz7v",
           "label": "D",
           "text": "Comparing workload to cost",
-          "isCorrect": false
-        },
-        {
-          "id": "80j60ir",
-          "label": "C",
-          "text": "Identifying better data sources and structures",
-          "isCorrect": false
-        },
-        {
-          "id": "7kw1sea",
-          "label": "D",
-          "text": "Comparing workload to cost",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Examining resource use",
+      "explanation": "Đáp án đúng: B, C, D - B. Examining resource use C. Identifying better data sources and structures D. Comparing workload to cost",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7651,31 +6943,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "kdvo989",
+          "id": "sx1ep2m",
           "label": "A",
           "text": "spreadsheets",
           "isCorrect": false
         },
         {
-          "id": "crhr95f",
+          "id": "870gfl5",
           "label": "B",
           "text": "reasoning",
           "isCorrect": false
         },
         {
-          "id": "7zo8oud",
+          "id": "nrmfk9b",
           "label": "C",
           "text": "steps",
           "isCorrect": true
         },
         {
-          "id": "ogu9wuv",
+          "id": "766n4e2",
           "label": "D",
           "text": "business strategy",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. steps",
+      "explanation": "Đáp án đúng: C - C. steps",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7687,31 +6979,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5a072oe",
+          "id": "zk2jso8",
           "label": "A",
           "text": "annotation",
           "isCorrect": false
         },
         {
-          "id": "7q8ov1e",
+          "id": "6tkorg2",
           "label": "B",
           "text": "verification",
           "isCorrect": false
         },
         {
-          "id": "9s9crxv",
+          "id": "y67wp2o",
           "label": "C",
           "text": "contention",
           "isCorrect": true
         },
         {
-          "id": "qjsua7z",
+          "id": "8dgin7k",
           "label": "D",
           "text": "repetition",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. contention",
+      "explanation": "Đáp án đúng: C - C. contention",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -7723,37 +7015,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "rirv36p",
+          "id": "p606tus",
           "label": "A",
           "text": "Improvements made to data tools and processes",
           "isCorrect": false
         },
         {
-          "id": "gxzzuqu",
+          "id": "73wnm34",
           "label": "B",
           "text": "The ability of the database to be reconfigured",
           "isCorrect": false
         },
         {
-          "id": "v53dp0y",
+          "id": "2pwn87o",
           "label": "C",
           "text": "Any costs associated with the workload being processed by the database",
           "isCorrect": true
         },
         {
-          "id": "rjrqza1",
+          "id": "d0719tf",
           "label": "D",
           "text": "The workload that can be processed by the database",
-          "isCorrect": false
-        },
-        {
-          "id": "0y4qpke",
-          "label": "D",
-          "text": "The workload that can be processed by the database",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Any costs associated with the workload being processed by the database",
+      "explanation": "Đáp án đúng: C, D - C. Any costs associated with the workload being processed by the database D. The workload that can be processed by the database",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7765,43 +7051,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ar5u16n",
+          "id": "2kmjv8h",
           "label": "A",
           "text": "Indexes can only locate one section of a table at a time.",
           "isCorrect": false
         },
         {
-          "id": "8r4jpxr",
+          "id": "uxujuwi",
           "label": "B",
           "text": "Data partitioning is typically used in cloud-based systems handling big data.",
           "isCorrect": true
         },
         {
-          "id": "e2p3o5w",
+          "id": "ua3e1hf",
           "label": "C",
           "text": "Data partitioning is the process of dividing a database into distinct, logical parts.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "es1zyl0",
+          "id": "axehpb5",
           "label": "D",
           "text": "Indexes are organizational tags used to locate data.",
-          "isCorrect": false
-        },
-        {
-          "id": "v71uyjq",
-          "label": "C",
-          "text": "Data partitioning is the process of dividing a database into distinct, logical parts.",
-          "isCorrect": false
-        },
-        {
-          "id": "77bu6a7",
-          "label": "D",
-          "text": "Indexes are organizational tags used to locate data.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data partitioning is typically used in cloud-based systems handling big data.",
+      "explanation": "Đáp án đúng: B, C, D - B. Data partitioning is typically used in cloud-based systems handling big data. C. Data partitioning is the process of dividing a database into distinct, logical parts. D. Indexes are organizational tags used to locate data.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7813,31 +7087,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5olxu6q",
+          "id": "g7fflhp",
           "label": "A",
           "text": "Structured",
           "isCorrect": false
         },
         {
-          "id": "hoybj6l",
+          "id": "wgffal2",
           "label": "B",
           "text": "sorted and filtered",
           "isCorrect": false
         },
         {
-          "id": "bpfw8kn",
+          "id": "ycp9ljq",
           "label": "C",
           "text": "stored together",
           "isCorrect": true
         },
         {
-          "id": "3dhr18o",
+          "id": "ucf0yzb",
           "label": "D",
           "text": "labeled",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. stored together",
+      "explanation": "Đáp án đúng: C - C. stored together",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -7846,46 +7120,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-199",
       "questionNumber": 199,
       "questionText": "There are four main reasons why data becomes fragmented. The first is using the data files frequently. What are the other three?",
-      "questionType": "single",
+      "questionType": "multiple",
       "choices": [
         {
-          "id": "c2j6s68",
+          "id": "33i4896",
           "label": "A",
           "text": "Clearing data files from the cache",
           "isCorrect": false
         },
         {
-          "id": "v69ysdy",
+          "id": "cjtod3p",
           "label": "B",
           "text": "Deleting data files",
           "isCorrect": true
         },
         {
-          "id": "75wvjm3",
+          "id": "o5g8a28",
           "label": "C",
           "text": "Modifying the data files",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "1dwfx6z",
+          "id": "6dvq75w",
           "label": "D",
           "text": "Creating new data files",
-          "isCorrect": false
-        },
-        {
-          "id": "1omx2lv",
-          "label": "C",
-          "text": "Modifying the data files",
-          "isCorrect": false
-        },
-        {
-          "id": "gqcdydd",
-          "label": "D",
-          "text": "Creating new data files",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Deleting data files",
+      "explanation": "Đáp án đúng: B, C, D - B. Deleting data files C. Modifying the data files D. Creating new data files",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -7897,37 +7159,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "77qxjiw",
+          "id": "l1ub69u",
           "label": "A",
           "text": "A data mart is a database system that stores large amounts of raw data in its original format until it's needed.",
           "isCorrect": true
         },
         {
-          "id": "pirk69a",
+          "id": "cnimm9s",
           "label": "B",
           "text": "A data lake is a subject-oriented database that can be a subset of a larger data warehouse.",
           "isCorrect": false
         },
         {
-          "id": "ukzdm1c",
+          "id": "m4m5hy7",
           "label": "C",
           "text": "A data mart is a subject-oriented database that can be a subset of a larger data warehouse.",
           "isCorrect": true
         },
         {
-          "id": "edlbdxo",
+          "id": "ob0w4oq",
           "label": "D",
           "text": "A data lake is a database system that stores large amounts of raw data in its original format until it's needed.",
-          "isCorrect": false
-        },
-        {
-          "id": "55m38l3",
-          "label": "D",
-          "text": "A data lake is a database system that stores large amounts of raw data in its original format until it's needed.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A data mart is a subject-oriented database that can be a subset of a larger data warehouse.",
+      "explanation": "Đáp án đúng: A, C, D - C. A data mart is a subject-oriented database that can be a subset of a larger data warehouse. D. A data lake is a database system that stores large amounts of raw data in its original format until it's needed.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7939,31 +7195,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ixfwmwc",
+          "id": "inxwjd6",
           "label": "A",
           "text": "Limiting data",
           "isCorrect": false
         },
         {
-          "id": "11cipz0",
+          "id": "aylbnzd",
           "label": "B",
           "text": "Evaluating contentions",
           "isCorrect": false
         },
         {
-          "id": "a51q5pn",
+          "id": "pgejfi6",
           "label": "C",
           "text": "Checking a query plan",
           "isCorrect": true
         },
         {
-          "id": "r8b8gm9",
+          "id": "wnt1x8z",
           "label": "D",
           "text": "Considering run methodology",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Checking a query plan",
+      "explanation": "Đáp án đúng: C - C. Checking a query plan",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -7975,31 +7231,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "bpl60nk",
+          "id": "8j7zy9n",
           "label": "A",
           "text": "section of a spreadsheet",
           "isCorrect": false
         },
         {
-          "id": "28rns87",
+          "id": "urjgj8q",
           "label": "B",
           "text": "series of reports",
           "isCorrect": false
         },
         {
-          "id": "luvxrrt",
+          "id": "p9b9foh",
           "label": "C",
           "text": "single data resource",
           "isCorrect": true
         },
         {
-          "id": "b7i6l3j",
+          "id": "s8tpncn",
           "label": "D",
           "text": "data strategy",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. single data resource",
+      "explanation": "Đáp án đúng: C - C. single data resource",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -8011,43 +7267,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ei444oc",
+          "id": "r73vqgp",
           "label": "A",
           "text": "Users",
           "isCorrect": false
         },
         {
-          "id": "p6kmhgd",
+          "id": "orp863f",
           "label": "B",
           "text": "Disk space and memory",
           "isCorrect": true
         },
         {
-          "id": "wyw3rfn",
+          "id": "qgnoor6",
           "label": "C",
           "text": "Software",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "bzrp509",
+          "id": "m5195u4",
           "label": "D",
           "text": "Hardware",
-          "isCorrect": false
-        },
-        {
-          "id": "xgcoata",
-          "label": "C",
-          "text": "Software",
-          "isCorrect": false
-        },
-        {
-          "id": "elp5lq0",
-          "label": "D",
-          "text": "Hardware",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Disk space and memory",
+      "explanation": "Đáp án đúng: B, C, D - B. Disk space and memory C. Software D. Hardware",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8059,43 +7303,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "boa4wnq",
+          "id": "e2n00tb",
           "label": "A",
           "text": "Context",
           "isCorrect": false
         },
         {
-          "id": "9smd4i5",
+          "id": "eyvclim",
           "label": "B",
           "text": "Queries and analyses",
           "isCorrect": true
         },
         {
-          "id": "jdq2t3b",
+          "id": "yle780c",
           "label": "C",
           "text": "System commands",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "7zjv43h",
+          "id": "lz3w6ob",
           "label": "D",
           "text": "Transactions",
-          "isCorrect": false
-        },
-        {
-          "id": "zov7sbn",
-          "label": "C",
-          "text": "System commands",
-          "isCorrect": false
-        },
-        {
-          "id": "7m0zjki",
-          "label": "D",
-          "text": "Transactions",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Queries and analyses",
+      "explanation": "Đáp án đúng: B, C, D - B. Queries and analyses C. System commands D. Transactions",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8104,46 +7336,34 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "id": "pre-q-205",
       "questionNumber": 205,
       "questionText": "What are some key benefits of ELT data pipelines in business intelligence?",
-      "questionType": "single",
+      "questionType": "multiple",
       "choices": [
         {
-          "id": "osrma2m",
+          "id": "kprji0n",
           "label": "A",
           "text": "ELT enables business intelligence professionals to transform data while it is being transported.",
           "isCorrect": false
         },
         {
-          "id": "d3clygw",
+          "id": "xtyx52t",
           "label": "B",
           "text": "ELT reduces storage costs and enables businesses to scale storage and computation resources independently.",
           "isCorrect": true
         },
         {
-          "id": "2q1xq5l",
+          "id": "lw69ov0",
           "label": "C",
           "text": "ELT enables business intelligence professionals to transform only the data they need.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "a6m7p6e",
+          "id": "sqj6c49",
           "label": "D",
           "text": "ELT can ingest many different kinds of data into a storage system as soon as that data is available.",
-          "isCorrect": false
-        },
-        {
-          "id": "5wt35m3",
-          "label": "C",
-          "text": "ELT enables business intelligence professionals to transform only the data they need.",
-          "isCorrect": false
-        },
-        {
-          "id": "s7gogqt",
-          "label": "D",
-          "text": "ELT can ingest many different kinds of data into a storage system as soon as that data is available.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. ELT reduces storage costs and enables businesses to scale storage and computation resources independently.",
+      "explanation": "Đáp án đúng: B, C, D - B. ELT reduces storage costs and enables businesses to scale storage and computation resources independently. C. ELT enables business intelligence professionals to transform only the data they need. D. ELT can ingest many different kinds of data into a storage system as soon as that data is available.",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8155,31 +7375,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ek0thdv",
+          "id": "tacl2u2",
           "label": "A",
           "text": "visibility",
           "isCorrect": false
         },
         {
-          "id": "x9n1h6f",
+          "id": "s2hxg0x",
           "label": "B",
           "text": "optimization",
           "isCorrect": true
         },
         {
-          "id": "c3pnnzi",
+          "id": "lwebj6x",
           "label": "C",
           "text": "business intelligence strategy",
           "isCorrect": false
         },
         {
-          "id": "yka0npv",
+          "id": "1febzwj",
           "label": "D",
           "text": "application development",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. optimization",
+      "explanation": "Đáp án đúng: B - B. optimization",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8191,31 +7411,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "es232z1",
+          "id": "j26hfcd",
           "label": "A",
           "text": "live data",
           "isCorrect": false
         },
         {
-          "id": "0lwbizz",
+          "id": "vuwaxt8",
           "label": "B",
           "text": "structured data",
           "isCorrect": false
         },
         {
-          "id": "vaytgkp",
+          "id": "i16qiil",
           "label": "C",
           "text": "clean data",
           "isCorrect": false
         },
         {
-          "id": "t81o0t0",
+          "id": "867app0",
           "label": "D",
           "text": "raw data",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. raw data",
+      "explanation": "Đáp án đúng: D - D. raw data",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8227,31 +7447,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "b40mzob",
+          "id": "xmzjlmz",
           "label": "A",
           "text": "Warehouse",
           "isCorrect": false
         },
         {
-          "id": "6gpnhxa",
+          "id": "hyovmbg",
           "label": "B",
           "text": "ETL",
           "isCorrect": false
         },
         {
-          "id": "dga7qm2",
+          "id": "pciww5b",
           "label": "C",
           "text": "Lineage",
           "isCorrect": false
         },
         {
-          "id": "qc1g4u8",
+          "id": "nfa5qgl",
           "label": "D",
           "text": "ELT",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. ELT",
+      "explanation": "Đáp án đúng: D - D. ELT",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8263,31 +7483,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "xqgp0w3",
+          "id": "93yt296",
           "label": "A",
           "text": "Contention",
           "isCorrect": true
         },
         {
-          "id": "pxo9ihb",
+          "id": "3kpjjcx",
           "label": "B",
           "text": "Throughput",
           "isCorrect": false
         },
         {
-          "id": "jar7fkw",
+          "id": "ndn8uv5",
           "label": "C",
           "text": "Workload",
           "isCorrect": false
         },
         {
-          "id": "vkggcs1",
+          "id": "kt3z43v",
           "label": "D",
           "text": "Resources",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Contention",
+      "explanation": "Đáp án đúng: A - A. Contention",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8299,31 +7519,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wl2304s",
+          "id": "1kxngnw",
           "label": "A",
           "text": "Data fragmentation",
           "isCorrect": false
         },
         {
-          "id": "tu3zf8z",
+          "id": "hg3bh8q",
           "label": "B",
           "text": "Data processing",
           "isCorrect": false
         },
         {
-          "id": "waqz6vo",
+          "id": "68e2gwy",
           "label": "C",
           "text": "Data partitioning",
           "isCorrect": true
         },
         {
-          "id": "uu70zji",
+          "id": "z070lee",
           "label": "D",
           "text": "Data indexing",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Data partitioning",
+      "explanation": "Đáp án đúng: C - C. Data partitioning",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8335,31 +7555,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "dwa1jl1",
+          "id": "0tpds8i",
           "label": "A",
           "text": "Business intelligence monitoring",
           "isCorrect": false
         },
         {
-          "id": "kcylf74",
+          "id": "b4mhqrx",
           "label": "B",
           "text": "Query planning",
           "isCorrect": false
         },
         {
-          "id": "m7q6gyx",
+          "id": "gmq6tof",
           "label": "C",
           "text": "Quality testing",
           "isCorrect": true
         },
         {
-          "id": "ax6bd6k",
+          "id": "q7nigt5",
           "label": "D",
           "text": "Data governance",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Quality testing",
+      "explanation": "Đáp án đúng: C - C. Quality testing",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8371,31 +7591,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "943qpmj",
+          "id": "85o11yh",
           "label": "A",
           "text": "Measures",
           "isCorrect": true
         },
         {
-          "id": "cocqj7e",
+          "id": "fq8fgub",
           "label": "B",
           "text": "Columns",
           "isCorrect": false
         },
         {
-          "id": "4qurl7v",
+          "id": "2z94fc8",
           "label": "C",
           "text": "Context",
           "isCorrect": false
         },
         {
-          "id": "yamas98",
+          "id": "kj0p11r",
           "label": "D",
           "text": "Fields",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Measures",
+      "explanation": "Đáp án đúng: A - A. Measures",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -8407,43 +7627,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "v7gwtim",
+          "id": "jiuadgt",
           "label": "A",
           "text": "Data is encrypted",
           "isCorrect": false
         },
         {
-          "id": "iz1hybg",
+          "id": "tdtae8g",
           "label": "B",
           "text": "Data is consistent",
           "isCorrect": true
         },
         {
-          "id": "zprndgu",
+          "id": "gdb21jw",
           "label": "C",
           "text": "Data is accurate and complete",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "r6jw4g9",
+          "id": "yf6e04r",
           "label": "D",
           "text": "Data is trustworthy",
-          "isCorrect": false
-        },
-        {
-          "id": "0dfo350",
-          "label": "C",
-          "text": "Data is accurate and complete",
-          "isCorrect": false
-        },
-        {
-          "id": "98r5wcl",
-          "label": "D",
-          "text": "Data is trustworthy",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data is consistent",
+      "explanation": "Đáp án đúng: B, C, D - B. Data is consistent C. Data is accurate and complete D. Data is trustworthy",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8455,31 +7663,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5sv8shf",
+          "id": "ajyccjs",
           "label": "A",
           "text": "Ensure the source system data schema matches the target system data schema",
           "isCorrect": true
         },
         {
-          "id": "p4o35fr",
+          "id": "a4ecugd",
           "label": "B",
           "text": "Consider the needs of stakeholders in the design of the data schema",
           "isCorrect": false
         },
         {
-          "id": "6fhgido",
+          "id": "omt8emm",
           "label": "C",
           "text": "Consolidate data from multiple source systems",
           "isCorrect": false
         },
         {
-          "id": "9uxu719",
+          "id": "todtc0d",
           "label": "D",
           "text": "Prevent two or more components from using a single resource in a conflicting way",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Ensure the source system data schema matches the target system data schema",
+      "explanation": "Đáp án đúng: A - A. Ensure the source system data schema matches the target system data schema",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -8491,31 +7699,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "u4u8ou2",
+          "id": "2mj9vdd",
           "label": "A",
           "text": "To read and execute coded instructions",
           "isCorrect": false
         },
         {
-          "id": "1wfuriw",
+          "id": "j84sd8c",
           "label": "B",
           "text": "To evaluate database performance",
           "isCorrect": false
         },
         {
-          "id": "gl1l937",
+          "id": "seywyss",
           "label": "C",
           "text": "To provide more detail and context about the data",
           "isCorrect": false
         },
         {
-          "id": "ez48uw5",
+          "id": "21ze7ax",
           "label": "D",
           "text": "To preserve the existing table relationships",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. To preserve the existing table relationships",
+      "explanation": "Đáp án đúng: D - D. To preserve the existing table relationships",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -8527,31 +7735,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "aer21v9",
+          "id": "jubczqq",
           "label": "A",
           "text": "quality test",
           "isCorrect": false
         },
         {
-          "id": "3n1tlsm",
+          "id": "op9x43j",
           "label": "B",
           "text": "business rule",
           "isCorrect": false
         },
         {
-          "id": "fbrakij",
+          "id": "m1dngbk",
           "label": "C",
           "text": "data dictionary",
           "isCorrect": false
         },
         {
-          "id": "r86hp56",
+          "id": "0ivv1ji",
           "label": "D",
           "text": "data lineage",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. data lineage",
+      "explanation": "Đáp án đúng: D - D. data lineage",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8563,31 +7771,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "94qtpzc",
+          "id": "0w15jie",
           "label": "A",
           "text": "Considering the impact of business rules",
           "isCorrect": true
         },
         {
-          "id": "1hvmv5h",
+          "id": "3he7ikf",
           "label": "B",
           "text": "Expanding scope in response to stakeholder requirements",
           "isCorrect": false
         },
         {
-          "id": "yvs9k0o",
+          "id": "o9lcht9",
           "label": "C",
           "text": "Confirming that data is consistent",
           "isCorrect": false
         },
         {
-          "id": "0kxpsnu",
+          "id": "f2alv13",
           "label": "D",
           "text": "Ensuring the formal management of data assets",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Considering the impact of business rules",
+      "explanation": "Đáp án đúng: A - A. Considering the impact of business rules",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -8599,31 +7807,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5qea28l",
+          "id": "ipj0rms",
           "label": "A",
           "text": "No later than 24 hours after being loaded into the database",
           "isCorrect": false
         },
         {
-          "id": "suwerlc",
+          "id": "wgbl6cc",
           "label": "B",
           "text": "Before loading it into the database",
           "isCorrect": true
         },
         {
-          "id": "sw1avr5",
+          "id": "2hfeepf",
           "label": "C",
           "text": "At the same time as it is being loaded into the database",
           "isCorrect": false
         },
         {
-          "id": "64xul7a",
+          "id": "ozjrcnj",
           "label": "D",
           "text": "As soon as it has been loaded into the database",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Before loading it into the database",
+      "explanation": "Đáp án đúng: B - B. Before loading it into the database",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8635,31 +7843,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "r1ppja9",
+          "id": "hs6a4uy",
           "label": "A",
           "text": "Quality testing",
           "isCorrect": true
         },
         {
-          "id": "wryk6ll",
+          "id": "bwzusp0",
           "label": "B",
           "text": "Optimizing response time",
           "isCorrect": false
         },
         {
-          "id": "wbycqte",
+          "id": "fv57xgb",
           "label": "C",
           "text": "Data partitioning",
           "isCorrect": false
         },
         {
-          "id": "dmswpdt",
+          "id": "2el6lz9",
           "label": "D",
           "text": "Making trade-offs",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Quality testing",
+      "explanation": "Đáp án đúng: A - A. Quality testing",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -8671,31 +7879,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wrq2pyd",
+          "id": "d9a0p8e",
           "label": "A",
           "text": "Integrity",
           "isCorrect": false
         },
         {
-          "id": "wm3zbej",
+          "id": "pvbyqz0",
           "label": "B",
           "text": "Completeness",
           "isCorrect": true
         },
         {
-          "id": "7rx6ex4",
+          "id": "e1znq8g",
           "label": "C",
           "text": "Accuracy",
           "isCorrect": false
         },
         {
-          "id": "up81y1b",
+          "id": "c72gwfx",
           "label": "D",
           "text": "Consistency",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Completeness",
+      "explanation": "Đáp án đúng: B - B. Completeness",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -8707,31 +7915,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "b9d22sx",
+          "id": "u6h0i7l",
           "label": "A",
           "text": "Redundancy",
           "isCorrect": false
         },
         {
-          "id": "4url6xv",
+          "id": "1rgsoib",
           "label": "B",
           "text": "Timeliness",
           "isCorrect": true
         },
         {
-          "id": "m7cft9t",
+          "id": "fky9wfj",
           "label": "C",
           "text": "Conformity",
           "isCorrect": false
         },
         {
-          "id": "hlfvvcu",
+          "id": "t1dfl3n",
           "label": "D",
           "text": "Maturity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Timeliness",
+      "explanation": "Đáp án đúng: B - B. Timeliness",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -8743,43 +7951,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "bkea75d",
+          "id": "ngq6rm6",
           "label": "A",
           "text": "Combined systems",
           "isCorrect": false
         },
         {
-          "id": "t33ud10",
+          "id": "ujews7l",
           "label": "B",
           "text": "Data dictionaries",
           "isCorrect": true
         },
         {
-          "id": "5ndkf84",
+          "id": "gsxd8u5",
           "label": "C",
           "text": "Schema validation",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "h5ahmx2",
+          "id": "9bvgxvu",
           "label": "D",
           "text": "Data lineages",
-          "isCorrect": false
-        },
-        {
-          "id": "odkz6nm",
-          "label": "C",
-          "text": "Schema validation",
-          "isCorrect": false
-        },
-        {
-          "id": "jr47j1r",
-          "label": "D",
-          "text": "Data lineages",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Data dictionaries",
+      "explanation": "Đáp án đúng: B, C, D - B. Data dictionaries C. Schema validation D. Data lineages",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8791,43 +7987,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "wp8zz6j",
+          "id": "bhlk8xb",
           "label": "A",
           "text": "To establish row-based permissions",
           "isCorrect": false
         },
         {
-          "id": "t7aifqn",
+          "id": "5s0g3qg",
           "label": "B",
           "text": "To preserve table relationships",
           "isCorrect": true
         },
         {
-          "id": "9mu4nqc",
+          "id": "4apa7nj",
           "label": "C",
           "text": "To confirm the validity of database keys",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "xqvo3pe",
+          "id": "39biijt",
           "label": "D",
           "text": "To ensure consistent conventions",
-          "isCorrect": false
-        },
-        {
-          "id": "eobv0yl",
-          "label": "C",
-          "text": "To confirm the validity of database keys",
-          "isCorrect": false
-        },
-        {
-          "id": "r2y8hb1",
-          "label": "D",
-          "text": "To ensure consistent conventions",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. To preserve table relationships",
+      "explanation": "Đáp án đúng: B, C, D - B. To preserve table relationships C. To confirm the validity of database keys D. To ensure consistent conventions",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8839,37 +8023,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "kutzkse",
+          "id": "gd50nrn",
           "label": "A",
           "text": "A data dictionary describes the process of identifying the origin of data, where it has moved throughout the system, and how it has transformed over time.",
           "isCorrect": true
         },
         {
-          "id": "it9ujx4",
+          "id": "aclwhhl",
           "label": "B",
           "text": "A data lineage is a collection of information that describes the content, format, and structure of data objects within a database, as well as their relationships.",
           "isCorrect": false
         },
         {
-          "id": "w7qasvk",
+          "id": "bsmsl1e",
           "label": "C",
           "text": "A data dictionary is a collection of information that describes the content, format, and structure of data objects within a database.",
           "isCorrect": true
         },
         {
-          "id": "q8it7ex",
+          "id": "rhke1op",
           "label": "D",
           "text": "A data lineage describes the process of identifying the origin of data, where it has moved throughout the system, and how it has transformed over time.",
-          "isCorrect": false
-        },
-        {
-          "id": "354c7j4",
-          "label": "D",
-          "text": "A data lineage describes the process of identifying the origin of data, where it has moved throughout the system, and how it has transformed over time.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A data dictionary is a collection of information that describes the content, format, and structure of data objects within a database.",
+      "explanation": "Đáp án đúng: A, C, D - C. A data dictionary is a collection of information that describes the content, format, and structure of data objects within a database. D. A data lineage describes the process of identifying the origin of data, where it has moved throughout the system, and how it has transformed over time.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -8881,31 +8059,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "zgm7qav",
+          "id": "pcjbpju",
           "label": "A",
           "text": "Granularity",
           "isCorrect": false
         },
         {
-          "id": "19a0d03",
+          "id": "kdqvbhf",
           "label": "B",
           "text": "Security",
           "isCorrect": true
         },
         {
-          "id": "co2hl34",
+          "id": "unfqx94",
           "label": "C",
           "text": "readability",
           "isCorrect": false
         },
         {
-          "id": "2yveh2x",
+          "id": "4ug4ak2",
           "label": "D",
           "text": "maturity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Security",
+      "explanation": "Đáp án đúng: B - B. Security",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -8917,31 +8095,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "cdorw5e",
+          "id": "7p44u4q",
           "label": "A",
           "text": "links",
           "isCorrect": false
         },
         {
-          "id": "7q0a2h2",
+          "id": "6zrh8li",
           "label": "B",
           "text": "scalability",
           "isCorrect": false
         },
         {
-          "id": "4d4md8x",
+          "id": "ndvp4k4",
           "label": "C",
           "text": "defects",
           "isCorrect": true
         },
         {
-          "id": "p4yfx73",
+          "id": "jbrpumd",
           "label": "D",
           "text": "granularity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. defects",
+      "explanation": "Đáp án đúng: C - C. defects",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -8953,31 +8131,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "zq3ssvz",
+          "id": "5epymx8",
           "label": "A",
           "text": "Timeliness",
           "isCorrect": true
         },
         {
-          "id": "gynnged",
+          "id": "g37176b",
           "label": "B",
           "text": "Redundancy",
           "isCorrect": false
         },
         {
-          "id": "e5lzaei",
+          "id": "jsca0nw",
           "label": "C",
           "text": "Conformity",
           "isCorrect": false
         },
         {
-          "id": "2kuv55y",
+          "id": "xc736du",
           "label": "D",
           "text": "Maturity",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Timeliness",
+      "explanation": "Đáp án đúng: A - A. Timeliness",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -8989,31 +8167,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2ft71bo",
+          "id": "pjycosv",
           "label": "A",
           "text": "Conformity",
           "isCorrect": true
         },
         {
-          "id": "xbgb9fp",
+          "id": "x8onyx0",
           "label": "B",
           "text": "Security",
           "isCorrect": false
         },
         {
-          "id": "dxtq98z",
+          "id": "1lqyoel",
           "label": "C",
           "text": "Context",
           "isCorrect": false
         },
         {
-          "id": "sgrk6ll",
+          "id": "dt5wtms",
           "label": "D",
           "text": "Quality",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Conformity",
+      "explanation": "Đáp án đúng: A - A. Conformity",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9025,31 +8203,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "4rcydz8",
+          "id": "ym8e6fy",
           "label": "A",
           "text": "interfaces",
           "isCorrect": false
         },
         {
-          "id": "zwxyqy0",
+          "id": "ojg0sw2",
           "label": "B",
           "text": "permissions",
           "isCorrect": false
         },
         {
-          "id": "yo3dt0c",
+          "id": "5zp6s7h",
           "label": "C",
           "text": "keys",
           "isCorrect": true
         },
         {
-          "id": "sr7icj7",
+          "id": "e09ih7t",
           "label": "D",
           "text": "models",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. keys",
+      "explanation": "Đáp án đúng: C - C. keys",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9061,31 +8239,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "jiaoayn",
+          "id": "yc1opng",
           "label": "A",
           "text": "Dictionary",
           "isCorrect": false
         },
         {
-          "id": "4h9hzrq",
+          "id": "g4gv9l8",
           "label": "B",
           "text": "map",
           "isCorrect": false
         },
         {
-          "id": "mprcdta",
+          "id": "xebhy5m",
           "label": "C",
           "text": "model",
           "isCorrect": false
         },
         {
-          "id": "4o3vga1",
+          "id": "t4ody0h",
           "label": "D",
           "text": "lineage",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. lineage",
+      "explanation": "Đáp án đúng: D - D. lineage",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -9097,43 +8275,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "9app0gd",
+          "id": "l52alxg",
           "label": "A",
           "text": "The maturity of the data",
           "isCorrect": false
         },
         {
-          "id": "ejd6f7e",
+          "id": "3y0e8hk",
           "label": "B",
           "text": "How relationships are defined",
           "isCorrect": true
         },
         {
-          "id": "auoqykr",
+          "id": "2y9bugc",
           "label": "C",
           "text": "The security of the data",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "vwf81ek",
+          "id": "hlm19e1",
           "label": "D",
           "text": "What data is collected, stored, and provided",
-          "isCorrect": false
-        },
-        {
-          "id": "00dmagd",
-          "label": "C",
-          "text": "The security of the data",
-          "isCorrect": false
-        },
-        {
-          "id": "k2v2www",
-          "label": "D",
-          "text": "What data is collected, stored, and provided",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. How relationships are defined",
+      "explanation": "Đáp án đúng: B, C, D - B. How relationships are defined C. The security of the data D. What data is collected, stored, and provided",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -9145,31 +8311,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "g9x3upx",
+          "id": "3u0c7zh",
           "label": "A",
           "text": "Iteration",
           "isCorrect": false
         },
         {
-          "id": "2lnn367",
+          "id": "n4wlu16",
           "label": "B",
           "text": "Database modeling",
           "isCorrect": false
         },
         {
-          "id": "6odhmgb",
+          "id": "lt6uri1",
           "label": "C",
           "text": "Optimization",
           "isCorrect": false
         },
         {
-          "id": "lb58owe",
+          "id": "9j34zwo",
           "label": "D",
           "text": "Creating business rules",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Creating business rules",
+      "explanation": "Đáp án đúng: D - D. Creating business rules",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9181,31 +8347,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "k2l0v3o",
+          "id": "g9ie6wq",
           "label": "A",
           "text": "Completeness",
           "isCorrect": false
         },
         {
-          "id": "zricrqj",
+          "id": "4qz64vt",
           "label": "B",
           "text": "Integrity",
           "isCorrect": false
         },
         {
-          "id": "smx4gz3",
+          "id": "6k50gvq",
           "label": "C",
           "text": "Accuracy",
           "isCorrect": true
         },
         {
-          "id": "cllq4o8",
+          "id": "3n96ode",
           "label": "D",
           "text": "Consistency",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Accuracy",
+      "explanation": "Đáp án đúng: C - C. Accuracy",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9217,43 +8383,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "3zxob06",
+          "id": "f6f5si0",
           "label": "A",
           "text": "To map the data correctly",
           "isCorrect": false
         },
         {
-          "id": "hfgomny",
+          "id": "wr5cps5",
           "label": "B",
           "text": "To provide relevant insights",
           "isCorrect": true
         },
         {
-          "id": "d8q2hi8",
+          "id": "ioonhl9",
           "label": "C",
           "text": "To ensure the data is updated properly",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "6vmidl7",
+          "id": "beesk1x",
           "label": "D",
           "text": "To have the most current information",
-          "isCorrect": false
-        },
-        {
-          "id": "68e594l",
-          "label": "C",
-          "text": "To ensure the data is updated properly",
-          "isCorrect": false
-        },
-        {
-          "id": "qakiyi3",
-          "label": "D",
-          "text": "To have the most current information",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. To provide relevant insights",
+      "explanation": "Đáp án đúng: B, C, D - B. To provide relevant insights C. To ensure the data is updated properly D. To have the most current information",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -9265,31 +8419,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ok5nn37",
+          "id": "zmc4gk1",
           "label": "A",
           "text": "Dictionary",
           "isCorrect": true
         },
         {
-          "id": "o7rimkc",
+          "id": "f73kuzv",
           "label": "B",
           "text": "model",
           "isCorrect": false
         },
         {
-          "id": "tmq5fd8",
+          "id": "p0r0h7e",
           "label": "C",
           "text": "lineage",
           "isCorrect": false
         },
         {
-          "id": "dzylvkx",
+          "id": "ih9y4ku",
           "label": "D",
           "text": "map",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Dictionary",
+      "explanation": "Đáp án đúng: A - A. Dictionary",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -9301,31 +8455,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "n9lorh0",
+          "id": "f0byhk7",
           "label": "A",
           "text": "Fragmentation",
           "isCorrect": false
         },
         {
-          "id": "gopk0g5",
+          "id": "er07hjc",
           "label": "B",
           "text": "Redundancy",
           "isCorrect": false
         },
         {
-          "id": "73sevc5",
+          "id": "7r2qz4e",
           "label": "C",
           "text": "Contention",
           "isCorrect": false
         },
         {
-          "id": "4bsytcc",
+          "id": "vwog7db",
           "label": "D",
           "text": "System failure",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. System failure",
+      "explanation": "Đáp án đúng: D - D. System failure",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -9337,31 +8491,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "b3nd977",
+          "id": "et8s7dx",
           "label": "A",
           "text": "Consistency",
           "isCorrect": true
         },
         {
-          "id": "2koq4uu",
+          "id": "oeec7jm",
           "label": "B",
           "text": "Completeness",
           "isCorrect": false
         },
         {
-          "id": "37gl139",
+          "id": "hc2erks",
           "label": "C",
           "text": "Integrity",
           "isCorrect": false
         },
         {
-          "id": "1q14vom",
+          "id": "vp11bfo",
           "label": "D",
           "text": "Accuracy",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Consistency",
+      "explanation": "Đáp án đúng: A - A. Consistency",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9373,31 +8527,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "c2kgvsn",
+          "id": "3xzt9ge",
           "label": "A",
           "text": "visibility",
           "isCorrect": false
         },
         {
-          "id": "9151aaz",
+          "id": "zdr4oqo",
           "label": "B",
           "text": "security",
           "isCorrect": false
         },
         {
-          "id": "19nsymj",
+          "id": "p69rl6r",
           "label": "C",
           "text": "conformity",
           "isCorrect": true
         },
         {
-          "id": "5wbs3vv",
+          "id": "tcefw21",
           "label": "D",
           "text": "context",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. conformity",
+      "explanation": "Đáp án đúng: C - C. conformity",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9409,31 +8563,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5xfz7e7",
+          "id": "1kzzlln",
           "label": "A",
           "text": "To ensure the data fits the required destination format",
           "isCorrect": true
         },
         {
-          "id": "xdqm7b5",
+          "id": "4zqyqkv",
           "label": "B",
           "text": "To ensure the data conforms to the actual entity being measured or described",
           "isCorrect": false
         },
         {
-          "id": "u6qlqbn",
+          "id": "btwcn8u",
           "label": "C",
           "text": "To ensure the data is compatible and in agreement across all systems",
           "isCorrect": false
         },
         {
-          "id": "mrzmq0p",
+          "id": "drzx8c6",
           "label": "D",
           "text": "To ensure the data contains all desired components or measures",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. To ensure the data fits the required destination format",
+      "explanation": "Đáp án đúng: A - A. To ensure the data fits the required destination format",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9445,31 +8599,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "tpienvj",
+          "id": "lpiqia2",
           "label": "A",
           "text": "data model",
           "isCorrect": false
         },
         {
-          "id": "4t9mbyy",
+          "id": "52vavow",
           "label": "B",
           "text": "relational database",
           "isCorrect": false
         },
         {
-          "id": "r9r4p0u",
+          "id": "dkxv9tg",
           "label": "C",
           "text": "data lineage",
           "isCorrect": false
         },
         {
-          "id": "xk23nw8",
+          "id": "giw5lzd",
           "label": "D",
           "text": "data dictionary",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. data dictionary",
+      "explanation": "Đáp án đúng: D - D. data dictionary",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -9481,31 +8635,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "p95o9i7",
+          "id": "o4zj66v",
           "label": "A",
           "text": "field",
           "isCorrect": false
         },
         {
-          "id": "y1u067e",
+          "id": "ol7ltrg",
           "label": "B",
           "text": "gateway",
           "isCorrect": false
         },
         {
-          "id": "03xisph",
+          "id": "nx04afw",
           "label": "C",
           "text": "restriction",
           "isCorrect": true
         },
         {
-          "id": "mlau37w",
+          "id": "0g1xly6",
           "label": "D",
           "text": "channel",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. restriction",
+      "explanation": "Đáp án đúng: C - C. restriction",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -9517,31 +8671,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "qxmnrcq",
+          "id": "p323fq6",
           "label": "A",
           "text": "They are interactive.",
           "isCorrect": true
         },
         {
-          "id": "y1am17c",
+          "id": "q5ggrfb",
           "label": "B",
           "text": "They are printed.",
           "isCorrect": false
         },
         {
-          "id": "sgo0w3f",
+          "id": "9el9zh8",
           "label": "C",
           "text": "They are constant.",
           "isCorrect": false
         },
         {
-          "id": "a8t8sht",
+          "id": "biahij4",
           "label": "D",
           "text": "They are static.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. They are interactive.",
+      "explanation": "Đáp án đúng: A - A. They are interactive.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9553,31 +8707,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "juanx3f",
+          "id": "z76s2fk",
           "label": "A",
           "text": "To provide important information about what's currently happening",
           "isCorrect": true
         },
         {
-          "id": "fuzfrk4",
+          "id": "p8p0onc",
           "label": "B",
           "text": "To display raw data as comprehensively as possible",
           "isCorrect": false
         },
         {
-          "id": "9pazqfj",
+          "id": "o9qt5nb",
           "label": "C",
           "text": "To gather and present all available data about a single metric",
           "isCorrect": false
         },
         {
-          "id": "lp9hqc3",
+          "id": "p9rfk59",
           "label": "D",
           "text": "To provide important information about what previously happened",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. To provide important information about what's currently happening",
+      "explanation": "Đáp án đúng: A - A. To provide important information about what's currently happening",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9589,31 +8743,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "o5g8sjq",
+          "id": "pcp11o8",
           "label": "A",
           "text": "Customers",
           "isCorrect": false
         },
         {
-          "id": "m7wtla3",
+          "id": "jqzp6oo",
           "label": "B",
           "text": "Business intelligence professionals",
           "isCorrect": false
         },
         {
-          "id": "bcrrlal",
+          "id": "6sv6j8j",
           "label": "C",
           "text": "Stakeholders",
           "isCorrect": true
         },
         {
-          "id": "z7cz6eu",
+          "id": "1s4395z",
           "label": "D",
           "text": "Data governance professionals",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Stakeholders",
+      "explanation": "Đáp án đúng: C - C. Stakeholders",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -9625,31 +8779,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "upt7a7f",
+          "id": "vhcr17e",
           "label": "A",
           "text": "Summary table",
           "isCorrect": false
         },
         {
-          "id": "8o3sfpf",
+          "id": "52jc7o9",
           "label": "B",
           "text": "Low-fidelity mockup",
           "isCorrect": true
         },
         {
-          "id": "pz2wpij",
+          "id": "ewuln56",
           "label": "C",
           "text": "Gauge chart",
           "isCorrect": false
         },
         {
-          "id": "ggae5jv",
+          "id": "0s94k36",
           "label": "D",
           "text": "Data model",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Low-fidelity mockup",
+      "explanation": "Đáp án đúng: B - B. Low-fidelity mockup",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9661,31 +8815,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "dg9wslo",
+          "id": "b4lne97",
           "label": "A",
           "text": "Time period",
           "isCorrect": false
         },
         {
-          "id": "ut0hv4l",
+          "id": "zy6eoex",
           "label": "B",
           "text": "Users",
           "isCorrect": true
         },
         {
-          "id": "zzzi9y4",
+          "id": "45vntgk",
           "label": "C",
           "text": "Hardware",
           "isCorrect": false
         },
         {
-          "id": "s7c0xdr",
+          "id": "3wo10go",
           "label": "D",
           "text": "Software",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Users",
+      "explanation": "Đáp án đúng: B - B. Users",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9697,31 +8851,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "h5nyipk",
+          "id": "fvkwzln",
           "label": "A",
           "text": "To represent and communicate data insights",
           "isCorrect": true
         },
         {
-          "id": "fm6rc76",
+          "id": "6fxw39p",
           "label": "B",
           "text": "To critique business needs",
           "isCorrect": false
         },
         {
-          "id": "tfh40nz",
+          "id": "8gvsj5n",
           "label": "C",
           "text": "To confirm that the data is compatible",
           "isCorrect": false
         },
         {
-          "id": "ql7hs45",
+          "id": "3cc93y8",
           "label": "D",
           "text": "To evaluate dashboard progress",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. To represent and communicate data insights",
+      "explanation": "Đáp án đúng: A - A. To represent and communicate data insights",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9733,43 +8887,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "3lojngj",
+          "id": "ibaog11",
           "label": "A",
           "text": "The data used in business intelligence visualizations is static.",
           "isCorrect": false
         },
         {
-          "id": "wohdk3h",
+          "id": "rwwacnl",
           "label": "B",
           "text": "The data used in business intelligence visualizations continuously updates in order to lend new insights.",
           "isCorrect": true
         },
         {
-          "id": "qbim9ri",
+          "id": "l7bdbp2",
           "label": "C",
           "text": "Business intelligence visualizations are built, designed, and maintained over time.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "cz22bma",
+          "id": "d6c3cz6",
           "label": "D",
           "text": "Business intelligence visualizations are dynamic.",
-          "isCorrect": false
-        },
-        {
-          "id": "9j7q0jg",
-          "label": "C",
-          "text": "Business intelligence visualizations are built, designed, and maintained over time.",
-          "isCorrect": false
-        },
-        {
-          "id": "z1rxyct",
-          "label": "D",
-          "text": "Business intelligence visualizations are dynamic.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. The data used in business intelligence visualizations continuously updates in order to lend new insights.",
+      "explanation": "Đáp án đúng: B, C, D - B. The data used in business intelligence visualizations continuously updates in order to lend new insights. C. Business intelligence visualizations are built, designed, and maintained over time. D. Business intelligence visualizations are dynamic.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -9781,31 +8923,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "3ahdq3z",
+          "id": "svkhrth",
           "label": "A",
           "text": "Maintain datasets",
           "isCorrect": false
         },
         {
-          "id": "uglc5vw",
+          "id": "fosjdfm",
           "label": "B",
           "text": "Build dashboards",
           "isCorrect": false
         },
         {
-          "id": "yfo8wu8",
+          "id": "ina3uyn",
           "label": "C",
           "text": "Troubleshoot data transfer",
           "isCorrect": false
         },
         {
-          "id": "egzl02h",
+          "id": "j8lkvbs",
           "label": "D",
           "text": "Interpret data",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Interpret data",
+      "explanation": "Đáp án đúng: D - D. Interpret data",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9817,43 +8959,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "z01j4fx",
+          "id": "sixindm",
           "label": "A",
           "text": "Create better static reports",
           "isCorrect": false
         },
         {
-          "id": "oic2de7",
+          "id": "0qqx5ja",
           "label": "B",
           "text": "Avoid potential errors",
           "isCorrect": true
         },
         {
-          "id": "tgns3pv",
+          "id": "bigqcwr",
           "label": "C",
           "text": "Find and rectify incorrect assumptions",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "4qquuw3",
+          "id": "d1u9l3j",
           "label": "D",
           "text": "Enhance collaboration and get feedback",
-          "isCorrect": false
-        },
-        {
-          "id": "rthj56r",
-          "label": "C",
-          "text": "Find and rectify incorrect assumptions",
-          "isCorrect": false
-        },
-        {
-          "id": "pmfwf8x",
-          "label": "D",
-          "text": "Enhance collaboration and get feedback",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Avoid potential errors",
+      "explanation": "Đáp án đúng: B, C, D - B. Avoid potential errors C. Find and rectify incorrect assumptions D. Enhance collaboration and get feedback",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -9865,31 +8995,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "45q7qxq",
+          "id": "gusmv6d",
           "label": "A",
           "text": "Data problem",
           "isCorrect": true
         },
         {
-          "id": "5e931ze",
+          "id": "2qt6ofi",
           "label": "B",
           "text": "Visualization problem",
           "isCorrect": false
         },
         {
-          "id": "ez676q5",
+          "id": "xsqwo46",
           "label": "C",
           "text": "Tool problem",
           "isCorrect": false
         },
         {
-          "id": "rzmrle0",
+          "id": "ckjmue9",
           "label": "D",
           "text": "Audience problem",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Data problem",
+      "explanation": "Đáp án đúng: A - A. Data problem",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9901,31 +9031,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "mca8hh0",
+          "id": "14pl8ff",
           "label": "A",
           "text": "Visualization problem",
           "isCorrect": false
         },
         {
-          "id": "cnmdzub",
+          "id": "zwnxv07",
           "label": "B",
           "text": "Tool problem",
           "isCorrect": true
         },
         {
-          "id": "zudl0y3",
+          "id": "91q3nx9",
           "label": "C",
           "text": "Data problem",
           "isCorrect": false
         },
         {
-          "id": "uljguok",
+          "id": "1iueb5a",
           "label": "D",
           "text": "Audience problem",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Tool problem",
+      "explanation": "Đáp án đúng: B - B. Tool problem",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9937,31 +9067,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2o711vt",
+          "id": "xhpc51m",
           "label": "A",
           "text": "Visualization problem",
           "isCorrect": false
         },
         {
-          "id": "0s7zewx",
+          "id": "ravbbhk",
           "label": "B",
           "text": "Tool problem",
           "isCorrect": false
         },
         {
-          "id": "b9av3f6",
+          "id": "anxkopi",
           "label": "C",
           "text": "Data problem",
           "isCorrect": false
         },
         {
-          "id": "g6io25w",
+          "id": "t9l2ixe",
           "label": "D",
           "text": "Audience problem",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Audience problem",
+      "explanation": "Đáp án đúng: D - D. Audience problem",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -9973,31 +9103,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "xsxw03u",
+          "id": "xppx0pq",
           "label": "A",
           "text": "Audience",
           "isCorrect": true
         },
         {
-          "id": "10yyy1c",
+          "id": "bfpsay2",
           "label": "B",
           "text": "Maturity",
           "isCorrect": false
         },
         {
-          "id": "nigxz0q",
+          "id": "x98j3la",
           "label": "C",
           "text": "Data",
           "isCorrect": false
         },
         {
-          "id": "ii0i5qy",
+          "id": "5wqcvhn",
           "label": "D",
           "text": "Tool",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Audience",
+      "explanation": "Đáp án đúng: A - A. Audience",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10009,43 +9139,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "yt3kgef",
+          "id": "lxv78oo",
           "label": "A",
           "text": "Analyze the data and present findings",
           "isCorrect": false
         },
         {
-          "id": "jnmvkjn",
+          "id": "rcu11u6",
           "label": "B",
           "text": "Determine what the dashboard needs to do",
           "isCorrect": true
         },
         {
-          "id": "kiu9dbf",
+          "id": "fxyit52",
           "label": "C",
           "text": "Maintain and improve the dashboard",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "x04gwhx",
+          "id": "t1l9o1b",
           "label": "D",
           "text": "Build the appropriate tool",
-          "isCorrect": false
-        },
-        {
-          "id": "0r7799u",
-          "label": "C",
-          "text": "Maintain and improve the dashboard",
-          "isCorrect": false
-        },
-        {
-          "id": "2yl8016",
-          "label": "D",
-          "text": "Build the appropriate tool",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Determine what the dashboard needs to do",
+      "explanation": "Đáp án đúng: B, C, D - B. Determine what the dashboard needs to do C. Maintain and improve the dashboard D. Build the appropriate tool",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10057,31 +9175,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "8h0b2od",
+          "id": "kdtfh8e",
           "label": "A",
           "text": "Data visualization",
           "isCorrect": false
         },
         {
-          "id": "lmaw7dn",
+          "id": "qr55ffo",
           "label": "B",
           "text": "Data storytelling",
           "isCorrect": false
         },
         {
-          "id": "3ap48rq",
+          "id": "0pmdvwo",
           "label": "C",
           "text": "Low-fidelity mockup",
           "isCorrect": true
         },
         {
-          "id": "6gpl358",
+          "id": "orog01w",
           "label": "D",
           "text": "Hypothesis testing",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Low-fidelity mockup",
+      "explanation": "Đáp án đúng: C - C. Low-fidelity mockup",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10093,43 +9211,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "l2kvkow",
+          "id": "jfvlvpj",
           "label": "A",
           "text": "A dashboard is ineffective because it includes incorrect datasets.",
           "isCorrect": true
         },
         {
-          "id": "njbu6t9",
+          "id": "khxjl8s",
           "label": "B",
           "text": "A server crashes because too many people are editing the same visualization.",
           "isCorrect": true
         },
         {
-          "id": "tmmti5f",
+          "id": "t2qhlym",
           "label": "C",
           "text": "Systems are overwhelmed because of the volume of metrics being tracked.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "bpg5o9j",
+          "id": "rp2oxi1",
           "label": "D",
           "text": "The wrong software or hardware was selected for the project.",
-          "isCorrect": false
-        },
-        {
-          "id": "8328sqy",
-          "label": "C",
-          "text": "Systems are overwhelmed because of the volume of metrics being tracked.",
-          "isCorrect": false
-        },
-        {
-          "id": "06nblmv",
-          "label": "D",
-          "text": "The wrong software or hardware was selected for the project.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. A server crashes because too many people are editing the same visualization.",
+      "explanation": "Đáp án đúng: A, B, C, D - B. A server crashes because too many people are editing the same visualization. C. Systems are overwhelmed because of the volume of metrics being tracked. D. The wrong software or hardware was selected for the project.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10141,37 +9247,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "6ozra9n",
+          "id": "ql545a9",
           "label": "A",
           "text": "Data analytics visualizations are used to monitor data that is relevant to an ongoing business question.",
           "isCorrect": false
         },
         {
-          "id": "tv78nbl",
+          "id": "p86l2p7",
           "label": "B",
           "text": "Business intelligence visualizations are used to represent data that is relevant to a single business decision.",
           "isCorrect": false
         },
         {
-          "id": "y440rty",
+          "id": "wo0necw",
           "label": "C",
           "text": "Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question.",
           "isCorrect": true
         },
         {
-          "id": "yztp3fo",
+          "id": "2cpm315",
           "label": "D",
           "text": "Data analytics visualizations are used to represent data that is relevant to a single business decision.",
-          "isCorrect": false
-        },
-        {
-          "id": "5ux04pv",
-          "label": "D",
-          "text": "Data analytics visualizations are used to represent data that is relevant to a single business decision.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question.",
+      "explanation": "Đáp án đúng: C, D - C. Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question. D. Data analytics visualizations are used to represent data that is relevant to a single business decision.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10183,31 +9283,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "fbm59cg",
+          "id": "ckfj9ar",
           "label": "A",
           "text": "Audience problem",
           "isCorrect": false
         },
         {
-          "id": "pb15o9v",
+          "id": "g49s8v3",
           "label": "B",
           "text": "Visualization problem",
           "isCorrect": false
         },
         {
-          "id": "nwro3nb",
+          "id": "w0zowzw",
           "label": "C",
           "text": "Data problem",
           "isCorrect": true
         },
         {
-          "id": "j3q1dz5",
+          "id": "o9mhumc",
           "label": "D",
           "text": "Tool problem",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Data problem",
+      "explanation": "Đáp án đúng: C - C. Data problem",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10219,37 +9319,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "n8v8do7",
+          "id": "brxcvz2",
           "label": "A",
           "text": "The business intelligence team selected a software that is not approved by their company.",
           "isCorrect": true
         },
         {
-          "id": "4m6sbo8",
+          "id": "w6f7x62",
           "label": "B",
           "text": "Necessary dashboard data is inaccessible and therefore cannot be imported.",
           "isCorrect": false
         },
         {
-          "id": "ar65anw",
+          "id": "i9a3lwi",
           "label": "C",
           "text": "A dashboard includes private information that users are not permitted to access.",
           "isCorrect": true
         },
         {
-          "id": "jeptpqy",
+          "id": "wyhp1gb",
           "label": "D",
           "text": "A dashboard includes metrics that are irrelevant to users.",
-          "isCorrect": false
-        },
-        {
-          "id": "m3gt87l",
-          "label": "D",
-          "text": "A dashboard includes metrics that are irrelevant to users.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. A dashboard includes private information that users are not permitted to access.",
+      "explanation": "Đáp án đúng: A, C, D - C. A dashboard includes private information that users are not permitted to access. D. A dashboard includes metrics that are irrelevant to users.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10261,31 +9355,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "r6k4crx",
+          "id": "icv7zno",
           "label": "A",
           "text": "Cleaned",
           "isCorrect": false
         },
         {
-          "id": "svhydma",
+          "id": "13xzvhk",
           "label": "B",
           "text": "Analyzed",
           "isCorrect": false
         },
         {
-          "id": "z0ieil6",
+          "id": "kz3irds",
           "label": "C",
           "text": "Imported",
           "isCorrect": true
         },
         {
-          "id": "uw07fpi",
+          "id": "z68ue0d",
           "label": "D",
           "text": "Filtered",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Imported",
+      "explanation": "Đáp án đúng: C - C. Imported",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10297,37 +9391,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "u9jhsyx",
+          "id": "wq27pmk",
           "label": "A",
           "text": "Stakeholders use the insights from business intelligence visualizations to make a single business decision.",
           "isCorrect": false
         },
         {
-          "id": "x6nx205",
+          "id": "eliu9ia",
           "label": "B",
           "text": "Stakeholders use the insights from data analytics visualizations to make decisions both now and in the future.",
           "isCorrect": false
         },
         {
-          "id": "0uddu8m",
+          "id": "ajk6kh8",
           "label": "C",
           "text": "Stakeholders use the insights from data analytics visualizations to make a single business decision.",
           "isCorrect": true
         },
         {
-          "id": "wnb2zhg",
+          "id": "c74w6zf",
           "label": "D",
           "text": "Stakeholders use the insights from business intelligence visualizations to make decisions both now and in the future.",
-          "isCorrect": false
-        },
-        {
-          "id": "pnr1qts",
-          "label": "D",
-          "text": "Stakeholders use the insights from business intelligence visualizations to make decisions both now and in the future.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Stakeholders use the insights from data analytics visualizations to make a single business decision.",
+      "explanation": "Đáp án đúng: C, D - C. Stakeholders use the insights from data analytics visualizations to make a single business decision. D. Stakeholders use the insights from business intelligence visualizations to make decisions both now and in the future.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10339,43 +9427,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "mntzixf",
+          "id": "fvpmklr",
           "label": "A",
           "text": "Analyze dashboard data and present findings",
           "isCorrect": false
         },
         {
-          "id": "thrqrxb",
+          "id": "wobh0p5",
           "label": "B",
           "text": "Maintain the dashboard",
           "isCorrect": true
         },
         {
-          "id": "xvuf6kg",
+          "id": "ary4n1v",
           "label": "C",
           "text": "Improve the dashboard",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "tlup6ea",
+          "id": "phnszh1",
           "label": "D",
           "text": "Build the appropriate dashboard tool",
-          "isCorrect": false
-        },
-        {
-          "id": "wgmrrz0",
-          "label": "C",
-          "text": "Improve the dashboard",
-          "isCorrect": false
-        },
-        {
-          "id": "hgjat07",
-          "label": "D",
-          "text": "Build the appropriate dashboard tool",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Maintain the dashboard",
+      "explanation": "Đáp án đúng: B, C, D - B. Maintain the dashboard C. Improve the dashboard D. Build the appropriate dashboard tool",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10387,31 +9463,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "78ld8za",
+          "id": "ye60h2u",
           "label": "A",
           "text": "During the visualization design process",
           "isCorrect": false
         },
         {
-          "id": "666bfsu",
+          "id": "e07ify1",
           "label": "B",
           "text": "During the planning and evaluation stages",
           "isCorrect": true
         },
         {
-          "id": "qzp9w8c",
+          "id": "ibfc49e",
           "label": "C",
           "text": "During data analysis",
           "isCorrect": false
         },
         {
-          "id": "ib8ng43",
+          "id": "yv6xyv0",
           "label": "D",
           "text": "During data transfer",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. During the planning and evaluation stages",
+      "explanation": "Đáp án đúng: B - B. During the planning and evaluation stages",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10423,31 +9499,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "smmmowa",
+          "id": "ahfxyv0",
           "label": "A",
           "text": "Data problem",
           "isCorrect": false
         },
         {
-          "id": "5n8bqtp",
+          "id": "uibfbk2",
           "label": "B",
           "text": "Audience problem",
           "isCorrect": false
         },
         {
-          "id": "bbxctfu",
+          "id": "0r6088a",
           "label": "C",
           "text": "Tool problem",
           "isCorrect": true
         },
         {
-          "id": "7wobd9p",
+          "id": "5m42moi",
           "label": "D",
           "text": "Visualization problem",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Tool problem",
+      "explanation": "Đáp án đúng: C - C. Tool problem",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10459,37 +9535,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ekhjvbt",
+          "id": "b14edb7",
           "label": "A",
           "text": "Data analytics visualizations are used to monitor data that is relevant to an ongoing business question.",
           "isCorrect": false
         },
         {
-          "id": "kuq1b9d",
+          "id": "h75n95y",
           "label": "B",
           "text": "Business intelligence visualizations are used to represent data that is relevant to a single business decision.",
           "isCorrect": false
         },
         {
-          "id": "1zoi6c8",
+          "id": "oxxdfgt",
           "label": "C",
           "text": "Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question.",
           "isCorrect": true
         },
         {
-          "id": "j7sl89u",
+          "id": "46nis5o",
           "label": "D",
           "text": "Data analytics visualizations are used to represent data that is relevant to a single business question.",
-          "isCorrect": false
-        },
-        {
-          "id": "lcgnhw6",
-          "label": "D",
-          "text": "Data analytics visualizations are used to represent data that is relevant to a single business question.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question.",
+      "explanation": "Đáp án đúng: C, D - C. Business intelligence visualizations are used to monitor data that is relevant to an ongoing business question. D. Data analytics visualizations are used to represent data that is relevant to a single business question.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10501,31 +9571,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "pm0p9hv",
+          "id": "wt88389",
           "label": "A",
           "text": "They want data in the visualization to remain constant.",
           "isCorrect": false
         },
         {
-          "id": "jwcb3pt",
+          "id": "zkrixpt",
           "label": "B",
           "text": "They want the visualization to shift from general to more specific information.",
           "isCorrect": false
         },
         {
-          "id": "28djxh0",
+          "id": "wr4rkhm",
           "label": "C",
           "text": "They want the visualization to be interactive or change over time.",
           "isCorrect": true
         },
         {
-          "id": "a7d6chy",
+          "id": "3cxzsgu",
           "label": "D",
           "text": "They want the visualization to be annotated.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. They want the visualization to be interactive or change over time.",
+      "explanation": "Đáp án đúng: C - C. They want the visualization to be interactive or change over time.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10537,31 +9607,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "em4d2l0",
+          "id": "0enm0rl",
           "label": "A",
           "text": "Tool problem",
           "isCorrect": true
         },
         {
-          "id": "mgba9tp",
+          "id": "nfmxb3g",
           "label": "B",
           "text": "Data problem",
           "isCorrect": false
         },
         {
-          "id": "29l5n26",
+          "id": "jfo861w",
           "label": "C",
           "text": "Security problem",
           "isCorrect": false
         },
         {
-          "id": "drktl4z",
+          "id": "6bimd9v",
           "label": "D",
           "text": "Audience problem",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Tool problem",
+      "explanation": "Đáp án đúng: A - A. Tool problem",
       "topic": "Data Governance",
       "confidence": 100,
       "warnings": []
@@ -10573,31 +9643,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "jlii9kh",
+          "id": "eskt8w5",
           "label": "A",
           "text": "Making trade-offs",
           "isCorrect": true
         },
         {
-          "id": "nwg8zyg",
+          "id": "81ax6hz",
           "label": "B",
           "text": "Quality testing",
           "isCorrect": false
         },
         {
-          "id": "a7tnjhe",
+          "id": "gzyx5z3",
           "label": "C",
           "text": "Eliminating redundancy",
           "isCorrect": false
         },
         {
-          "id": "v198691",
+          "id": "6p127es",
           "label": "D",
           "text": "Revealing business insights",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Making trade-offs",
+      "explanation": "Đáp án đúng: A - A. Making trade-offs",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10609,31 +9679,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "kajtgww",
+          "id": "jkgo3t3",
           "label": "A",
           "text": "Boolean",
           "isCorrect": false
         },
         {
-          "id": "r0r6evz",
+          "id": "8k3bnzl",
           "label": "B",
           "text": "Quantitative",
           "isCorrect": false
         },
         {
-          "id": "h4sy8dq",
+          "id": "5wvd2zx",
           "label": "C",
           "text": "Timestamped",
           "isCorrect": false
         },
         {
-          "id": "5fehcl2",
+          "id": "xiopn42",
           "label": "D",
           "text": "Qualitative",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Qualitative",
+      "explanation": "Đáp án đúng: D - D. Qualitative",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -10645,31 +9715,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "y1xybxh",
+          "id": "27kj2hx",
           "label": "A",
           "text": "Conditional formatting",
           "isCorrect": false
         },
         {
-          "id": "pcu5sof",
+          "id": "3ipytr9",
           "label": "B",
           "text": "Data blending",
           "isCorrect": false
         },
         {
-          "id": "bpikk3j",
+          "id": "2os62o0",
           "label": "C",
           "text": "Encoding",
           "isCorrect": true
         },
         {
-          "id": "ga5kijt",
+          "id": "krzvoru",
           "label": "D",
           "text": "Reframing",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Encoding",
+      "explanation": "Đáp án đúng: C - C. Encoding",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -10681,31 +9751,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "hic8gh0",
+          "id": "uybe3m6",
           "label": "A",
           "text": "Public availability",
           "isCorrect": true
         },
         {
-          "id": "ulu05da",
+          "id": "b7vkyit",
           "label": "B",
           "text": "Open permission",
           "isCorrect": false
         },
         {
-          "id": "8l4q6no",
+          "id": "nw5cqz3",
           "label": "C",
           "text": "Entry-level",
           "isCorrect": false
         },
         {
-          "id": "ztdt5d1",
+          "id": "lskpxmd",
           "label": "D",
           "text": "Accessible data",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Public availability",
+      "explanation": "Đáp án đúng: A - A. Public availability",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10717,31 +9787,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "4xv4rjz",
+          "id": "7xi7jh1",
           "label": "A",
           "text": "Only table columns",
           "isCorrect": true
         },
         {
-          "id": "uvvpo7w",
+          "id": "1onnzw3",
           "label": "B",
           "text": "A complete dashboard",
           "isCorrect": false
         },
         {
-          "id": "ol5oj00",
+          "id": "qx4hwo6",
           "label": "C",
           "text": "A single item",
           "isCorrect": true
         },
         {
-          "id": "mw1xb6y",
+          "id": "dtvjutl",
           "label": "D",
           "text": "Only table rows",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. A single item",
+      "explanation": "Đáp án đúng: A, C - C. A single item",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10753,31 +9823,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "6pqqzny",
+          "id": "y7m81di",
           "label": "A",
           "text": "In the database",
           "isCorrect": true
         },
         {
-          "id": "amj2b50",
+          "id": "h1u9nee",
           "label": "B",
           "text": "In the spreadsheet",
           "isCorrect": false
         },
         {
-          "id": "tnnf5om",
+          "id": "vueb046",
           "label": "C",
           "text": "In the visualization tool",
           "isCorrect": false
         },
         {
-          "id": "6dd97qc",
+          "id": "q84e9xv",
           "label": "D",
           "text": "In the pipeline",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. In the database",
+      "explanation": "Đáp án đúng: A - A. In the database",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -10789,37 +9859,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "02290iz",
+          "id": "ylsqjyw",
           "label": "A",
           "text": "Prioritize high-level overviews, as the director of operations is the most important stakeholder.",
           "isCorrect": false
         },
         {
-          "id": "krmkz62",
+          "id": "wake37d",
           "label": "B",
           "text": "Prioritize the more granular metrics, as there are more users on the finance team.",
           "isCorrect": false
         },
         {
-          "id": "3i13xj8",
+          "id": "9xqzlks",
           "label": "C",
           "text": "Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users.",
           "isCorrect": true
         },
         {
-          "id": "1q2que0",
+          "id": "lirjca7",
           "label": "D",
           "text": "Consider which trade-offs best align with business goals.",
-          "isCorrect": false
-        },
-        {
-          "id": "dt9vrtq",
-          "label": "D",
-          "text": "Consider which trade-offs best align with business goals.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users.",
+      "explanation": "Đáp án đúng: C, D - C. Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users. D. Consider which trade-offs best align with business goals.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -10831,31 +9895,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "u4tlgj3",
+          "id": "50vv79r",
           "label": "A",
           "text": "Visualization",
           "isCorrect": true
         },
         {
-          "id": "23hmovv",
+          "id": "m392vgc",
           "label": "B",
           "text": "analysis",
           "isCorrect": false
         },
         {
-          "id": "6y9a6wf",
+          "id": "yo1zdgl",
           "label": "C",
           "text": "processing",
           "isCorrect": false
         },
         {
-          "id": "8ign60i",
+          "id": "qadr47q",
           "label": "D",
           "text": "mapping",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Visualization",
+      "explanation": "Đáp án đúng: A - A. Visualization",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10867,31 +9931,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "cq832gc",
+          "id": "m3bipe8",
           "label": "A",
           "text": "floating",
           "isCorrect": false
         },
         {
-          "id": "xe3q22r",
+          "id": "5zo9o12",
           "label": "B",
           "text": "timestamped",
           "isCorrect": false
         },
         {
-          "id": "xfe9wql",
+          "id": "9v4mouq",
           "label": "C",
           "text": "discrete",
           "isCorrect": true
         },
         {
-          "id": "al2rhmo",
+          "id": "vjfdso7",
           "label": "D",
           "text": "boolean",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. discrete",
+      "explanation": "Đáp án đúng: C - C. discrete",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -10903,31 +9967,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "rf82j73",
+          "id": "mvlrhmv",
           "label": "A",
           "text": "Encoding",
           "isCorrect": true
         },
         {
-          "id": "jv70fa1",
+          "id": "wuhelqb",
           "label": "B",
           "text": "Tracking",
           "isCorrect": false
         },
         {
-          "id": "87puy81",
+          "id": "gduknde",
           "label": "C",
           "text": "Charting",
           "isCorrect": false
         },
         {
-          "id": "arb6jf8",
+          "id": "342gx7q",
           "label": "D",
           "text": "Summarizing",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Encoding",
+      "explanation": "Đáp án đúng: A - A. Encoding",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10939,31 +10003,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5zkq6od",
+          "id": "syfswdu",
           "label": "A",
           "text": "It adds visual elements.",
           "isCorrect": false
         },
         {
-          "id": "x6nfd62",
+          "id": "3xrayv4",
           "label": "B",
           "text": "It reduces clutter.",
           "isCorrect": false
         },
         {
-          "id": "x7fs8pa",
+          "id": "zrutxlr",
           "label": "C",
           "text": "It combines data from multiple sources.",
           "isCorrect": false
         },
         {
-          "id": "kj7u1w0",
+          "id": "8wgwt91",
           "label": "D",
           "text": "It prioritizes accessibility",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. It prioritizes accessibility",
+      "explanation": "Đáp án đúng: D - D. It prioritizes accessibility",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -10975,43 +10039,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "3tsywu1",
+          "id": "j9quxae",
           "label": "A",
           "text": "To keep all pie charts together",
           "isCorrect": false
         },
         {
-          "id": "dptwttn",
+          "id": "4ujcn4e",
           "label": "B",
           "text": "Because they present data about similar metrics",
           "isCorrect": true
         },
         {
-          "id": "rr0atu4",
+          "id": "6wub25i",
           "label": "C",
           "text": "To ensure the dashboard has a logical flow",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "32qw0qf",
+          "id": "q8boh86",
           "label": "D",
           "text": "Because they highlight the same topic",
-          "isCorrect": false
-        },
-        {
-          "id": "8g3y3zc",
-          "label": "C",
-          "text": "To ensure the dashboard has a logical flow",
-          "isCorrect": false
-        },
-        {
-          "id": "bbrgxm5",
-          "label": "D",
-          "text": "Because they highlight the same topic",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Because they present data about similar metrics",
+      "explanation": "Đáp án đúng: B, C, D - B. Because they present data about similar metrics C. To ensure the dashboard has a logical flow D. Because they highlight the same topic",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11023,37 +10075,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "mq7hk37",
+          "id": "gs44ndf",
           "label": "A",
           "text": "Organize using additional tabs",
           "isCorrect": false
         },
         {
-          "id": "lk0sexl",
+          "id": "emrv4ol",
           "label": "B",
           "text": "Process more data using front-end servers",
           "isCorrect": false
         },
         {
-          "id": "htyptyo",
+          "id": "15ayslm",
           "label": "C",
           "text": "Include fewer dimensions",
           "isCorrect": true
         },
         {
-          "id": "ubb88lz",
+          "id": "gzutl4s",
           "label": "D",
           "text": "Remove irrelevant metrics",
-          "isCorrect": false
-        },
-        {
-          "id": "rd5zbv2",
-          "label": "D",
-          "text": "Remove irrelevant metrics",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Include fewer dimensions",
+      "explanation": "Đáp án đúng: C, D - C. Include fewer dimensions D. Remove irrelevant metrics",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11065,31 +10111,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "17zxwsr",
+          "id": "kh0zpke",
           "label": "A",
           "text": "privacy settings",
           "isCorrect": false
         },
         {
-          "id": "g8z3zn7",
+          "id": "nbts9c6",
           "label": "B",
           "text": "object-level permissions",
           "isCorrect": false
         },
         {
-          "id": "lw8okin",
+          "id": "385asw8",
           "label": "C",
           "text": "public availability",
           "isCorrect": true
         },
         {
-          "id": "4oonxg9",
+          "id": "54xv1um",
           "label": "D",
           "text": "row-level permissions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. public availability",
+      "explanation": "Đáp án đúng: C - C. public availability",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11101,31 +10147,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "g3cz82t",
+          "id": "mq4wt46",
           "label": "A",
           "text": "floating",
           "isCorrect": false
         },
         {
-          "id": "16lsjr8",
+          "id": "dnqnkho",
           "label": "B",
           "text": "boolean",
           "isCorrect": false
         },
         {
-          "id": "rr3nd42",
+          "id": "jxijh01",
           "label": "C",
           "text": "quantitative",
           "isCorrect": true
         },
         {
-          "id": "78vnqf3",
+          "id": "rbfzkby",
           "label": "D",
           "text": "qualitative",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. quantitative",
+      "explanation": "Đáp án đúng: C - C. quantitative",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -11137,31 +10183,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "uz35l6q",
+          "id": "cligbvd",
           "label": "A",
           "text": "Charting",
           "isCorrect": false
         },
         {
-          "id": "by9l2ty",
+          "id": "0526pvd",
           "label": "B",
           "text": "Summarizing",
           "isCorrect": false
         },
         {
-          "id": "v7yhzmg",
+          "id": "635suct",
           "label": "C",
           "text": "Encoding",
           "isCorrect": true
         },
         {
-          "id": "reu151b",
+          "id": "tr6rkva",
           "label": "D",
           "text": "Tracking",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. Encoding",
+      "explanation": "Đáp án đúng: C - C. Encoding",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11173,31 +10219,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ylsal18",
+          "id": "bu15h7r",
           "label": "A",
           "text": "public availability",
           "isCorrect": false
         },
         {
-          "id": "py9bjj2",
+          "id": "vunusdr",
           "label": "B",
           "text": "column-level permissions",
           "isCorrect": false
         },
         {
-          "id": "vlkqyp0",
+          "id": "53ngd2y",
           "label": "C",
           "text": "object-level permissions",
           "isCorrect": false
         },
         {
-          "id": "xjrkyvl",
+          "id": "yqsuyyq",
           "label": "D",
           "text": "row-level permission",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. row-level permission",
+      "explanation": "Đáp án đúng: D - D. row-level permission",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11209,43 +10255,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "fuiy94m",
+          "id": "pvq6ez2",
           "label": "A",
           "text": "Qualitative",
           "isCorrect": false
         },
         {
-          "id": "0i4mmef",
+          "id": "j89z2rt",
           "label": "B",
           "text": "Continuous",
           "isCorrect": true
         },
         {
-          "id": "bjl13hv",
+          "id": "7hqyi5h",
           "label": "C",
           "text": "Discrete",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "bcjodv2",
+          "id": "mrif4ij",
           "label": "D",
           "text": "Quantitative",
-          "isCorrect": false
-        },
-        {
-          "id": "4an19hh",
-          "label": "C",
-          "text": "Discrete",
-          "isCorrect": false
-        },
-        {
-          "id": "o798im7",
-          "label": "D",
-          "text": "Quantitative",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Continuous",
+      "explanation": "Đáp án đúng: B, C, D - B. Continuous C. Discrete D. Quantitative",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11257,43 +10291,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1zhkudj",
+          "id": "pd1v9ch",
           "label": "A",
           "text": "Grouping objects based on chart type",
           "isCorrect": false
         },
         {
-          "id": "hktplcg",
+          "id": "72v86et",
           "label": "B",
           "text": "Use of negative space",
           "isCorrect": true
         },
         {
-          "id": "ibgaq97",
+          "id": "rtdje53",
           "label": "C",
           "text": "Prioritization and hierarchy",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "t8zt8an",
+          "id": "g9h2b27",
           "label": "D",
           "text": "Hiding elements to spotlight others",
-          "isCorrect": false
-        },
-        {
-          "id": "gbk5p4s",
-          "label": "C",
-          "text": "Prioritization and hierarchy",
-          "isCorrect": false
-        },
-        {
-          "id": "6w1lhct",
-          "label": "D",
-          "text": "Hiding elements to spotlight others",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Use of negative space",
+      "explanation": "Đáp án đúng: B, C, D - B. Use of negative space C. Prioritization and hierarchy D. Hiding elements to spotlight others",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11305,37 +10327,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "9bzjxeh",
+          "id": "z13lnbj",
           "label": "A",
           "text": "Organize using additional tabs",
           "isCorrect": false
         },
         {
-          "id": "sffbwxl",
+          "id": "ttgp6pv",
           "label": "B",
           "text": "Process more data using front-end servers",
           "isCorrect": false
         },
         {
-          "id": "ef6n3d1",
+          "id": "mf95ixi",
           "label": "C",
           "text": "Filter data earlier in the process",
           "isCorrect": true
         },
         {
-          "id": "s8iuykj",
+          "id": "ysy9f6v",
           "label": "D",
           "text": "Reduce the amount of data",
-          "isCorrect": false
-        },
-        {
-          "id": "y9b318p",
-          "label": "D",
-          "text": "Reduce the amount of data",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Filter data earlier in the process",
+      "explanation": "Đáp án đúng: C, D - C. Filter data earlier in the process D. Reduce the amount of data",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11347,31 +10363,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "oypjdl8",
+          "id": "ogeva1z",
           "label": "A",
           "text": "Add more data points.",
           "isCorrect": false
         },
         {
-          "id": "hqyetrr",
+          "id": "jxg2a2a",
           "label": "B",
           "text": "Include labels.",
           "isCorrect": true
         },
         {
-          "id": "dr2sel0",
+          "id": "5ztyp33",
           "label": "C",
           "text": "Remove outliers.",
           "isCorrect": false
         },
         {
-          "id": "sgg5tzl",
+          "id": "32sdhvv",
           "label": "D",
           "text": "Combine data from multiple sources.",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Include labels.",
+      "explanation": "Đáp án đúng: B - B. Include labels.",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11383,43 +10399,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1lfooim",
+          "id": "ia7zppa",
           "label": "A",
           "text": "Grouping objects based on chart type",
           "isCorrect": false
         },
         {
-          "id": "bh1kgxq",
+          "id": "tmy4ubu",
           "label": "B",
           "text": "Prioritization and hierarchy",
           "isCorrect": true
         },
         {
-          "id": "ubeu23r",
+          "id": "o1oizif",
           "label": "C",
           "text": "Hiding elements to spotlight others",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "u7tik69",
+          "id": "mym6nr8",
           "label": "D",
           "text": "Use of negative space",
-          "isCorrect": false
-        },
-        {
-          "id": "owgtj23",
-          "label": "C",
-          "text": "Hiding elements to spotlight others",
-          "isCorrect": false
-        },
-        {
-          "id": "108en0g",
-          "label": "D",
-          "text": "Use of negative space",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Prioritization and hierarchy",
+      "explanation": "Đáp án đúng: B, C, D - B. Prioritization and hierarchy C. Hiding elements to spotlight others D. Use of negative space",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11431,31 +10435,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "ge9z6da",
+          "id": "ob3l34z",
           "label": "A",
           "text": "analyzing",
           "isCorrect": false
         },
         {
-          "id": "tijx3a5",
+          "id": "x541du0",
           "label": "B",
           "text": "setting permissions",
           "isCorrect": false
         },
         {
-          "id": "m7160ge",
+          "id": "wzhsqa9",
           "label": "C",
           "text": "reporting",
           "isCorrect": false
         },
         {
-          "id": "9qslz2c",
+          "id": "5vcndbg",
           "label": "D",
           "text": "making calculations",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. making calculations",
+      "explanation": "Đáp án đúng: D - D. making calculations",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11467,37 +10471,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "pqyyv88",
+          "id": "wnxsc4a",
           "label": "A",
           "text": "Prioritize high-level overviews, as the personnel manager is the most senior stakeholder.",
           "isCorrect": false
         },
         {
-          "id": "0x4zfi7",
+          "id": "uv4pzqk",
           "label": "B",
           "text": "Prioritize the food sales data, as there are more users on the kitchen team.",
           "isCorrect": false
         },
         {
-          "id": "0gr2trm",
+          "id": "hlussa5",
           "label": "C",
           "text": "Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users.",
           "isCorrect": true
         },
         {
-          "id": "a52viax",
+          "id": "ews8zr0",
           "label": "D",
           "text": "Consider which trade-offs best align with business goals.",
-          "isCorrect": false
-        },
-        {
-          "id": "tb6y4ke",
-          "label": "D",
-          "text": "Consider which trade-offs best align with business goals.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users.",
+      "explanation": "Đáp án đúng: C, D - C. Determine what to prioritize and what to sacrifice in order to produce the best possible result for all users. D. Consider which trade-offs best align with business goals.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11509,31 +10507,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "v6ai51v",
+          "id": "s6utf25",
           "label": "A",
           "text": "public availability",
           "isCorrect": false
         },
         {
-          "id": "ufmb9k3",
+          "id": "vna6rwf",
           "label": "B",
           "text": "row-level permissions",
           "isCorrect": false
         },
         {
-          "id": "idfpcg9",
+          "id": "2gfkiag",
           "label": "C",
           "text": "object-level permission",
           "isCorrect": true
         },
         {
-          "id": "s300j47",
+          "id": "qicm9er",
           "label": "D",
           "text": "column-level permissions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. object-level permission",
+      "explanation": "Đáp án đúng: C - C. object-level permission",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11545,31 +10543,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "6ema6mi",
+          "id": "xiqldkq",
           "label": "A",
           "text": "Operating",
           "isCorrect": false
         },
         {
-          "id": "ykjp0j4",
+          "id": "37onybm",
           "label": "B",
           "text": "Advance targeting",
           "isCorrect": false
         },
         {
-          "id": "0gipbgg",
+          "id": "21rn7ya",
           "label": "C",
           "text": "Equating",
           "isCorrect": false
         },
         {
-          "id": "m8q2itx",
+          "id": "ddzzep4",
           "label": "D",
           "text": "Pre-aggregation",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Pre-aggregation",
+      "explanation": "Đáp án đúng: D - D. Pre-aggregation",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -11581,43 +10579,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "99wiujm",
+          "id": "4mjp4v8",
           "label": "A",
           "text": "How can the dashboard be designed in order to include as much fine detail as possible?",
           "isCorrect": false
         },
         {
-          "id": "vuk17a7",
+          "id": "hgqyv32",
           "label": "B",
           "text": "Which measures and dimensions will be represented in each chart?",
           "isCorrect": true
         },
         {
-          "id": "2excsw4",
+          "id": "6owomr0",
           "label": "C",
           "text": "Which parts of the dataset will make it possible to address the business requirement?",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "8jljdxz",
+          "id": "dt2ofcq",
           "label": "D",
           "text": "Which chart types and forms of encoding will be most effective?",
-          "isCorrect": false
-        },
-        {
-          "id": "2fskddx",
-          "label": "C",
-          "text": "Which parts of the dataset will make it possible to address the business requirement?",
-          "isCorrect": false
-        },
-        {
-          "id": "5xis18n",
-          "label": "D",
-          "text": "Which chart types and forms of encoding will be most effective?",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Which measures and dimensions will be represented in each chart?",
+      "explanation": "Đáp án đúng: B, C, D - B. Which measures and dimensions will be represented in each chart? C. Which parts of the dataset will make it possible to address the business requirement? D. Which chart types and forms of encoding will be most effective?",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11629,37 +10615,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "kdwlwks",
+          "id": "4dqdmkh",
           "label": "A",
           "text": "Empowering users to interpret the data on their own",
           "isCorrect": false
         },
         {
-          "id": "wzad5l6",
+          "id": "c5zx2fv",
           "label": "B",
           "text": "Enable long-term monitoring",
           "isCorrect": false
         },
         {
-          "id": "ui3dubi",
+          "id": "3ala0sg",
           "label": "C",
           "text": "Overwhelming the user",
           "isCorrect": true
         },
         {
-          "id": "7fvqkpj",
+          "id": "0z3h5nn",
           "label": "D",
           "text": "Slowing down the dashboard",
-          "isCorrect": false
-        },
-        {
-          "id": "0dkmfch",
-          "label": "D",
-          "text": "Slowing down the dashboard",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Overwhelming the user",
+      "explanation": "Đáp án đúng: C, D - C. Overwhelming the user D. Slowing down the dashboard",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11671,31 +10651,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "p4g6ka4",
+          "id": "5ov1wcq",
           "label": "A",
           "text": "larger",
           "isCorrect": true
         },
         {
-          "id": "s7s337a",
+          "id": "3upfzs0",
           "label": "B",
           "text": "smaller",
           "isCorrect": false
         },
         {
-          "id": "idg6njf",
+          "id": "chj1rut",
           "label": "C",
           "text": "older",
           "isCorrect": false
         },
         {
-          "id": "u99bx9c",
+          "id": "t50sp13",
           "label": "D",
           "text": "newer",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. larger",
+      "explanation": "Đáp án đúng: A - A. larger",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11707,31 +10687,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "akktixv",
+          "id": "xkhjz46",
           "label": "A",
           "text": "views",
           "isCorrect": true
         },
         {
-          "id": "o6y3bpv",
+          "id": "1kf1i13",
           "label": "B",
           "text": "mockups",
           "isCorrect": false
         },
         {
-          "id": "ae098eg",
+          "id": "fceyl6b",
           "label": "C",
           "text": "hardware",
           "isCorrect": false
         },
         {
-          "id": "kquxliw",
+          "id": "vwivqg5",
           "label": "D",
           "text": "aesthetics",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. views",
+      "explanation": "Đáp án đúng: A - A. views",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11743,31 +10723,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "6d7k8hr",
+          "id": "xboqhsi",
           "label": "A",
           "text": "Include more metrics",
           "isCorrect": false
         },
         {
-          "id": "68s2hbx",
+          "id": "89j1cij",
           "label": "B",
           "text": "Build in tracking",
           "isCorrect": true
         },
         {
-          "id": "3v0aeuo",
+          "id": "mn4qle3",
           "label": "C",
           "text": "Ensure consistency",
           "isCorrect": false
         },
         {
-          "id": "pnw1rzy",
+          "id": "netzn31",
           "label": "D",
           "text": "Use only open data",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. Build in tracking",
+      "explanation": "Đáp án đúng: B - B. Build in tracking",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11779,31 +10759,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "bb4pigb",
+          "id": "2qy81zq",
           "label": "A",
           "text": "indexes",
           "isCorrect": false
         },
         {
-          "id": "ujtwpbk",
+          "id": "z6jq7m6",
           "label": "B",
           "text": "patterns",
           "isCorrect": false
         },
         {
-          "id": "83o8a95",
+          "id": "suitgsu",
           "label": "C",
           "text": "comparisons",
           "isCorrect": true
         },
         {
-          "id": "vzt68ij",
+          "id": "clrjd8d",
           "label": "D",
           "text": "updates",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. comparisons",
+      "explanation": "Đáp án đúng: C - C. comparisons",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11815,43 +10795,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "79s9n3b",
+          "id": "at7ivxg",
           "label": "A",
           "text": "How can the dashboard be designed in order to include as much fine detail as possible?",
           "isCorrect": false
         },
         {
-          "id": "n21bs1g",
+          "id": "zbcoram",
           "label": "B",
           "text": "How many charts are required?",
           "isCorrect": true
         },
         {
-          "id": "ddxj7qn",
+          "id": "h4fufg0",
           "label": "C",
           "text": "Which parts of the dataset will make it possible to address the business requirement?",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "59zxp1e",
+          "id": "tcdcsi4",
           "label": "D",
           "text": "Which chart types and forms of encoding will be most effective?",
-          "isCorrect": false
-        },
-        {
-          "id": "sl83zj0",
-          "label": "C",
-          "text": "Which parts of the dataset will make it possible to address the business requirement?",
-          "isCorrect": false
-        },
-        {
-          "id": "ll70c9n",
-          "label": "D",
-          "text": "Which chart types and forms of encoding will be most effective?",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. How many charts are required?",
+      "explanation": "Đáp án đúng: B, C, D - B. How many charts are required? C. Which parts of the dataset will make it possible to address the business requirement? D. Which chart types and forms of encoding will be most effective?",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11863,31 +10831,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "t62s1tv",
+          "id": "q1lmj3c",
           "label": "A",
           "text": "color",
           "isCorrect": false
         },
         {
-          "id": "79g1n3q",
+          "id": "xs8uqon",
           "label": "B",
           "text": "datasets",
           "isCorrect": false
         },
         {
-          "id": "w8z6uqj",
+          "id": "obrwiwd",
           "label": "C",
           "text": "context",
           "isCorrect": true
         },
         {
-          "id": "s48lty4",
+          "id": "9ic1tp3",
           "label": "D",
           "text": "privacy permissions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. context",
+      "explanation": "Đáp án đúng: C - C. context",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11899,31 +10867,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "3cs0l4f",
+          "id": "g3ywhbq",
           "label": "A",
           "text": "encoding",
           "isCorrect": false
         },
         {
-          "id": "j8eekj8",
+          "id": "au3qbm0",
           "label": "B",
           "text": "mapping",
           "isCorrect": false
         },
         {
-          "id": "lr5kkaw",
+          "id": "q046niw",
           "label": "C",
           "text": "conformity",
           "isCorrect": false
         },
         {
-          "id": "3sfhmpc",
+          "id": "skbwe05",
           "label": "D",
           "text": "tracking",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. tracking",
+      "explanation": "Đáp án đúng: D - D. tracking",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -11935,37 +10903,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "jk3t7xn",
+          "id": "xe0j55e",
           "label": "A",
           "text": "It helps predict future performance based on a single moment in time",
           "isCorrect": false
         },
         {
-          "id": "dm9u8gg",
+          "id": "77psg8t",
           "label": "B",
           "text": "It provides insights about an independent datapoint based on one criteria",
           "isCorrect": false
         },
         {
-          "id": "c9w0o3r",
+          "id": "hefdzv3",
           "label": "C",
           "text": "It quickly enables users to understand why the data in the dashboard is useful",
           "isCorrect": true
         },
         {
-          "id": "rahtbyu",
+          "id": "cfhhwz5",
           "label": "D",
           "text": "It helps users interpret whether the visualizations indicate good or bad performance",
-          "isCorrect": false
-        },
-        {
-          "id": "o2la63z",
-          "label": "D",
-          "text": "It helps users interpret whether the visualizations indicate good or bad performance",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. It quickly enables users to understand why the data in the dashboard is useful",
+      "explanation": "Đáp án đúng: C, D - C. It quickly enables users to understand why the data in the dashboard is useful D. It helps users interpret whether the visualizations indicate good or bad performance",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -11977,31 +10939,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "wkyguu4",
+          "id": "ofweaa9",
           "label": "A",
           "text": "accessible",
           "isCorrect": false
         },
         {
-          "id": "u02yb1h",
+          "id": "7bgw9sd",
           "label": "B",
           "text": "understandable",
           "isCorrect": true
         },
         {
-          "id": "sjo05vy",
+          "id": "69yb0ui",
           "label": "C",
           "text": "visually pleasing",
           "isCorrect": false
         },
         {
-          "id": "ptccs19",
+          "id": "nq026qt",
           "label": "D",
           "text": "dynamic",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. understandable",
+      "explanation": "Đáp án đúng: B - B. understandable",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12013,31 +10975,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "kzw6hqu",
+          "id": "aeh7q9r",
           "label": "A",
           "text": "legends",
           "isCorrect": false
         },
         {
-          "id": "1dk7og3",
+          "id": "56d563p",
           "label": "B",
           "text": "business rules",
           "isCorrect": false
         },
         {
-          "id": "3sbzl4k",
+          "id": "y05mb0z",
           "label": "C",
           "text": "use cases",
           "isCorrect": true
         },
         {
-          "id": "5927lkb",
+          "id": "6x6i0g9",
           "label": "D",
           "text": "partitions",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. use cases",
+      "explanation": "Đáp án đúng: C - C. use cases",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12049,31 +11011,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "42iu05z",
+          "id": "kqze5gl",
           "label": "A",
           "text": "speed up the dashboard",
           "isCorrect": false
         },
         {
-          "id": "osweoo3",
+          "id": "nhu3sca",
           "label": "B",
           "text": "change the data over time",
           "isCorrect": false
         },
         {
-          "id": "zchybdm",
+          "id": "yhvi19w",
           "label": "C",
           "text": "empower users to interpret the data on their own",
           "isCorrect": false
         },
         {
-          "id": "ybs7q9f",
+          "id": "jcuszhd",
           "label": "D",
           "text": "overwhelm the user",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. overwhelm the user",
+      "explanation": "Đáp án đúng: D - D. overwhelm the user",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12085,31 +11047,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "1y7ffac",
+          "id": "chsdhve",
           "label": "A",
           "text": "Evolution",
           "isCorrect": true
         },
         {
-          "id": "x0yzywa",
+          "id": "nzdw4rr",
           "label": "B",
           "text": "extraction",
           "isCorrect": false
         },
         {
-          "id": "zph1mtt",
+          "id": "orwbrit",
           "label": "C",
           "text": "organization",
           "isCorrect": false
         },
         {
-          "id": "g3v2ojt",
+          "id": "tuyc92z",
           "label": "D",
           "text": "regression",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Evolution",
+      "explanation": "Đáp án đúng: A - A. Evolution",
       "topic": "ETL",
       "confidence": 100,
       "warnings": []
@@ -12121,43 +11083,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "hcqjl4o",
+          "id": "lc394of",
           "label": "A",
           "text": "How can the dashboard be designed in order to include as much fine detail as possible?",
           "isCorrect": false
         },
         {
-          "id": "3jcukoc",
+          "id": "r4d1h8o",
           "label": "B",
           "text": "Which chart types and forms of encoding will be most effective?",
           "isCorrect": true
         },
         {
-          "id": "hr7z6ul",
+          "id": "r2khvh6",
           "label": "C",
           "text": "Which measures and dimensions will be represented in each chart?",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "mjd35cq",
+          "id": "d8w6d2f",
           "label": "D",
           "text": "How many charts are required?",
-          "isCorrect": false
-        },
-        {
-          "id": "404wn1i",
-          "label": "C",
-          "text": "Which measures and dimensions will be represented in each chart?",
-          "isCorrect": false
-        },
-        {
-          "id": "wogc4dw",
-          "label": "D",
-          "text": "How many charts are required?",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Which chart types and forms of encoding will be most effective?",
+      "explanation": "Đáp án đúng: B, C, D - B. Which chart types and forms of encoding will be most effective? C. Which measures and dimensions will be represented in each chart? D. How many charts are required?",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12169,31 +11119,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "73mzytv",
+          "id": "etwf0eb",
           "label": "A",
           "text": "slow down the dashboard",
           "isCorrect": true
         },
         {
-          "id": "5bnxu8h",
+          "id": "hei4u65",
           "label": "B",
           "text": "empower users to interpret the data on their own",
           "isCorrect": false
         },
         {
-          "id": "ryyb973",
+          "id": "dizbbn3",
           "label": "C",
           "text": "change the data over time",
           "isCorrect": false
         },
         {
-          "id": "ush952g",
+          "id": "qre3y33",
           "label": "D",
           "text": "enable long-term monitoring",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. slow down the dashboard",
+      "explanation": "Đáp án đúng: A - A. slow down the dashboard",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12205,31 +11155,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "rhb3oah",
+          "id": "8mb4yrc",
           "label": "A",
           "text": "larger",
           "isCorrect": true
         },
         {
-          "id": "d1m5pd2",
+          "id": "ybxa2ua",
           "label": "B",
           "text": "older",
           "isCorrect": false
         },
         {
-          "id": "gqsnpew",
+          "id": "rq68v93",
           "label": "C",
           "text": "newer",
           "isCorrect": false
         },
         {
-          "id": "zb90say",
+          "id": "y2p28yy",
           "label": "D",
           "text": "smaller",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. larger",
+      "explanation": "Đáp án đúng: A - A. larger",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12241,43 +11191,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "0eghufu",
+          "id": "53r97uh",
           "label": "A",
           "text": "To import more data into the dashboard",
           "isCorrect": false
         },
         {
-          "id": "x2qjy6x",
+          "id": "2nwdj6a",
           "label": "B",
           "text": "It gives different users the ability to drill down to the information they need",
           "isCorrect": true
         },
         {
-          "id": "kexiypq",
+          "id": "nyb16hu",
           "label": "C",
           "text": "To avoid users having to interpret data that is irrelevant to them",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "8piqqkq",
+          "id": "t2qexl3",
           "label": "D",
           "text": "To simplify the process of accessing useful data",
-          "isCorrect": false
-        },
-        {
-          "id": "oo6b2no",
-          "label": "C",
-          "text": "To avoid users having to interpret data that is irrelevant to them",
-          "isCorrect": false
-        },
-        {
-          "id": "slfptrl",
-          "label": "D",
-          "text": "To simplify the process of accessing useful data",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. It gives different users the ability to drill down to the information they need",
+      "explanation": "Đáp án đúng: B, C, D - B. It gives different users the ability to drill down to the information they need C. To avoid users having to interpret data that is irrelevant to them D. To simplify the process of accessing useful data",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12289,37 +11227,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "y6sae4x",
+          "id": "zg9d2by",
           "label": "A",
           "text": "A question-and-answer session",
           "isCorrect": false
         },
         {
-          "id": "v07xe08",
+          "id": "fpelqqb",
           "label": "B",
           "text": "Clarifications of minor details",
           "isCorrect": false
         },
         {
-          "id": "yb1l2kd",
+          "id": "incgjkp",
           "label": "C",
           "text": "Information about stakeholder needs",
           "isCorrect": true
         },
         {
-          "id": "uuowbjr",
+          "id": "v0heu7w",
           "label": "D",
           "text": "Updates on project status",
-          "isCorrect": false
-        },
-        {
-          "id": "u0sotvm",
-          "label": "D",
-          "text": "Updates on project status",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: C. Information about stakeholder needs",
+      "explanation": "Đáp án đúng: C, D - C. Information about stakeholder needs D. Updates on project status",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12331,43 +11263,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "86kv1am",
+          "id": "lxe8muy",
           "label": "A",
           "text": "Use industry jargon, such as abbreviations, to save your audience time.",
           "isCorrect": false
         },
         {
-          "id": "ix4vimu",
+          "id": "kjle93m",
           "label": "B",
           "text": "Prioritize the most relevant information.",
           "isCorrect": true
         },
         {
-          "id": "kdwwm8e",
+          "id": "gs6xv4n",
           "label": "C",
           "text": "Engage your audience by taking the time to understand their point of view.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "uvvd7q7",
+          "id": "fg9qtn7",
           "label": "D",
           "text": "Describe how you addressed a concern previously raised by stakeholders.-",
-          "isCorrect": false
-        },
-        {
-          "id": "w4mz0zs",
-          "label": "C",
-          "text": "Engage your audience by taking the time to understand their point of view.",
-          "isCorrect": false
-        },
-        {
-          "id": "3ouh0ji",
-          "label": "D",
-          "text": "Describe how you addressed a concern previously raised by stakeholders.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Prioritize the most relevant information.",
+      "explanation": "Đáp án đúng: B, C, D - B. Prioritize the most relevant information. C. Engage your audience by taking the time to understand their point of view. D. Describe how you addressed a concern previously raised by stakeholders.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12379,43 +11299,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "qccl307",
+          "id": "bo8ax57",
           "label": "A",
           "text": "To discuss the fine details of each chart or graph",
           "isCorrect": false
         },
         {
-          "id": "sgt8vps",
+          "id": "6mp1isk",
           "label": "B",
           "text": "To give stakeholders a clear idea of your design intentions",
           "isCorrect": true
         },
         {
-          "id": "mx5npyl",
+          "id": "35gcbl7",
           "label": "C",
           "text": "If necessary, to move in a new direction before investing time in an actual dashboard",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "d08dvcf",
+          "id": "wbewyuk",
           "label": "D",
           "text": "To get important feedback",
-          "isCorrect": false
-        },
-        {
-          "id": "bs82fot",
-          "label": "C",
-          "text": "If necessary, to move in a new direction before investing time in an actual dashboard",
-          "isCorrect": false
-        },
-        {
-          "id": "7s4cwlc",
-          "label": "D",
-          "text": "To get important feedback",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. To give stakeholders a clear idea of your design intentions",
+      "explanation": "Đáp án đúng: B, C, D - B. To give stakeholders a clear idea of your design intentions C. If necessary, to move in a new direction before investing time in an actual dashboard D. To get important feedback",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12427,31 +11335,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "2aaj6i5",
+          "id": "8lebm7t",
           "label": "A",
           "text": "Specific",
           "isCorrect": false
         },
         {
-          "id": "6pshu98",
+          "id": "bvv7qgo",
           "label": "B",
           "text": "narrow",
           "isCorrect": false
         },
         {
-          "id": "vuhp8ds",
+          "id": "l7wq0z1",
           "label": "C",
           "text": "rigid",
           "isCorrect": false
         },
         {
-          "id": "hk09rfg",
+          "id": "g4thxs4",
           "label": "D",
           "text": "general",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. general",
+      "explanation": "Đáp án đúng: D - D. general",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -12463,43 +11371,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "heemexg",
+          "id": "qqzeagl",
           "label": "A",
           "text": "Private data from previous employers",
           "isCorrect": false
         },
         {
-          "id": "gqqfx6u",
+          "id": "jew6ujr",
           "label": "B",
           "text": "Your thought process",
           "isCorrect": true
         },
         {
-          "id": "zjbqtc9",
+          "id": "cl6px6a",
           "label": "C",
           "text": "What you might do differently in the future",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "gnczwg6",
+          "id": "d5v6z3q",
           "label": "D",
           "text": "The work you performed",
-          "isCorrect": false
-        },
-        {
-          "id": "vxhn4hz",
-          "label": "C",
-          "text": "What you might do differently in the future",
-          "isCorrect": false
-        },
-        {
-          "id": "glf78vs",
-          "label": "D",
-          "text": "The work you performed",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Your thought process",
+      "explanation": "Đáp án đúng: B, C, D - B. Your thought process C. What you might do differently in the future D. The work you performed",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12511,43 +11407,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "ahehfmw",
+          "id": "tnodtll",
           "label": "A",
           "text": "Share information primarily about your people skills.",
           "isCorrect": false
         },
         {
-          "id": "l6i1i36",
+          "id": "6ycpwak",
           "label": "B",
           "text": "Answer the interviewer's questions descriptively.",
           "isCorrect": true
         },
         {
-          "id": "qq40f78",
+          "id": "wwxqnwf",
           "label": "C",
           "text": "Be prepared with questions to ask the interviewer.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "k3hf9m9",
+          "id": "uxyx4l4",
           "label": "D",
           "text": "Speak with a friendly but professional tone.",
-          "isCorrect": false
-        },
-        {
-          "id": "u2x9px1",
-          "label": "C",
-          "text": "Be prepared with questions to ask the interviewer.",
-          "isCorrect": false
-        },
-        {
-          "id": "uhvdhqx",
-          "label": "D",
-          "text": "Speak with a friendly but professional tone.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Answer the interviewer's questions descriptively.",
+      "explanation": "Đáp án đúng: B, C, D - B. Answer the interviewer's questions descriptively. C. Be prepared with questions to ask the interviewer. D. Speak with a friendly but professional tone.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12559,43 +11443,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "xo12mv9",
+          "id": "9v85qdc",
           "label": "A",
           "text": "Text message",
           "isCorrect": false
         },
         {
-          "id": "w6ct608",
+          "id": "32ds9fx",
           "label": "B",
           "text": "Phone call",
           "isCorrect": true
         },
         {
-          "id": "oqsi0uy",
+          "id": "o1ifc5s",
           "label": "C",
           "text": "Email",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "nr5vztc",
+          "id": "1bzsway",
           "label": "D",
           "text": "Meeting",
-          "isCorrect": false
-        },
-        {
-          "id": "spy6pn1",
-          "label": "C",
-          "text": "Email",
-          "isCorrect": false
-        },
-        {
-          "id": "r5gpilh",
-          "label": "D",
-          "text": "Meeting",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Phone call",
+      "explanation": "Đáp án đúng: B, C, D - B. Phone call C. Email D. Meeting",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12607,43 +11479,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "0p9n54l",
+          "id": "3nqiiaa",
           "label": "A",
           "text": "Business intelligence director",
           "isCorrect": false
         },
         {
-          "id": "v3ubxav",
+          "id": "6qipcf7",
           "label": "B",
           "text": "Business intelligence analyst",
           "isCorrect": true
         },
         {
-          "id": "22veesg",
+          "id": "ezsdp5b",
           "label": "C",
           "text": "Junior business intelligence analyst",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "zmcioi2",
+          "id": "hmfily7",
           "label": "D",
           "text": "Assistant business intelligence analyst",
-          "isCorrect": false
-        },
-        {
-          "id": "lg352ct",
-          "label": "C",
-          "text": "Junior business intelligence analyst",
-          "isCorrect": false
-        },
-        {
-          "id": "528q8s0",
-          "label": "D",
-          "text": "Assistant business intelligence analyst",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Business intelligence analyst",
+      "explanation": "Đáp án đúng: B, C, D - B. Business intelligence analyst C. Junior business intelligence analyst D. Assistant business intelligence analyst",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12655,31 +11515,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "5wa5tab",
+          "id": "h52yw5e",
           "label": "A",
           "text": "responses to interview questions",
           "isCorrect": false
         },
         {
-          "id": "mcjzcv5",
+          "id": "lvibuk5",
           "label": "B",
           "text": "transferable skills",
           "isCorrect": true
         },
         {
-          "id": "408j63f",
+          "id": "ane1574",
           "label": "C",
           "text": "job search techniques",
           "isCorrect": false
         },
         {
-          "id": "i5efhwi",
+          "id": "w4bb4y9",
           "label": "D",
           "text": "recommendation letters",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: B. transferable skills",
+      "explanation": "Đáp án đúng: B - B. transferable skills",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -12691,31 +11551,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "n7gpv6h",
+          "id": "76irhc2",
           "label": "A",
           "text": "take control of the interview",
           "isCorrect": false
         },
         {
-          "id": "edlrykn",
+          "id": "330gf7f",
           "label": "B",
           "text": "maintain an informal demeanor",
           "isCorrect": false
         },
         {
-          "id": "jo16esq",
+          "id": "0afa9lq",
           "label": "C",
           "text": "refrain from asking questions",
           "isCorrect": false
         },
         {
-          "id": "pkwol3e",
+          "id": "38q4me9",
           "label": "D",
           "text": "dress appropriately",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. dress appropriately",
+      "explanation": "Đáp án đúng: D - D. dress appropriately",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -12727,43 +11587,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "dts7wah",
+          "id": "5c5ippm",
           "label": "A",
           "text": "Use industry jargon, such as abbreviations, to save your audience time.",
           "isCorrect": false
         },
         {
-          "id": "trr5f01",
+          "id": "uubh60i",
           "label": "B",
           "text": "Engage your audience by taking the time to understand their point of view.",
           "isCorrect": true
         },
         {
-          "id": "ic6a1aj",
+          "id": "m0xfbm6",
           "label": "C",
           "text": "Speak in clear, concise, and accessible language.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "0hyxqd2",
+          "id": "ru7andy",
           "label": "D",
           "text": "Prioritize the most relevant information.",
-          "isCorrect": false
-        },
-        {
-          "id": "wmgc7n6",
-          "label": "C",
-          "text": "Speak in clear, concise, and accessible language.",
-          "isCorrect": false
-        },
-        {
-          "id": "8fkgwqo",
-          "label": "D",
-          "text": "Prioritize the most relevant information.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Engage your audience by taking the time to understand their point of view.",
+      "explanation": "Đáp án đúng: B, C, D - B. Engage your audience by taking the time to understand their point of view. C. Speak in clear, concise, and accessible language. D. Prioritize the most relevant information.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12775,31 +11623,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "s0uc9x1",
+          "id": "umzw6kq",
           "label": "A",
           "text": "iterations",
           "isCorrect": false
         },
         {
-          "id": "bbuqpf6",
+          "id": "6n3x5hc",
           "label": "B",
           "text": "functional dashboard",
           "isCorrect": false
         },
         {
-          "id": "4bg1iyh",
+          "id": "3oj8iil",
           "label": "C",
           "text": "slide decks",
           "isCorrect": false
         },
         {
-          "id": "el4rfli",
+          "id": "lg4z6wv",
           "label": "D",
           "text": "low-fidelity mockups",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. low-fidelity mockups",
+      "explanation": "Đáp án đúng: D - D. low-fidelity mockups",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12811,31 +11659,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "bc9x0qg",
+          "id": "5m4z77o",
           "label": "A",
           "text": "change",
           "isCorrect": false
         },
         {
-          "id": "vpc034p",
+          "id": "u6dkgy4",
           "label": "B",
           "text": "delete",
           "isCorrect": false
         },
         {
-          "id": "5onlvd4",
+          "id": "f94uep3",
           "label": "C",
           "text": "narrow",
           "isCorrect": true
         },
         {
-          "id": "oklpbvt",
+          "id": "ocamxae",
           "label": "D",
           "text": "widen",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. narrow",
+      "explanation": "Đáp án đúng: C - C. narrow",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -12847,31 +11695,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "hvjww81",
+          "id": "cfhr8e4",
           "label": "A",
           "text": "At the end, once all deadlines have been met",
           "isCorrect": false
         },
         {
-          "id": "n382bd0",
+          "id": "5aazc5e",
           "label": "B",
           "text": "Toward the end, once project scope is solidified",
           "isCorrect": false
         },
         {
-          "id": "h5nukwm",
+          "id": "b4p059n",
           "label": "C",
           "text": "About halfway through, after verifying project scope and deadlines",
           "isCorrect": false
         },
         {
-          "id": "bcsbuhh",
+          "id": "9wsgd5w",
           "label": "D",
           "text": "Early, when verifying project scope and deadlines",
           "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: D. Early, when verifying project scope and deadlines",
+      "explanation": "Đáp án đúng: D - D. Early, when verifying project scope and deadlines",
       "topic": "Business Intelligence Fundamentals",
       "confidence": 100,
       "warnings": []
@@ -12883,31 +11731,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "zwj1hre",
+          "id": "3co17ge",
           "label": "A",
           "text": "Low-fidelity mockups",
           "isCorrect": true
         },
         {
-          "id": "uuyzfhe",
+          "id": "fdqnnyq",
           "label": "B",
           "text": "Functional dashboard",
           "isCorrect": false
         },
         {
-          "id": "l2zd5xu",
+          "id": "la9c1ra",
           "label": "C",
           "text": "Slide decks",
           "isCorrect": false
         },
         {
-          "id": "n1tfr4p",
+          "id": "dncmxy5",
           "label": "D",
           "text": "Iterations",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: A. Low-fidelity mockups",
+      "explanation": "Đáp án đúng: A - A. Low-fidelity mockups",
       "topic": "Dashboards",
       "confidence": 100,
       "warnings": []
@@ -12919,43 +11767,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "1s3wcrs",
+          "id": "9c3zfyj",
           "label": "A",
           "text": "Avoid the time and effort involved in writing a biography.",
           "isCorrect": false
         },
         {
-          "id": "acfss94",
+          "id": "q24peuw",
           "label": "B",
           "text": "Demonstrate your transferable skills.",
           "isCorrect": true
         },
         {
-          "id": "618d0sf",
+          "id": "433csfz",
           "label": "C",
           "text": "Showcase your work.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "0kv5zb4",
+          "id": "dhd3o07",
           "label": "D",
           "text": "Demonstrate your data-industry skills.",
-          "isCorrect": false
-        },
-        {
-          "id": "120clbl",
-          "label": "C",
-          "text": "Showcase your work.",
-          "isCorrect": false
-        },
-        {
-          "id": "aup0r1x",
-          "label": "D",
-          "text": "Demonstrate your data-industry skills.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Demonstrate your transferable skills.",
+      "explanation": "Đáp án đúng: B, C, D - B. Demonstrate your transferable skills. C. Showcase your work. D. Demonstrate your data-industry skills.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []
@@ -12967,31 +11803,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "single",
       "choices": [
         {
-          "id": "jpdqa0h",
+          "id": "p31ddua",
           "label": "A",
           "text": "thorough",
           "isCorrect": false
         },
         {
-          "id": "h9xkfya",
+          "id": "6lo3re6",
           "label": "B",
           "text": "recent",
           "isCorrect": false
         },
         {
-          "id": "o52dt80",
+          "id": "yixt4di",
           "label": "C",
           "text": "relevant",
           "isCorrect": true
         },
         {
-          "id": "xnjge3h",
+          "id": "0gvp8rt",
           "label": "D",
           "text": "entertaining",
           "isCorrect": false
         }
       ],
-      "explanation": "Đáp án đúng: C. relevant",
+      "explanation": "Đáp án đúng: C - C. relevant",
       "topic": "General",
       "confidence": 100,
       "warnings": []
@@ -13003,43 +11839,31 @@ export const PRELOADED_STUDY_SET: StudySet = {
       "questionType": "multiple",
       "choices": [
         {
-          "id": "z9ppixg",
+          "id": "nezuhro",
           "label": "A",
           "text": "Use industry jargon, such as abbreviations, to save your audience time.",
           "isCorrect": false
         },
         {
-          "id": "uo74sso",
+          "id": "zq8w0jv",
           "label": "B",
           "text": "Speak in clear, concise, and accessible language.",
           "isCorrect": true
         },
         {
-          "id": "khapgti",
+          "id": "38qaous",
           "label": "C",
           "text": "Engage your audience by taking the time to understand their point of view.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
-          "id": "iiwe6kr",
+          "id": "2ugjrkq",
           "label": "D",
           "text": "Describe how you addressed a concern previously raised by stakeholders.-",
-          "isCorrect": false
-        },
-        {
-          "id": "0ej7ggi",
-          "label": "C",
-          "text": "Engage your audience by taking the time to understand their point of view.",
-          "isCorrect": false
-        },
-        {
-          "id": "4pe1ize",
-          "label": "D",
-          "text": "Describe how you addressed a concern previously raised by stakeholders.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "Đáp án đúng: B. Speak in clear, concise, and accessible language.",
+      "explanation": "Đáp án đúng: B, C, D - B. Speak in clear, concise, and accessible language. C. Engage your audience by taking the time to understand their point of view. D. Describe how you addressed a concern previously raised by stakeholders.",
       "topic": "SQL",
       "confidence": 100,
       "warnings": []

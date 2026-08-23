@@ -50,14 +50,11 @@ export default function App() {
   useEffect(() => {
     let loadedSets = getStudySets();
     
-    // Check if the preloaded set is already in the list. If not, or if the question count is different, add/update it!
-    const preloadedIndex = loadedSets.findIndex(s => s.id === 'preloaded-itb302c-coursera');
-    const expectedCount = PRELOADED_STUDY_SET?.questions?.length || 0;
-    const needsUpdate = preloadedIndex === -1 || loadedSets[preloadedIndex].questions.length !== expectedCount;
-
-    if (needsUpdate && PRELOADED_STUDY_SET && PRELOADED_STUDY_SET.questions) {
+    // Always sync preloaded set to ensure latest 330 questions and correct multi-select answers
+    if (PRELOADED_STUDY_SET && PRELOADED_STUDY_SET.questions) {
       const cleanedSet = {
         ...PRELOADED_STUDY_SET,
+        id: 'preloaded-itb302c-coursera',
         title: 'ITB302c - Coursera (Full Set)',
         questions: PRELOADED_STUDY_SET.questions.map((q, idx) => ({ ...q, questionNumber: idx + 1 }))
       };
