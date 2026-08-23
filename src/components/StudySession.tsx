@@ -154,77 +154,35 @@ export default function StudySession({
     const result = gradeAnswer(activeQuestion, answers);
     setFeedback(result);
 
-    const isTestMode = !isMultiRound;
-
-    if (isTestMode || !result.isCorrect) {
-      // If test mode OR incorrect answer, automatically log attempt and queue for Round 2+
-      const attempt: Attempt = {
-        id: Math.random().toString(36).substring(2, 9),
-        userId: 'local-user',
-        questionId: activeQuestion.id,
-        selectedAnswers: answers,
-        isCorrect: result.isCorrect,
-        isPartiallyCorrect: result.isPartiallyCorrect,
-        responseTime: elapsed,
-        confidence: 'guessed',
-        createdAt: new Date().toISOString()
-      };
-
-      attemptsRef.current.push(attempt);
-      setAttempts(prev => [...prev, attempt]);
-      
-      const currentProg = getInitialProgress(activeQuestion.id);
-      const updated = updateQuestionProgress(currentProg, result.isCorrect, 'guessed', elapsed);
-      setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
-
-      if (!result.isCorrect) {
-        reviewRequiredIdsRef.current.add(activeQuestion.id);
-      }
-
-      setConfidence('guessed');
-      setSubmitted(true);
-    } else {
-      // Correct answer in Learn mode: wait for user confidence rating
-      setSubmitted(true);
-    }
-  };
-
-  // Save attempt with confidence rating for CORRECT answers
-  const handleSelectConfidence = (level: 'guessed' | 'unsure' | 'confident') => {
-    setConfidence(level);
-    if (!activeQuestion || !feedback) return;
-
-    const answers = activeQuestion.choices.length > 0 ? selectedLabels : [textInput];
-    
     const attempt: Attempt = {
       id: Math.random().toString(36).substring(2, 9),
       userId: 'local-user',
       questionId: activeQuestion.id,
       selectedAnswers: answers,
-      isCorrect: feedback.isCorrect,
-      isPartiallyCorrect: feedback.isPartiallyCorrect,
-      responseTime,
-      confidence: level,
+      isCorrect: result.isCorrect,
+      isPartiallyCorrect: result.isPartiallyCorrect,
+      responseTime: elapsed,
+      confidence: result.isCorrect ? 'confident' : 'guessed',
       createdAt: new Date().toISOString()
     };
 
     attemptsRef.current.push(attempt);
     setAttempts(prev => [...prev, attempt]);
-
-    // Update progress mapper with safe initial progress
+    
     const currentProg = getInitialProgress(activeQuestion.id);
-    const updated = updateQuestionProgress(currentProg, feedback.isCorrect, level, responseTime);
+    const updated = updateQuestionProgress(currentProg, result.isCorrect, result.isCorrect ? 'confident' : 'guessed', elapsed);
     setSessionProgressMap(prev => ({ ...prev, [activeQuestion.id]: updated }));
 
-    // Rule: In Round 1, only 'confident' passes. In Round 2+, any correct answer permanently passes and is removed!
-    if (round >= 2 || level === 'confident') {
+    // Rule: ONLY REPEAT IF INCORRECT!
+    // Correct -> Delete from review queue permanently!
+    // Incorrect -> Add to review queue for Round 2 review!
+    if (result.isCorrect) {
       reviewRequiredIdsRef.current.delete(activeQuestion.id);
     } else {
       reviewRequiredIdsRef.current.add(activeQuestion.id);
     }
 
-    // Auto-advance to next question!
-    handleNextQuestion();
+    setSubmitted(true);
   };
 
   const handleNextQuestion = () => {
@@ -241,10 +199,10 @@ export default function StudySession({
       const needsReviewIds = Array.from(reviewRequiredIdsRef.current);
       const needsReview = sessionQuestions.filter(q => needsReviewIds.includes(q.id));
       if (needsReview.length > 0) {
-        // Continue to the next round (Round 2, Round 3, Round 4...)
+        // Continue to next round (Round 2, Round 3...) for remaining incorrect questions
         setRound(prev => prev + 1);
       } else {
-        // ALL questions answered correctly & confident! Complete the session.
+        // ALL questions answered correctly! Complete session.
         onSessionComplete(attemptsRef.current, sessionProgressMap);
       }
     } else {
@@ -257,10 +215,7 @@ export default function StudySession({
     if (!settings.keyboardShortcuts || !activeQuestion) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      const isTestMode = !isMultiRound || round === 4;
-
       if (!submitted) {
-        // Selection bindings (1-6 keys for multiple/single choices)
         if (['1', '2', '3', '4', '5', '6'].includes(e.key)) {
           const index = parseInt(e.key, 10) - 1;
           if (index < activeQuestion.choices.length) {
@@ -278,31 +233,21 @@ export default function StudySession({
         
         // Enter submits the form
         if (e.key === 'Enter') {
-          // Only submit if user selected something or wrote something
           if (selectedLabels.length > 0 || textInput.trim() !== '') {
             handleSubmitAnswer();
           }
         }
       } else {
-        // After submit
-        if (!feedback?.isCorrect || !isMultiRound) {
-          // If incorrect or test mode, enter advances to next question directly
-          if (e.key === 'Enter') {
-            handleNextQuestion();
-          }
-        } else {
-          // If correct in Learn mode, 1/2/3 rates confidence & auto-advances
-          if (e.key === '1') handleSelectConfidence('guessed');
-          else if (e.key === '2') handleSelectConfidence('unsure');
-          else if (e.key === '3') handleSelectConfidence('confident');
-          else if (e.key === 'Enter') handleNextQuestion();
+        // After submit: Enter advances to next question directly
+        if (e.key === 'Enter') {
+          handleNextQuestion();
         }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [submitted, selectedLabels, textInput, activeQuestion, round, confidence, settings.keyboardShortcuts]);
+  }, [submitted, selectedLabels, textInput, activeQuestion, round, settings.keyboardShortcuts]);
 
   if (sessionQuestions.length === 0) {
     return (
@@ -325,11 +270,8 @@ export default function StudySession({
       if (sessionType === 'mistakes') return 'Mistake Drill Review';
       return 'Quick recall';
     }
-    switch (round) {
-      case 1: return 'Vòng 1 — Học & Đánh giá tự tin';
-      case 2: return `Vòng 2 — Ôn lại câu chưa tự tin / làm sai (${roundQuestions.length} câu)`;
-      default: return 'Vòng 1 — Học';
-    }
+    if (round === 1) return 'Vòng 1 — Học & Luyện tập';
+    return `Vòng ${round} — Ôn lại câu làm sai (${roundQuestions.length} câu)`;
   };
 
   const progressPct = roundQuestions.length > 0 
@@ -547,28 +489,9 @@ export default function StudySession({
               Submit Answer <ArrowRight size={16} />
             </button>
           ) : (
-            // If answer is INCORRECT or test mode -> show Next Question button directly (no confidence prompt)
-            (!feedback?.isCorrect || !isMultiRound) ? (
-              <button className="btn btn-primary" onClick={handleNextQuestion} style={{ padding: '0.75rem 2.5rem' }}>
-                Next Question <ArrowRight size={16} />
-              </button>
-            ) : (
-              // If answer is CORRECT -> rate confidence (1: guessed, 2: unsure, 3: confident)
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', width: '100%' }}>
-                <span style={{ fontSize: '0.85rem', fontWeight: '600', color: 'var(--text-secondary)' }}>How confident were you?</span>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
-                  <button className="btn btn-secondary" onClick={() => handleSelectConfidence('guessed')}>
-                    I guessed {settings.keyboardShortcuts && <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)' }}>&bull; 1</span>}
-                  </button>
-                  <button className="btn btn-secondary" onClick={() => handleSelectConfidence('unsure')}>
-                    Not sure {settings.keyboardShortcuts && <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)' }}>&bull; 2</span>}
-                  </button>
-                  <button className="btn btn-primary" onClick={() => handleSelectConfidence('confident')}>
-                    Confident {settings.keyboardShortcuts && <span style={{ fontSize: '0.7rem', color: 'var(--text-tertiary)' }}>&bull; 3</span>}
-                  </button>
-                </div>
-              </div>
-            )
+            <button className="btn btn-primary" onClick={handleNextQuestion} style={{ padding: '0.75rem 2.5rem' }}>
+              Next Question <ArrowRight size={16} />
+            </button>
           )}
         </div>
 
